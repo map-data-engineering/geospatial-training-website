@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
+    - "!CLAUDE.md"
+
+website:
+  title: "MAP September to Remember 2026"
+  site-url: ""
+  favicon: assets/map-logo.png
+  navbar:
+    logo: assets/map-logo.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: programme/index.qmd
+        text: Programme
+      - href: editions/index.qmd
+        text: Editions
+      - href: facilitators/index.qmd
+        text: Facilitators
+      - href: apply/index.qmd
+        text: Apply
+      - href: alumni/index.qmd
+        text: "Alumni (coming soon)"
+      - href: publications/index.qmd
+        text: "Publications (coming soon)"
+      - href: gallery/index.qmd
+        text: "Gallery (coming soon)"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false

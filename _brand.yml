@@ -1,0 +1,13 @@
+meta:
+  name: "MAP September to Remember 2026"
+
+color:
+  palette:
+    dark: "#383838"
+    gold: "#ecbc40"
+    gray: "#9d9c97"
+  foreground: dark
+  background: "#ffffff"
+  primary: dark
+  secondary: gray
+  link: gold

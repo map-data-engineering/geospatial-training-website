@@ -1,0 +1,9 @@
+---
+title: "Previous Workshop Editions"
+---
+
+[Summary of past editions — draft pending.]
+
+- [2024 Edition](2024.qmd)
+- [2025 Edition](2025.qmd)
+- [2026 Edition](2026.qmd)
