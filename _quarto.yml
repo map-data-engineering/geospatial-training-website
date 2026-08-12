@@ -7,7 +7,7 @@ project:
     - "!CLAUDE.md"
 
 website:
-  title: "MAP September to Remember 2026"
+  title: "Geospatial Modelling Workshop"
   site-url: ""
   favicon: assets/map-logo.png
   navbar:
@@ -24,11 +24,11 @@ website:
       - href: apply/index.qmd
         text: Apply
       - href: alumni/index.qmd
-        text: "Alumni (coming soon)"
+        text: Alumni
       - href: publications/index.qmd
-        text: "Publications (coming soon)"
+        text: Publications
       - href: gallery/index.qmd
-        text: "Gallery (coming soon)"
+        text: Gallery
 
 format:
   html:

@@ -2,4 +2,49 @@
 title: "Programme Overview"
 ---
 
-[Programme overview & objectives — draft pending.]
+## Overview
+
+Geostatistical models are increasingly important in public health research
+due to the rise in spatial health data. This intensive course suits
+statisticians and public health professionals wanting to enhance their
+skills in geospatial analysis and modelling. Participants learn about
+spatial data structures and geostatistics through real-life examples,
+progressing from basic to complex models using Bayesian inference with
+the INLA approach. The focus is on spatial patterns of malaria and other
+health outcomes, with an emphasis on skills that continue to develop
+after the course.
+
+## Who Should Apply
+
+This course is designed for statisticians and public health professionals
+who want to build their geospatial analysis and modelling skills.
+Candidates should have:
+
+- Basic experience with R
+- An understanding of statistical inference
+- Introductory knowledge of Bayesian statistical methods
+
+## Format
+
+- **Duration:** typically a three-day intensive training
+- **Instructors:** leading experts in geospatial modelling and public
+  health
+- **Teaching method:** a mix of lectures and hands-on practicals, using
+  real-life examples drawn from malaria research
+- **Software:** R (version 4.0 and above)
+- **Language of instruction:** English
+
+## What You'll Learn
+
+Lecture topics include:
+
+- Introduction to Geostatistics
+- Spatial Data in R
+- Areal Data and Models
+- Geostatistical Models in INLA
+- Basics of Point Process Models (where time allows)
+
+## Next Steps
+
+Ready to apply? See the [Call for Applications](../apply/index.qmd) page.
+Curious what previous cohorts covered? See [past cohorts](../editions/index.qmd).

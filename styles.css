@@ -1,1 +1,71 @@
 /* Supplemental site styles — brand colors are defined in _brand.yml */
+
+.navbar-logo {
+  max-height: 44px;
+}
+
+/* Tighter vertical rhythm between sections */
+h2 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Hero section (homepage intro) */
+.hero {
+  background-color: #383838;
+  color: #ffffff;
+  padding: 2.5rem 2rem;
+  border-radius: 6px;
+  border-bottom: 4px solid #ecbc40;
+  margin: 0.5rem 0 2rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 0 0.75rem;
+}
+
+.hero p:last-child {
+  margin-bottom: 0;
+}
+
+.hero a {
+  color: #ecbc40;
+}
+
+/* "Explore" links as cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.card {
+  border: 1px solid #9d9c97;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+}
+
+.card p {
+  margin: 0.35rem 0 0;
+  color: #383838;
+}
+
+/* "Apply Now" call-to-action button */
+a.btn {
+  display: inline-block;
+  background-color: #ecbc40;
+  color: #383838 !important;
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+a.btn:hover {
+  background-color: #383838;
+  color: #ecbc40 !important;
+}

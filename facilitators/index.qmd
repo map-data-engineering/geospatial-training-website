@@ -2,5 +2,14 @@
 title: "Facilitators"
 ---
 
-[Facilitator profiles — draft pending. Individual profile pages will be
-added here as facilitator details and consent are confirmed.]
+- [Dr. Susan Rumisha](susan-rumisha.qmd) — Principal Research Scientist and
+  Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.
+- [Dr. Punam Amratia](punam-amratia.qmd) — Senior Research Scientist and
+  Technical Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.
+- [Dr. Amina Msengwa](amina-msengwa.qmd) — Senior Lecturer, Department of
+  Statistics, University of Dar es Salaam.
+- [Dr. Ousmane Diao](ousmane-diao.qmd) — Senior Research Scientist, MAP
+  Dar es Salaam Node, Ifakara Health Institute.
+
+[Additional facilitator profiles — draft pending, added as details and
+consent are confirmed.]

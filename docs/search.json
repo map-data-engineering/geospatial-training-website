@@ -9,16 +9,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "MAP September to Remember 2026",
+    "title": "Geospatial Modelling Workshop",
     "section": "",
-    "text": "[Home page content — draft pending.]"
+    "text": "The Geospatial Modelling Workshop is an intensive training programme for statisticians and public health professionals looking to build their skills in geospatial analysis and modelling. Drawing on real-life examples from malaria research, the programme guides participants from foundational spatial data concepts through to Bayesian geostatistical modelling — equipping them with skills they can continue to build on long after the training ends.\nThe workshop is run annually, bringing together leading researchers and practitioners from across the region."
   },
   {
     "objectID": "facilitators/index.html",
     "href": "facilitators/index.html",
     "title": "Facilitators",
     "section": "",
-    "text": "[Facilitator profiles — draft pending. Individual profile pages will be added here as facilitator details and consent are confirmed.]"
+    "text": "Dr. Susan Rumisha — Principal Research Scientist and Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\nDr. Punam Amratia — Senior Research Scientist and Technical Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\nDr. Amina Msengwa — Senior Lecturer, Department of Statistics, University of Dar es Salaam.\nDr. Ousmane Diao — Senior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n[Additional facilitator profiles — draft pending, added as details and consent are confirmed.]"
   },
   {
     "objectID": "editions/2026.html",
@@ -81,6 +81,90 @@
     "href": "programme/index.html",
     "title": "Programme Overview",
     "section": "",
-    "text": "[Programme overview & objectives — draft pending.]"
+    "text": "Geostatistical models are increasingly important in public health research due to the rise in spatial health data. This intensive course suits statisticians and public health professionals wanting to enhance their skills in geospatial analysis and modelling. Participants learn about spatial data structures and geostatistics through real-life examples, progressing from basic to complex models using Bayesian inference with the INLA approach. The focus is on spatial patterns of malaria and other health outcomes, with an emphasis on skills that continue to develop after the course."
+  },
+  {
+    "objectID": "facilitators/susan-rumisha.html",
+    "href": "facilitators/susan-rumisha.html",
+    "title": "Dr. Susan Rumisha",
+    "section": "",
+    "text": "Principal Research Scientist; Lead, Malaria Atlas Project (MAP) Dar es Salaam Node, Ifakara Health Institute\nDr. Rumisha specializes in developing geospatial analytical frameworks for malaria, with a focus on producing malaria risk maps, estimating disease burden, and evaluating malaria health systems. She is driven by the use of data-driven evidence to strengthen malaria decision-making.\nShe is affiliated with the National Institute for Medical Research (NIMR) in Tanzania, the Telethon Kids Institute, and Curtin University in Perth, WA, Australia."
+  },
+  {
+    "objectID": "facilitators/ousmane-diao.html",
+    "href": "facilitators/ousmane-diao.html",
+    "title": "Dr. Ousmane Diao",
+    "section": "",
+    "text": "Senior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute\nDr. Diao’s expertise spans mathematical engineering, geospatial modelling, and malaria epidemiology. He develops and implements spatiotemporal models to estimate malaria, assess transmission profiles, and evaluate intervention strategies. He has contributed to capacity strengthening through teaching and training in geospatial modelling across Africa, including the Malaria Modelling training school (MaMOD) and MAP ECR training programmes.\nHe holds a PhD in Mathematical Engineering from UCLouvain, Belgium, and an MSc in Bioinformatics/Biomathematics from UCAD, Senegal, and has published widely on malaria and infectious disease modelling."
+  },
+  {
+    "objectID": "facilitators/amina-msengwa.html",
+    "href": "facilitators/amina-msengwa.html",
+    "title": "Dr. Amina Msengwa",
+    "section": "",
+    "text": "Senior Lecturer, Department of Statistics, University of Dar es Salaam\nWith more than two decades of teaching and research experience, Dr. Msengwa’s expertise spans epidemiology, biostatistics, Bayesian statistics, and spatial statistics. She has made significant contributions to understanding and mapping disease burden in Tanzania, and is dedicated to applying statistical models across health and environmental domains."
+  },
+  {
+    "objectID": "facilitators/punam-amratia.html",
+    "href": "facilitators/punam-amratia.html",
+    "title": "Dr. Punam Amratia",
+    "section": "",
+    "text": "Senior Research Scientist; Technical Lead, MAP Dar es Salaam Node, Ifakara Health Institute\nWith over a decade of experience in malaria epidemiology, biostatistics, and geospatial modelling, Dr. Amratia has made significant contributions to understanding and mapping malaria risk and burden. She also teaches data science courses at the University of Oxford and has supported capacity strengthening in numerous malaria-endemic countries.\nShe holds an MSc in Epidemiology from Imperial College London and a PhD in Emerging Pathogens from the University of Florida."
+  },
+  {
+    "objectID": "programme/index.html#overview",
+    "href": "programme/index.html#overview",
+    "title": "Programme Overview",
+    "section": "",
+    "text": "Geostatistical models are increasingly important in public health research due to the rise in spatial health data. This intensive course suits statisticians and public health professionals wanting to enhance their skills in geospatial analysis and modelling. Participants learn about spatial data structures and geostatistics through real-life examples, progressing from basic to complex models using Bayesian inference with the INLA approach. The focus is on spatial patterns of malaria and other health outcomes, with an emphasis on skills that continue to develop after the course."
+  },
+  {
+    "objectID": "programme/index.html#who-should-apply",
+    "href": "programme/index.html#who-should-apply",
+    "title": "Programme Overview",
+    "section": "Who Should Apply",
+    "text": "Who Should Apply\nThis course is designed for statisticians and public health professionals who want to build their geospatial analysis and modelling skills. Candidates should have:\n\nBasic experience with R\nAn understanding of statistical inference\nIntroductory knowledge of Bayesian statistical methods"
+  },
+  {
+    "objectID": "programme/index.html#format",
+    "href": "programme/index.html#format",
+    "title": "Programme Overview",
+    "section": "Format",
+    "text": "Format\n\nDuration: typically a three-day intensive training\nInstructors: leading experts in geospatial modelling and public health\nTeaching method: a mix of lectures and hands-on practicals, using real-life examples drawn from malaria research\nSoftware: R (version 4.0 and above)\nLanguage of instruction: English"
+  },
+  {
+    "objectID": "programme/index.html#what-youll-learn",
+    "href": "programme/index.html#what-youll-learn",
+    "title": "Programme Overview",
+    "section": "What You’ll Learn",
+    "text": "What You’ll Learn\nLecture topics include:\n\nIntroduction to Geostatistics\nSpatial Data in R\nAreal Data and Models\nGeostatistical Models in INLA\nBasics of Point Process Models (where time allows)"
+  },
+  {
+    "objectID": "programme/index.html#next-steps",
+    "href": "programme/index.html#next-steps",
+    "title": "Programme Overview",
+    "section": "Next Steps",
+    "text": "Next Steps\nReady to apply? See the Call for Applications page. Curious what previous cohorts covered? See past cohorts."
+  },
+  {
+    "objectID": "index.html#geospatial-modelling-workshop",
+    "href": "index.html#geospatial-modelling-workshop",
+    "title": "Geospatial Modelling Workshop",
+    "section": "",
+    "text": "The Geospatial Modelling Workshop is an intensive training programme for statisticians and public health professionals looking to build their skills in geospatial analysis and modelling. Drawing on real-life examples from malaria research, the programme guides participants from foundational spatial data concepts through to Bayesian geostatistical modelling — equipping them with skills they can continue to build on long after the training ends.\nThe workshop is run annually, bringing together leading researchers and practitioners from across the region."
+  },
+  {
+    "objectID": "index.html#explore",
+    "href": "index.html#explore",
+    "title": "Geospatial Modelling Workshop",
+    "section": "Explore",
+    "text": "Explore\n\nProgramme — course objectives, format, and what you’ll learn.\nFacilitators — meet this cohort’s instructors, leading experts in geospatial modelling and public health.\nEditions — browse past cohorts and workshop history."
+  },
+  {
+    "objectID": "index.html#ready-to-apply",
+    "href": "index.html#ready-to-apply",
+    "title": "Geospatial Modelling Workshop",
+    "section": "Ready to Apply?",
+    "text": "Ready to Apply?\nReview the eligibility criteria and application details on the Call for Applications page.\nApply Now →"
   }
 ]

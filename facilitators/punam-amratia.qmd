@@ -1,0 +1,14 @@
+---
+title: "Dr. Punam Amratia"
+---
+
+**Senior Research Scientist; Technical Lead, MAP Dar es Salaam Node, Ifakara Health Institute**
+
+With over a decade of experience in malaria epidemiology, biostatistics,
+and geospatial modelling, Dr. Amratia has made significant contributions
+to understanding and mapping malaria risk and burden. She also teaches
+data science courses at the University of Oxford and has supported
+capacity strengthening in numerous malaria-endemic countries.
+
+She holds an MSc in Epidemiology from Imperial College London and a PhD
+in Emerging Pathogens from the University of Florida.

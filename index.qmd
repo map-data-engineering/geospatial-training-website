@@ -1,5 +1,46 @@
 ---
-title: "MAP September to Remember 2026"
+title: "Geospatial Modelling Workshop"
 ---
 
-[Home page content — draft pending.]
+::: {.hero}
+The Geospatial Modelling Workshop is an intensive training programme for
+statisticians and public health professionals looking to build their
+skills in geospatial analysis and modelling. Drawing on real-life
+examples from malaria research, the programme guides participants from
+foundational spatial data concepts through to Bayesian geostatistical
+modelling — equipping them with skills they can continue to build on
+long after the training ends.
+
+The workshop is run annually, bringing together leading researchers and
+practitioners from across the region.
+:::
+
+## Explore
+
+::: {.card-grid}
+::: {.card}
+**[Programme](programme/index.qmd)**
+
+Course objectives, format, and what you'll learn.
+:::
+
+::: {.card}
+**[Facilitators](facilitators/index.qmd)**
+
+Meet this cohort's instructors, leading experts in geospatial modelling
+and public health.
+:::
+
+::: {.card}
+**[Editions](editions/index.qmd)**
+
+Browse past cohorts and workshop history.
+:::
+:::
+
+## Ready to Apply?
+
+Review the eligibility criteria and application details on the Call for
+Applications page.
+
+[Apply Now →](apply/index.qmd){.btn}

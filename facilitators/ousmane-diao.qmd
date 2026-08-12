@@ -1,0 +1,17 @@
+---
+title: "Dr. Ousmane Diao"
+---
+
+**Senior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute**
+
+Dr. Diao's expertise spans mathematical engineering, geospatial
+modelling, and malaria epidemiology. He develops and implements
+spatiotemporal models to estimate malaria, assess transmission profiles,
+and evaluate intervention strategies. He has contributed to capacity
+strengthening through teaching and training in geospatial modelling
+across Africa, including the Malaria Modelling training school (MaMOD)
+and MAP ECR training programmes.
+
+He holds a PhD in Mathematical Engineering from UCLouvain, Belgium, and
+an MSc in Bioinformatics/Biomathematics from UCAD, Senegal, and has
+published widely on malaria and infectious disease modelling.
