@@ -4,6 +4,63 @@
   max-height: 44px;
 }
 
+/* Hide the default site-title text next to the logo */
+.navbar-brand:not(.navbar-brand-logo) {
+  display: none;
+}
+
+/* Small caption below the logo, matched to its width (not the full navbar).
+   218px = the logo's rendered width at max-height:44px, given the source
+   image's actual 1051x212px aspect ratio (44 * 1051/212 ≈ 218px). */
+.navbar-brand-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 218px;
+}
+
+.navbar-brand-logo::after {
+  content: "Malaria Atlas Project";
+  display: block;
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #9d9c97;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0.15rem;
+}
+
+/* Pull nav links in close after the logo/tagline instead of the far edge.
+   Bootstrap's .navbar > .container-fluid uses justify-content:space-between
+   by default, which spreads brand/search/nav apart regardless of their own
+   margins — override it explicitly and pin each item's order so nav links
+   sit right after the brand block, with empty space collecting before the
+   search icon instead. */
+@media (min-width: 992px) {
+  .navbar-container {
+    justify-content: flex-start !important;
+  }
+
+  .navbar-brand-container.mx-auto {
+    order: 1 !important;
+    flex-grow: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 1.5em !important;
+  }
+
+  .navbar-collapse {
+    order: 2 !important;
+    flex-grow: 0 !important;
+  }
+
+  #quarto-search {
+    order: 3 !important;
+    margin-left: auto !important;
+  }
+}
+
 /* Tighter vertical rhythm between sections */
 h2 {
   margin-top: 1.75rem;
@@ -34,6 +91,31 @@ h2 {
   color: #ecbc40;
 }
 
+/* Interior-page intro (light variant of .hero) */
+.intro {
+  background-color: #ffffff;
+  color: #383838;
+  border-left: 4px solid #ecbc40;
+  padding: 1.25rem 1.75rem;
+  margin: 0.5rem 0 2rem;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 0 0.75rem;
+}
+
+.intro p:last-child {
+  margin-bottom: 0;
+}
+
+.intro a {
+  color: #383838;
+  text-decoration: underline;
+  text-decoration-color: #ecbc40;
+}
+
 /* "Explore" links as cards */
 .card-grid {
   display: grid;
@@ -44,8 +126,22 @@ h2 {
 
 .card {
   border: 1px solid #9d9c97;
+  border-top: 3px solid #ecbc40;
   border-radius: 6px;
   padding: 1rem 1.25rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(56, 56, 56, 0.18);
+}
+
+.card-icon {
+  display: block;
+  font-size: 1.4rem;
+  color: #ecbc40;
+  margin-bottom: 0.4rem;
 }
 
 .card p {

@@ -1,5 +1,6 @@
 ---
-title: "Geospatial Modelling Workshop"
+title: "GEOSPATIAL MODELLING FOR PUBLIC HEALTH APPLICATIONS"
+pagetitle: "Geospatial Modelling Workshop"
 ---
 
 ::: {.hero}
@@ -19,12 +20,16 @@ practitioners from across the region.
 
 ::: {.card-grid}
 ::: {.card}
+<i class="bi bi-mortarboard card-icon" aria-hidden="true"></i>
+
 **[Programme](programme/index.qmd)**
 
 Course objectives, format, and what you'll learn.
 :::
 
 ::: {.card}
+<i class="bi bi-people card-icon" aria-hidden="true"></i>
+
 **[Facilitators](facilitators/index.qmd)**
 
 Meet this cohort's instructors, leading experts in geospatial modelling
@@ -32,6 +37,8 @@ and public health.
 :::
 
 ::: {.card}
+<i class="bi bi-clock-history card-icon" aria-hidden="true"></i>
+
 **[Editions](editions/index.qmd)**
 
 Browse past cohorts and workshop history.
@@ -43,4 +50,4 @@ Browse past cohorts and workshop history.
 Review the eligibility criteria and application details on the Call for
 Applications page.
 
-[Apply Now →](apply/index.qmd){.btn}
+[Apply Now →](https://spaat-onboardnig-portal-frontend.vercel.app/){.btn target="_blank" rel="noopener noreferrer"}

@@ -4,21 +4,24 @@ title: "Programme Overview"
 
 ## Overview
 
-Geostatistical models are increasingly important in public health research
-due to the rise in spatial health data. This intensive course suits
-statisticians and public health professionals wanting to enhance their
-skills in geospatial analysis and modelling. Participants learn about
-spatial data structures and geostatistics through real-life examples,
-progressing from basic to complex models using Bayesian inference with
-the INLA approach. The focus is on spatial patterns of malaria and other
-health outcomes, with an emphasis on skills that continue to develop
-after the course.
+::: {.intro}
+Geostatistical models are increasingly important in public health
+research due to the rise in spatial health data. This intensive course
+suits statisticians and public health professionals wanting to enhance
+their skills in geospatial analysis and modelling. Participants learn
+about spatial data structures and geostatistics through real-life
+examples, progressing from basic to complex models using Bayesian
+inference with the INLA approach.
+
+The focus is on spatial patterns of malaria and other health outcomes,
+with an emphasis on skills that continue to develop after the course.
+:::
 
 ## Who Should Apply
 
-This course is designed for statisticians and public health professionals
-who want to build their geospatial analysis and modelling skills.
-Candidates should have:
+This course is designed for statisticians and public health
+professionals who want to build their geospatial analysis and
+modelling skills. Candidates should have:
 
 - Basic experience with R
 - An understanding of statistical inference
@@ -26,13 +29,48 @@ Candidates should have:
 
 ## Format
 
-- **Duration:** typically a three-day intensive training
-- **Instructors:** leading experts in geospatial modelling and public
-  health
-- **Teaching method:** a mix of lectures and hands-on practicals, using
-  real-life examples drawn from malaria research
-- **Software:** R (version 4.0 and above)
-- **Language of instruction:** English
+::: {.card-grid}
+::: {.card}
+<i class="bi bi-clock card-icon" aria-hidden="true"></i>
+
+**Duration**
+
+Typically a three-day intensive training.
+:::
+
+::: {.card}
+<i class="bi bi-people card-icon" aria-hidden="true"></i>
+
+**Instructors**
+
+Leading experts in geospatial modelling and public health.
+:::
+
+::: {.card}
+<i class="bi bi-book card-icon" aria-hidden="true"></i>
+
+**Teaching Method**
+
+A mix of lectures and hands-on practicals, using real-life examples
+drawn from malaria research.
+:::
+
+::: {.card}
+<i class="bi bi-code-slash card-icon" aria-hidden="true"></i>
+
+**Software**
+
+R (version 4.0 and above).
+:::
+
+::: {.card}
+<i class="bi bi-globe card-icon" aria-hidden="true"></i>
+
+**Language**
+
+English.
+:::
+:::
 
 ## What You'll Learn
 
@@ -46,5 +84,9 @@ Lecture topics include:
 
 ## Next Steps
 
-Ready to apply? See the [Call for Applications](../apply/index.qmd) page.
+Ready to apply? Review the eligibility criteria and application
+details on the Call for Applications page.
+
+[Apply Now →](../apply/index.qmd){.btn}
+
 Curious what previous cohorts covered? See [past cohorts](../editions/index.qmd).

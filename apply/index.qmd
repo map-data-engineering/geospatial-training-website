@@ -4,6 +4,6 @@ title: "Call for Applications"
 
 [Call for Applications overview — draft pending.]
 
-[Link to application portal]
+[Apply Now →](https://spaat-onboardnig-portal-frontend.vercel.app/){.btn target="_blank" rel="noopener noreferrer"}
 
 See also: [FAQs](faq.qmd)
