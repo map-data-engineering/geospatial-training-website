@@ -43,7 +43,8 @@ Typically a three-day intensive training.
 
 **Instructors**
 
-Leading experts in geospatial modelling and public health.
+Leading experts in geospatial modelling and public health — see
+[Facilitators →](../facilitators/index.qmd).
 :::
 
 ::: {.card}
@@ -70,9 +71,24 @@ R (version 4.0 and above).
 
 English.
 :::
+
+::: {.card}
+<i class="bi bi-ticket-perforated card-icon" aria-hidden="true"></i>
+
+**Cost**
+
+Training is free of charge. Participants are responsible for their
+own travel and accommodation costs.
+:::
 :::
 
 ## What You'll Learn
+
+Participants learn Bayesian geostatistical modelling approaches — such
+as INLA and INLAbru — applied to real malaria and public health data.
+The exact tools and special topics (e.g. spatial disaggregation) vary
+by cohort; see this year's [Edition page](../editions/index.qmd) for
+the current curriculum.
 
 Lecture topics include:
 
@@ -80,7 +96,7 @@ Lecture topics include:
 - Spatial Data in R
 - Areal Data and Models
 - Geostatistical Models in INLA
-- Basics of Point Process Models (where time allows)
+- Basics of Point Process Models
 
 ## Next Steps
 

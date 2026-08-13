@@ -2,7 +2,32 @@
 title: "Call for Applications"
 ---
 
-[Call for Applications overview — draft pending.]
+## Overview
+
+::: {.intro}
+The Geospatial Modelling Workshop is now accepting applications. Spaces
+are limited and selection is competitive, so review the eligibility
+criteria and practical notes below before applying.
+:::
+
+## Eligibility Criteria
+
+- Basic experience with R
+- An understanding of statistical inference
+- Introductory knowledge of Bayesian statistical methods
+- Language of instruction: English
+- Applications from female candidates are highly encouraged
+
+## Practical Notes
+
+- Participants are responsible for their own travel and logistics
+  costs. Sponsorship, food, and drinks are not provided.
+- Limited spaces are available, and selection is competitive.
+
+## Ready to Apply?
+
+Review the details above, then submit your application through the
+portal.
 
 [Apply Now →](https://spaat-onboardnig-portal-frontend.vercel.app/){.btn target="_blank" rel="noopener noreferrer"}
 

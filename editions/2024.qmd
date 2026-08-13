@@ -2,6 +2,28 @@
 title: "2024 Edition"
 ---
 
-[Cohort 2024 — X participants]
+## Overview
 
-[Edition details — draft pending.]
+::: {.intro}
+The 2024 edition of the Geospatial Modelling Workshop — the
+programme's first cohort — ran in September 2024, covering
+geostatistics and geospatial modelling with the INLA approach, the
+same core curriculum as the 2025 edition.
+:::
+
+## Course Topic
+
+Geostatistics and geospatial modelling with the INLA approach (same
+as the [2025 edition](2025.qmd)).
+
+## Facilitators
+
+This edition's facilitators were the same as the 2025 edition. See the
+[Facilitators](../facilitators/index.qmd) page for full profiles.
+
+*Full details for this first cohort are still being compiled and may
+be added later.*
+
+## Editions
+
+See [other editions](index.qmd).

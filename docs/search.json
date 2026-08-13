@@ -25,7 +25,7 @@
     "href": "index.html#what-youll-gain",
     "title": "GEOSPATIAL MODELLING FOR PUBLIC HEALTH APPLICATIONS",
     "section": "What You’ll Gain",
-    "text": "What You’ll Gain\n\n\n\nExpert-Led Training\nHands-on training in advanced statistical models, taught by leading experts in geospatial modelling and public health.\n\n\n\nModern Methods\nLearn current geospatial modelling methods — including Bayesian geostatistical approaches (e.g. INLA, INLAbru) — from practitioners actively using them in real malaria and public health research.\n\n\n\nReal-World Data\nWork with real spatial and public health datasets, moving from raw data to models that inform decisions.\n\n\n\nRegional Network\nJoin a growing regional network of geospatial modellers across Sub-Saharan Africa.\n\n\n\nCertification\nCertificate of completion awarded to all participants."
+    "text": "What You’ll Gain\n\n\n\nExpert-Led Training\nHands-on training in advanced statistical models, taught by leading experts in geospatial modelling and public health.\n\n\n\nModern Methods\nLearn current geospatial modelling methods — including Bayesian geostatistical approaches (e.g. INLA, INLAbru) — from practitioners actively using them in real malaria and public health research.\n\n\n\nReal-World Data\nWork with real spatial and public health datasets, moving from raw data to models that inform decisions.\n\n\n\nRegional Network\nJoin a growing regional network of geospatial modellers across Sub-Saharan Africa.\n\n\n\nCertification\nCertificate of completion awarded to all participants.\n\n\n\nCareer Impact\nAlumni have gone on to apply these methods in their own research, publishing manuscripts and papers building on skills learned in the programme."
   },
   {
     "objectID": "index.html#ready-to-apply",
@@ -60,14 +60,77 @@
     "href": "editions/2026.html",
     "title": "2026 Edition",
     "section": "",
-    "text": "[Cohort 2026 — X participants]\n[Edition details — draft pending.]"
+    "text": "The 2026 edition of the Geospatial Modelling Workshop runs 15–18 September 2026 at Takwimu House in Dodoma, Tanzania. This year’s course focuses on spatial and spatio-temporal modelling with INLAbru, building on the core geostatistical methods taught in the programme."
+  },
+  {
+    "objectID": "editions/2026.html#overview",
+    "href": "editions/2026.html#overview",
+    "title": "2026 Edition",
+    "section": "",
+    "text": "The 2026 edition of the Geospatial Modelling Workshop runs 15–18 September 2026 at Takwimu House in Dodoma, Tanzania. This year’s course focuses on spatial and spatio-temporal modelling with INLAbru, building on the core geostatistical methods taught in the programme."
+  },
+  {
+    "objectID": "editions/2026.html#format",
+    "href": "editions/2026.html#format",
+    "title": "2026 Edition",
+    "section": "Format",
+    "text": "Format\n\n\n\nDates\n15–18 September 2026 (4-day intensive workshop).\n\n\n\nDaily Schedule\nAll day, 9am–4pm.\n\n\n\nLocation\nTakwimu House, Dodoma, Tanzania."
+  },
+  {
+    "objectID": "editions/2026.html#course-topic-seminars",
+    "href": "editions/2026.html#course-topic-seminars",
+    "title": "2026 Edition",
+    "section": "Course Topic & Seminars",
+    "text": "Course Topic & Seminars\n\nCourse topic: Spatial and spatio-temporal modelling with INLAbru\nSpecial seminar 1: Spatial disaggregation\nSpecial seminar 2: To be confirmed"
+  },
+  {
+    "objectID": "editions/2026.html#supported-by",
+    "href": "editions/2026.html#supported-by",
+    "title": "2026 Edition",
+    "section": "Supported By",
+    "text": "Supported By\nThis edition is supported by the Malaria Atlas Project, Ifakara Health Institute, and Tanzania’s National Bureau of Statistics (NBS)."
+  },
+  {
+    "objectID": "editions/2026.html#registration",
+    "href": "editions/2026.html#registration",
+    "title": "2026 Edition",
+    "section": "Registration",
+    "text": "Registration\nReady to apply? Review the eligibility criteria and application details on the Call for Applications page.\nApply Now →\nCurious what other cohorts covered? See past editions."
   },
   {
     "objectID": "editions/2024.html",
     "href": "editions/2024.html",
     "title": "2024 Edition",
     "section": "",
-    "text": "[Cohort 2024 — X participants]\n[Edition details — draft pending.]"
+    "text": "The 2024 edition of the Geospatial Modelling Workshop — the programme’s first cohort — ran in September 2024, covering geostatistics and geospatial modelling with the INLA approach, the same core curriculum as the 2025 edition."
+  },
+  {
+    "objectID": "editions/2024.html#overview",
+    "href": "editions/2024.html#overview",
+    "title": "2024 Edition",
+    "section": "",
+    "text": "The 2024 edition of the Geospatial Modelling Workshop — the programme’s first cohort — ran in September 2024, covering geostatistics and geospatial modelling with the INLA approach, the same core curriculum as the 2025 edition."
+  },
+  {
+    "objectID": "editions/2024.html#course-topic",
+    "href": "editions/2024.html#course-topic",
+    "title": "2024 Edition",
+    "section": "Course Topic",
+    "text": "Course Topic\nGeostatistics and geospatial modelling with the INLA approach (same as the 2025 edition)."
+  },
+  {
+    "objectID": "editions/2024.html#facilitators",
+    "href": "editions/2024.html#facilitators",
+    "title": "2024 Edition",
+    "section": "Facilitators",
+    "text": "Facilitators\nThis edition’s facilitators were the same as the 2025 edition. See the Facilitators page for full profiles.\nFull details for this first cohort are still being compiled and may be added later."
+  },
+  {
+    "objectID": "editions/2024.html#editions",
+    "href": "editions/2024.html#editions",
+    "title": "2024 Edition",
+    "section": "Editions",
+    "text": "Editions\nSee other editions."
   },
   {
     "objectID": "apply/faq.html",
@@ -88,21 +151,91 @@
     "href": "apply/index.html",
     "title": "Call for Applications",
     "section": "",
-    "text": "[Call for Applications overview — draft pending.]\nApply Now →\nSee also: FAQs"
+    "text": "The Geospatial Modelling Workshop is now accepting applications. Spaces are limited and selection is competitive, so review the eligibility criteria and practical notes below before applying."
+  },
+  {
+    "objectID": "apply/index.html#overview",
+    "href": "apply/index.html#overview",
+    "title": "Call for Applications",
+    "section": "",
+    "text": "The Geospatial Modelling Workshop is now accepting applications. Spaces are limited and selection is competitive, so review the eligibility criteria and practical notes below before applying."
+  },
+  {
+    "objectID": "apply/index.html#eligibility-criteria",
+    "href": "apply/index.html#eligibility-criteria",
+    "title": "Call for Applications",
+    "section": "Eligibility Criteria",
+    "text": "Eligibility Criteria\n\nBasic experience with R\nAn understanding of statistical inference\nIntroductory knowledge of Bayesian statistical methods\nLanguage of instruction: English\nApplications from female candidates are highly encouraged"
+  },
+  {
+    "objectID": "apply/index.html#practical-notes",
+    "href": "apply/index.html#practical-notes",
+    "title": "Call for Applications",
+    "section": "Practical Notes",
+    "text": "Practical Notes\n\nParticipants are responsible for their own travel and logistics costs. Sponsorship, food, and drinks are not provided.\nLimited spaces are available, and selection is competitive."
+  },
+  {
+    "objectID": "apply/index.html#ready-to-apply",
+    "href": "apply/index.html#ready-to-apply",
+    "title": "Call for Applications",
+    "section": "Ready to Apply?",
+    "text": "Ready to Apply?\nReview the details above, then submit your application through the portal.\nApply Now →\nSee also: FAQs"
   },
   {
     "objectID": "editions/2025.html",
     "href": "editions/2025.html",
     "title": "2025 Edition",
     "section": "",
-    "text": "[Cohort 2025 — X participants]\n[Edition details — draft pending.]"
+    "text": "The 2025 edition of the Geospatial Modelling Workshop ran 16–18 September 2025 at the University of Dar es Salaam (Mwalimu Julius Kambarage Nyerere Campus), Tanzania. The course covered geostatistics and geospatial modelling using the INLA approach."
+  },
+  {
+    "objectID": "editions/2025.html#overview",
+    "href": "editions/2025.html#overview",
+    "title": "2025 Edition",
+    "section": "",
+    "text": "The 2025 edition of the Geospatial Modelling Workshop ran 16–18 September 2025 at the University of Dar es Salaam (Mwalimu Julius Kambarage Nyerere Campus), Tanzania. The course covered geostatistics and geospatial modelling using the INLA approach."
+  },
+  {
+    "objectID": "editions/2025.html#format",
+    "href": "editions/2025.html#format",
+    "title": "2025 Edition",
+    "section": "Format",
+    "text": "Format\n\n\n\nDates\n16–18 September 2025.\n\n\n\nLocation\nUniversity of Dar es Salaam, Mwalimu Julius Kambarage Nyerere Campus, Tanzania."
+  },
+  {
+    "objectID": "editions/2025.html#course-topic",
+    "href": "editions/2025.html#course-topic",
+    "title": "2025 Edition",
+    "section": "Course Topic",
+    "text": "Course Topic\nGeostatistics and geospatial modelling with the INLA approach."
+  },
+  {
+    "objectID": "editions/2025.html#facilitators",
+    "href": "editions/2025.html#facilitators",
+    "title": "2025 Edition",
+    "section": "Facilitators",
+    "text": "Facilitators\nThis edition was led by Dr Susan Rumisha, Dr Punam Amratia, Dr Amina Msengwa, and Dr Ousmane Diao. See the Facilitators page for full profiles."
+  },
+  {
+    "objectID": "editions/2025.html#organized-by",
+    "href": "editions/2025.html#organized-by",
+    "title": "2025 Edition",
+    "section": "Organized By",
+    "text": "Organized By\nThis edition was organized by the Malaria Atlas Project (Dar es Salaam Node, Ifakara Health Institute) and the Department of Statistics, University of Dar es Salaam."
+  },
+  {
+    "objectID": "editions/2025.html#editions",
+    "href": "editions/2025.html#editions",
+    "title": "2025 Edition",
+    "section": "Editions",
+    "text": "Editions\nSee other editions."
   },
   {
     "objectID": "editions/index.html",
     "href": "editions/index.html",
     "title": "Previous Workshop Editions",
     "section": "",
-    "text": "[Summary of past editions — draft pending.]\n\n2024 Edition\n2025 Edition\n2026 Edition"
+    "text": "Browse past and upcoming cohorts of the Geospatial Modelling Workshop below — each edition builds on the same core geostatistical curriculum, with topics and special seminars that vary by year.\n\n\n\n2024 Edition\nSeptember 2024 · Location to be confirmed\nGeostatistics and geospatial modelling with the INLA approach.\n\n\n\n2025 Edition\n16–18 September 2025 · University of Dar es Salaam, Tanzania\nGeostatistics and geospatial modelling with the INLA approach.\n\n\n\n2026 Edition\n15–18 September 2026 · Takwimu House, Dodoma, Tanzania\nSpatial and spatio-temporal modelling with INLAbru."
   },
   {
     "objectID": "facilitators/index.html",
@@ -151,14 +284,14 @@
     "href": "programme/index.html#format",
     "title": "Programme Overview",
     "section": "Format",
-    "text": "Format\n\n\n\nDuration\nTypically a three-day intensive training.\n\n\n\nInstructors\nLeading experts in geospatial modelling and public health.\n\n\n\nTeaching Method\nA mix of lectures and hands-on practicals, using real-life examples drawn from malaria research.\n\n\n\nSoftware\nR (version 4.0 and above).\n\n\n\nLanguage\nEnglish."
+    "text": "Format\n\n\n\nDuration\nTypically a three-day intensive training.\n\n\n\nInstructors\nLeading experts in geospatial modelling and public health — see Facilitators →.\n\n\n\nTeaching Method\nA mix of lectures and hands-on practicals, using real-life examples drawn from malaria research.\n\n\n\nSoftware\nR (version 4.0 and above).\n\n\n\nLanguage\nEnglish.\n\n\n\nCost\nTraining is free of charge. Participants are responsible for their own travel and accommodation costs."
   },
   {
     "objectID": "programme/index.html#what-youll-learn",
     "href": "programme/index.html#what-youll-learn",
     "title": "Programme Overview",
     "section": "What You’ll Learn",
-    "text": "What You’ll Learn\nLecture topics include:\n\nIntroduction to Geostatistics\nSpatial Data in R\nAreal Data and Models\nGeostatistical Models in INLA\nBasics of Point Process Models (where time allows)"
+    "text": "What You’ll Learn\nParticipants learn Bayesian geostatistical modelling approaches — such as INLA and INLAbru — applied to real malaria and public health data. The exact tools and special topics (e.g. spatial disaggregation) vary by cohort; see this year’s Edition page for the current curriculum.\nLecture topics include:\n\nIntroduction to Geostatistics\nSpatial Data in R\nAreal Data and Models\nGeostatistical Models in INLA\nBasics of Point Process Models"
   },
   {
     "objectID": "programme/index.html#next-steps",

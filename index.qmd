@@ -107,6 +107,16 @@ Sub-Saharan Africa.
 
 Certificate of completion awarded to all participants.
 :::
+
+::: {.card}
+<i class="bi bi-mortarboard card-icon" aria-hidden="true"></i>
+
+**Career Impact**
+
+Alumni have gone on to apply these methods in their own research,
+publishing manuscripts and papers building on skills learned in the
+programme.
+:::
 :::
 
 ## Ready to Apply?

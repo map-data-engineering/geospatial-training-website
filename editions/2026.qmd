@@ -2,6 +2,59 @@
 title: "2026 Edition"
 ---
 
-[Cohort 2026 — X participants]
+## Overview
 
-[Edition details — draft pending.]
+::: {.intro}
+The 2026 edition of the Geospatial Modelling Workshop runs 15–18
+September 2026 at Takwimu House in Dodoma, Tanzania. This year's course
+focuses on spatial and spatio-temporal modelling with INLAbru, building
+on the core geostatistical methods taught in the programme.
+:::
+
+## Format
+
+::: {.card-grid}
+::: {.card}
+<i class="bi bi-calendar-event card-icon" aria-hidden="true"></i>
+
+**Dates**
+
+15–18 September 2026 (4-day intensive workshop).
+:::
+
+::: {.card}
+<i class="bi bi-clock card-icon" aria-hidden="true"></i>
+
+**Daily Schedule**
+
+All day, 9am–4pm.
+:::
+
+::: {.card}
+<i class="bi bi-geo-alt card-icon" aria-hidden="true"></i>
+
+**Location**
+
+Takwimu House, Dodoma, Tanzania.
+:::
+:::
+
+## Course Topic & Seminars
+
+- **Course topic:** Spatial and spatio-temporal modelling with INLAbru
+- **Special seminar 1:** Spatial disaggregation
+- **Special seminar 2:** To be confirmed
+
+## Supported By
+
+This edition is supported by the Malaria Atlas Project, Ifakara Health
+Institute, and Tanzania's National Bureau of Statistics (NBS).
+
+## Registration
+
+Ready to apply? Review the eligibility criteria and application
+details on the Call for Applications page.
+
+[Apply Now →](../apply/index.qmd){.btn}
+
+Curious what other cohorts covered? See [past editions](index.qmd).

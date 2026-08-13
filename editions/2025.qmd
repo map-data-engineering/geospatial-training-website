@@ -2,6 +2,52 @@
 title: "2025 Edition"
 ---
 
-[Cohort 2025 — X participants]
+## Overview
 
-[Edition details — draft pending.]
+::: {.intro}
+The 2025 edition of the Geospatial Modelling Workshop ran 16–18
+September 2025 at the University of Dar es Salaam (Mwalimu Julius
+Kambarage Nyerere Campus), Tanzania. The course covered geostatistics
+and geospatial modelling using the INLA approach.
+:::
+
+## Format
+
+::: {.card-grid}
+::: {.card}
+<i class="bi bi-calendar-event card-icon" aria-hidden="true"></i>
+
+**Dates**
+
+16–18 September 2025.
+:::
+
+::: {.card}
+<i class="bi bi-geo-alt card-icon" aria-hidden="true"></i>
+
+**Location**
+
+University of Dar es Salaam, Mwalimu Julius Kambarage Nyerere Campus,
+Tanzania.
+:::
+:::
+
+## Course Topic
+
+Geostatistics and geospatial modelling with the INLA approach.
+
+## Facilitators
+
+This edition was led by Dr Susan Rumisha, Dr Punam Amratia, Dr Amina
+Msengwa, and Dr Ousmane Diao. See the
+[Facilitators](../facilitators/index.qmd) page for full profiles.
+
+## Organized By
+
+This edition was organized by the Malaria Atlas Project (Dar es
+Salaam Node, Ifakara Health Institute) and the Department of
+Statistics, University of Dar es Salaam.
+
+## Editions
+
+See [other editions](index.qmd).
