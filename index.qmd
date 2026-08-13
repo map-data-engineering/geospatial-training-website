@@ -42,7 +42,7 @@ Countries Represented
 :::
 :::
 
-## Real Geospatial Impact
+## From Data to Decisions
 
 ::: {.impact-section}
 ::: {.impact-map}
@@ -60,32 +60,52 @@ maps that inform decisions.
 :::
 :::
 
-## Explore
+## What You'll Gain
 
-::: {.card-grid}
+::: {.card-grid .gain-grid}
 ::: {.card}
-<i class="bi bi-mortarboard card-icon" aria-hidden="true"></i>
+<i class="bi bi-easel card-icon" aria-hidden="true"></i>
 
-**[Programme](programme/index.qmd)**
+**Expert-Led Training**
 
-Course objectives, format, and what you'll learn.
+Hands-on training in advanced statistical models, taught by leading
+experts in geospatial modelling and public health.
 :::
 
 ::: {.card}
-<i class="bi bi-people card-icon" aria-hidden="true"></i>
+<i class="bi bi-graph-up card-icon" aria-hidden="true"></i>
 
-**[Facilitators](facilitators/index.qmd)**
+**Modern Methods**
 
-Meet this cohort's instructors, leading experts in geospatial modelling
-and public health.
+Learn current geospatial modelling methods — including Bayesian
+geostatistical approaches (e.g. INLA, INLAbru) — from practitioners
+actively using them in real malaria and public health research.
 :::
 
 ::: {.card}
-<i class="bi bi-clock-history card-icon" aria-hidden="true"></i>
+<i class="bi bi-database card-icon" aria-hidden="true"></i>
 
-**[Editions](editions/index.qmd)**
+**Real-World Data**
 
-Browse past cohorts and workshop history.
+Work with real spatial and public health datasets, moving from raw
+data to models that inform decisions.
+:::
+
+::: {.card}
+<i class="bi bi-diagram-3 card-icon" aria-hidden="true"></i>
+
+**Regional Network**
+
+Join a growing regional network of geospatial modellers across
+Sub-Saharan Africa.
+:::
+
+::: {.card}
+<i class="bi bi-patch-check card-icon" aria-hidden="true"></i>
+
+**Certification**
+
+Certificate of completion awarded to all participants.
 :::
 :::
 
@@ -99,9 +119,8 @@ Applications page.
 ::: {.partner-strip}
 In Partnership With
 
-![MAP](assets/partners/MAP.png)
-![IHI](assets/partners/IHI.png)
-![UDSM](assets/partners/UDSM.png)
-![NBS](assets/partners/NBS.png)
 ![KIDS](assets/partners/KIDS.jpg)
+![IHI](assets/partners/IHI.png)
+![NBS](assets/partners/NBS.png)
+![UDSM](assets/partners/UDSM.png)
 :::

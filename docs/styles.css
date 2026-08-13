@@ -63,10 +63,25 @@
   }
 }
 
-/* Tighter vertical rhythm between sections */
+/* Tighter vertical rhythm between sections; brand-colored headers/subheaders
+   (theme: cosmo doesn't pick up _brand.yml automatically, so set explicitly) */
+h1.title {
+  color: #383838;
+}
+
 h2 {
   margin-top: 1.75rem;
   margin-bottom: 0.75rem;
+  color: #383838;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  margin-top: 0.4rem;
+  background-color: #ecbc40;
 }
 
 /* Hero section (homepage intro) */
@@ -101,15 +116,29 @@ h2 {
 }
 
 .partner-strip > p:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
   font-size: 0.8rem;
-  color: #9d9c97;
+  font-weight: 600;
+  color: #ecbc40;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 1rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.5rem;
+}
+
+.partner-strip > p:first-child::before,
+.partner-strip > p:first-child::after {
+  content: "";
+  flex: 1 1 auto;
+  max-width: 120px;
+  height: 1px;
+  background-color: #9d9c97;
 }
 
 .partner-strip img {
-  height: 40px;
+  height: 56px;
   width: auto;
   max-width: 100%;
   margin: 0 1.25rem;
@@ -200,7 +229,7 @@ h2 {
   text-decoration-color: #ecbc40;
 }
 
-/* "Explore" links as cards */
+/* Shared card style (Programme's Format cards, homepage's "What You'll Gain") */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -213,7 +242,7 @@ h2 {
   border-top: 3px solid #ecbc40;
   border-radius: 6px;
   padding: 1rem 1.25rem;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
 }
 
 .card:hover {
@@ -231,6 +260,15 @@ h2 {
 .card p {
   margin: 0.35rem 0 0;
   color: #383838;
+}
+
+/* "What You'll Gain" cards: pale tint at rest, deepens on hover */
+.gain-grid .card {
+  background-color: rgba(236, 188, 64, 0.08);
+}
+
+.gain-grid .card:hover {
+  background-color: rgba(236, 188, 64, 0.18);
 }
 
 /* "Apply Now" call-to-action button */
