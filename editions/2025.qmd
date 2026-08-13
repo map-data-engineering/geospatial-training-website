@@ -40,7 +40,10 @@ Geostatistics and geospatial modelling with the INLA approach.
 
 This edition was led by Dr Susan Rumisha, Dr Punam Amratia, Dr Amina
 Msengwa, and Dr Ousmane Diao. See the
-[Facilitators](../facilitators/index.qmd) page for full profiles.
+[Team](../facilitators/index.qmd) page for full profiles.
+
+See the full list of invited speakers and helpers on the
+[Team page](../facilitators/index.qmd) →
 
 ## Organized By
 

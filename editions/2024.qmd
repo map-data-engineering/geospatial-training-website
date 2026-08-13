@@ -19,7 +19,10 @@ as the [2025 edition](2025.qmd)).
 ## Facilitators
 
 This edition's facilitators were the same as the 2025 edition. See the
-[Facilitators](../facilitators/index.qmd) page for full profiles.
+[Team](../facilitators/index.qmd) page for full profiles.
+
+See the full list of invited speakers and helpers on the
+[Team page](../facilitators/index.qmd) →
 
 *Full details for this first cohort are still being compiled and may
 be added later.*

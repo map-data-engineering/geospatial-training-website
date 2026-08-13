@@ -1,15 +1,89 @@
 ---
-title: "Facilitators"
+title: "Team"
 ---
 
-- [Dr. Susan Rumisha](susan-rumisha.qmd) — Principal Research Scientist and
-  Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.
-- [Dr. Punam Amratia](punam-amratia.qmd) — Senior Research Scientist and
-  Technical Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.
-- [Dr. Amina Msengwa](amina-msengwa.qmd) — Senior Lecturer, Department of
-  Statistics, University of Dar es Salaam.
-- [Dr. Ousmane Diao](ousmane-diao.qmd) — Senior Research Scientist, MAP
-  Dar es Salaam Node, Ifakara Health Institute.
+## Key Facilitators
 
-[Additional facilitator profiles — draft pending, added as details and
+::: {.card-grid .team-grid}
+::: {.card}
+![Photo of Dr. Susan Rumisha](../assets/people/susan.jpg){.avatar-photo}
+
+**[Dr. Susan Rumisha](susan-rumisha.qmd)**
+
+Principal Research Scientist and Lead of the MAP Dar es Salaam Node,
+Ifakara Health Institute.
+:::
+
+::: {.card}
+![Photo of Dr. Punam Amratia](../assets/people/punam.jpg){.avatar-photo}
+
+**[Dr. Punam Amratia](punam-amratia.qmd)**
+
+Senior Research Scientist and Technical Lead of the MAP Dar es Salaam
+Node, Ifakara Health Institute.
+:::
+
+::: {.card}
+![Photo of Dr. Amina Msengwa](../assets/people/amina.jpg){.avatar-photo}
+
+**[Dr. Amina Msengwa](amina-msengwa.qmd)**
+
+Senior Lecturer, Department of Statistics, University of Dar es
+Salaam.
+:::
+
+::: {.card}
+<div class="avatar-placeholder" role="img" aria-label="Photo of Dr. Ousmane Diao"><i class="bi bi-person-fill" aria-hidden="true"></i></div>
+
+**[Dr. Ousmane Diao](ousmane-diao.qmd)**
+
+Senior Research Scientist, MAP Dar es Salaam Node, Ifakara Health
+Institute.
+:::
+:::
+
+## Coordinators
+
+::: {.card-grid .team-grid}
+::: {.card}
+![Photo of Christine Myalla](../assets/people/christina.jpg){.avatar-photo}
+
+**Christine Myalla**
+
+Coordinator, Malaria Atlas Project (MAP).
+:::
+
+::: {.card}
+![Photo of Sosthenes Ketende](../assets/people/sosthenes.jpg){.avatar-photo}
+
+**Sosthenes Ketende**
+
+Program Manager, MAP. Extensive experience in health informatics,
+program design, and technical leadership across IHI, Johns Hopkins,
+FHI360, the World Bank, and APHFTA. MSc in Biostatistics, London
+School of Hygiene & Tropical Medicine.
+:::
+:::
+
+## Invited Speakers & Helpers
+
+### 2026
+
+- Janine Illian — Invited Speaker, Spatial & Spatio-temporal
+  Modelling with INLAbru
+- Tim Lucas — Invited Speaker, Spatial Disaggregation
+
+### 2025
+
+- Prof. Nick Golding — Invited Speaker, Special Lecture: Understanding
+  Generalized Linear Models
+- Dr. Aron Wiggins — Helper, University of Dar es Salaam
+- Mr. Bwire Wilson — Helper, University of Dar es Salaam
+
+### 2024
+
+- Dr. Aron Wiggins — Helper, University of Dar es Salaam
+- Mr. Bwire Wilson — Helper, University of Dar es Salaam
+
+[Additional team profiles — draft pending, added as details and
 consent are confirmed.]

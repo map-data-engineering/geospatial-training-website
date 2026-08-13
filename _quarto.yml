@@ -20,19 +20,21 @@ website:
       - href: editions/index.qmd
         text: Editions
       - href: facilitators/index.qmd
-        text: Facilitators
+        text: Team
       - href: apply/index.qmd
         text: Apply
-      - href: alumni/index.qmd
-        text: Alumni
-      - href: publications/index.qmd
-        text: Publications
-      - href: gallery/index.qmd
-        text: Gallery
+      # Hidden from nav for launch — pages/folders kept as-is, easy to
+      # re-enable by uncommenting these entries.
+      # - href: alumni/index.qmd
+      #   text: Alumni
+      # - href: publications/index.qmd
+      #   text: Publications
+      # - href: gallery/index.qmd
+      #   text: Gallery
   page-footer: |
     ::: {.site-footer}
     ::: {.footer-brand}
-    ![MAP](assets/map-logo.png){.footer-logo}
+    ![MAP](/assets/map-logo.png){.footer-logo}
 
     ANALYTICS FOR A MALARIA-FREE WORLD
     :::

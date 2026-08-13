@@ -81,7 +81,7 @@
     "href": "editions/2026.html#course-topic-seminars",
     "title": "2026 Edition",
     "section": "Course Topic & Seminars",
-    "text": "Course Topic & Seminars\n\nCourse topic: Spatial and spatio-temporal modelling with INLAbru\nSpecial seminar 1: Spatial disaggregation\nSpecial seminar 2: To be confirmed"
+    "text": "Course Topic & Seminars\n\nCourse topic: Spatial and spatio-temporal modelling with INLAbru\nSpecial seminar 1: Spatial disaggregation\nSpecial seminar 2: To be confirmed\n\nSee the full list of invited speakers and helpers on the Team page →"
   },
   {
     "objectID": "editions/2026.html#supported-by",
@@ -123,7 +123,7 @@
     "href": "editions/2024.html#facilitators",
     "title": "2024 Edition",
     "section": "Facilitators",
-    "text": "Facilitators\nThis edition’s facilitators were the same as the 2025 edition. See the Facilitators page for full profiles.\nFull details for this first cohort are still being compiled and may be added later."
+    "text": "Facilitators\nThis edition’s facilitators were the same as the 2025 edition. See the Team page for full profiles.\nSee the full list of invited speakers and helpers on the Team page →\nFull details for this first cohort are still being compiled and may be added later."
   },
   {
     "objectID": "editions/2024.html#editions",
@@ -214,7 +214,7 @@
     "href": "editions/2025.html#facilitators",
     "title": "2025 Edition",
     "section": "Facilitators",
-    "text": "Facilitators\nThis edition was led by Dr Susan Rumisha, Dr Punam Amratia, Dr Amina Msengwa, and Dr Ousmane Diao. See the Facilitators page for full profiles."
+    "text": "Facilitators\nThis edition was led by Dr Susan Rumisha, Dr Punam Amratia, Dr Amina Msengwa, and Dr Ousmane Diao. See the Team page for full profiles.\nSee the full list of invited speakers and helpers on the Team page →"
   },
   {
     "objectID": "editions/2025.html#organized-by",
@@ -240,9 +240,30 @@
   {
     "objectID": "facilitators/index.html",
     "href": "facilitators/index.html",
-    "title": "Facilitators",
+    "title": "Team",
     "section": "",
-    "text": "Dr. Susan Rumisha — Principal Research Scientist and Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\nDr. Punam Amratia — Senior Research Scientist and Technical Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\nDr. Amina Msengwa — Senior Lecturer, Department of Statistics, University of Dar es Salaam.\nDr. Ousmane Diao — Senior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n[Additional facilitator profiles — draft pending, added as details and consent are confirmed.]"
+    "text": "Photo of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nPrincipal Research Scientist and Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nSenior Research Scientist and Technical Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nSenior Lecturer, Department of Statistics, University of Dar es Salaam.\n\n\n\n\n\nDr. Ousmane Diao\nSenior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute."
+  },
+  {
+    "objectID": "facilitators/index.html#key-facilitators",
+    "href": "facilitators/index.html#key-facilitators",
+    "title": "Team",
+    "section": "",
+    "text": "Photo of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nPrincipal Research Scientist and Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nSenior Research Scientist and Technical Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nSenior Lecturer, Department of Statistics, University of Dar es Salaam.\n\n\n\n\n\nDr. Ousmane Diao\nSenior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute."
+  },
+  {
+    "objectID": "facilitators/index.html#coordinators",
+    "href": "facilitators/index.html#coordinators",
+    "title": "Team",
+    "section": "Coordinators",
+    "text": "Coordinators\n\n\n\n\n\nPhoto of Christine Myalla\n\n\nChristine Myalla\nCoordinator, Malaria Atlas Project (MAP).\n\n\n\n\n\nPhoto of Sosthenes Ketende\n\n\nSosthenes Ketende\nProgram Manager, MAP. Extensive experience in health informatics, program design, and technical leadership across IHI, Johns Hopkins, FHI360, the World Bank, and APHFTA. MSc in Biostatistics, London School of Hygiene & Tropical Medicine."
+  },
+  {
+    "objectID": "facilitators/index.html#invited-speakers-helpers",
+    "href": "facilitators/index.html#invited-speakers-helpers",
+    "title": "Team",
+    "section": "Invited Speakers & Helpers",
+    "text": "Invited Speakers & Helpers\n\n2026\n\nJanine Illian — Invited Speaker, Spatial & Spatio-temporal Modelling with INLAbru\nTim Lucas — Invited Speaker, Spatial Disaggregation\n\n\n\n2025\n\nProf. Nick Golding — Invited Speaker, Special Lecture: Understanding Generalized Linear Models\nDr. Aron Wiggins — Helper, University of Dar es Salaam\nMr. Bwire Wilson — Helper, University of Dar es Salaam\n\n\n\n2024\n\nDr. Aron Wiggins — Helper, University of Dar es Salaam\nMr. Bwire Wilson — Helper, University of Dar es Salaam\n\n[Additional team profiles — draft pending, added as details and consent are confirmed.]"
   },
   {
     "objectID": "facilitators/punam-amratia.html",
@@ -284,7 +305,7 @@
     "href": "programme/index.html#format",
     "title": "Programme Overview",
     "section": "Format",
-    "text": "Format\n\n\n\nDuration\nTypically a three-day intensive training.\n\n\n\nInstructors\nLeading experts in geospatial modelling and public health — see Facilitators →.\n\n\n\nTeaching Method\nA mix of lectures and hands-on practicals, using real-life examples drawn from malaria research.\n\n\n\nSoftware\nR (version 4.0 and above).\n\n\n\nLanguage\nEnglish.\n\n\n\nCost\nTraining is free of charge. Participants are responsible for their own travel and accommodation costs."
+    "text": "Format\n\n\n\nDuration\nTypically a three-day intensive training.\n\n\n\nInstructors\nLeading experts in geospatial modelling and public health — see Team →.\n\n\n\nTeaching Method\nA mix of lectures and hands-on practicals, using real-life examples drawn from malaria research.\n\n\n\nSoftware\nR (version 4.0 and above).\n\n\n\nLanguage\nEnglish.\n\n\n\nCost\nTraining is free of charge. Participants are responsible for their own travel and accommodation costs."
   },
   {
     "objectID": "programme/index.html#what-youll-learn",

@@ -44,7 +44,7 @@ Typically a three-day intensive training.
 **Instructors**
 
 Leading experts in geospatial modelling and public health — see
-[Facilitators →](../facilitators/index.qmd).
+[Team →](../facilitators/index.qmd).
 :::
 
 ::: {.card}

@@ -45,6 +45,9 @@ Takwimu House, Dodoma, Tanzania.
 - **Special seminar 1:** Spatial disaggregation
 - **Special seminar 2:** To be confirmed
 
+See the full list of invited speakers and helpers on the
+[Team page](../facilitators/index.qmd) →
+
 ## Supported By
 
 This edition is supported by the Malaria Atlas Project, Ifakara Health
