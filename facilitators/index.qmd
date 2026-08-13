@@ -8,37 +8,26 @@ title: "Team"
 ::: {.card}
 ![Photo of Dr. Susan Rumisha](../assets/people/susan.jpg){.avatar-photo}
 
-**[Dr. Susan Rumisha](susan-rumisha.qmd)**
+**[Dr. Susan Rumisha](https://www.thekids.org.au/contact-us/our-people/r/susan-rumisha/){target="_blank" rel="noopener noreferrer"}**
 
-Principal Research Scientist and Lead of the MAP Dar es Salaam Node,
-Ifakara Health Institute.
+Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.
 :::
 
 ::: {.card}
 ![Photo of Dr. Punam Amratia](../assets/people/punam.jpg){.avatar-photo}
 
-**[Dr. Punam Amratia](punam-amratia.qmd)**
+**[Dr. Punam Amratia](https://www.thekids.org.au/contact-us/our-people/a/punam-amratia/){target="_blank" rel="noopener noreferrer"}**
 
-Senior Research Scientist and Technical Lead of the MAP Dar es Salaam
-Node, Ifakara Health Institute.
+Technical Lead of the MAP Dar es Salaam Node, Ifakara Health
+Institute.
 :::
 
 ::: {.card}
 ![Photo of Dr. Amina Msengwa](../assets/people/amina.jpg){.avatar-photo}
 
-**[Dr. Amina Msengwa](amina-msengwa.qmd)**
+**[Dr. Amina Msengwa](https://www.nbs.go.tz/administration/management-team/statistician-general){target="_blank" rel="noopener noreferrer"}**
 
-Senior Lecturer, Department of Statistics, University of Dar es
-Salaam.
-:::
-
-::: {.card}
-<div class="avatar-placeholder" role="img" aria-label="Photo of Dr. Ousmane Diao"><i class="bi bi-person-fill" aria-hidden="true"></i></div>
-
-**[Dr. Ousmane Diao](ousmane-diao.qmd)**
-
-Senior Research Scientist, MAP Dar es Salaam Node, Ifakara Health
-Institute.
+Statistician General, National Bureau of Statistics, Tanzania.
 :::
 :::
 
@@ -48,20 +37,19 @@ Institute.
 ::: {.card}
 ![Photo of Christine Myalla](../assets/people/christina.jpg){.avatar-photo}
 
-**Christine Myalla**
+**[Christine Myalla](https://www.linkedin.com/in/christinamyalla/){target="_blank" rel="noopener noreferrer"}**
 
-Coordinator, Malaria Atlas Project (MAP).
+Data Engineer Lead of the MAP Dar es Salaam Node, Ifakara Health
+Institute.
 :::
 
 ::: {.card}
 ![Photo of Sosthenes Ketende](../assets/people/sosthenes.jpg){.avatar-photo}
 
-**Sosthenes Ketende**
+**[Sosthenes Ketende](https://www.ihi.or.tz/en/our-staff/239/Sosthenes/Charles%2520Ketende/details/){target="_blank" rel="noopener noreferrer"}**
 
-Program Manager, MAP. Extensive experience in health informatics,
-program design, and technical leadership across IHI, Johns Hopkins,
-FHI360, the World Bank, and APHFTA. MSc in Biostatistics, London
-School of Hygiene & Tropical Medicine.
+Program Manager of the MAP Dar es Salaam Node, Ifakara Health
+Institute.
 :::
 :::
 
@@ -84,6 +72,3 @@ School of Hygiene & Tropical Medicine.
 
 - Dr. Aron Wiggins — Helper, University of Dar es Salaam
 - Mr. Bwire Wilson — Helper, University of Dar es Salaam
-
-[Additional team profiles — draft pending, added as details and
-consent are confirmed.]

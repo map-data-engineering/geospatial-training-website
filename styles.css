@@ -300,6 +300,15 @@ h2::after {
   margin: 0 auto 0.75rem;
 }
 
+/* Quarto/pandoc auto-wraps a solo-paragraph image with alt text in a
+   <figure><figcaption>, showing the alt text visibly beneath it. That's
+   wanted for the impact-map images but not for Team page avatars, where
+   alt text should stay accessible-only. Scoped to .team-grid so the
+   impact section's captions are untouched. */
+.team-grid figcaption {
+  display: none;
+}
+
 /* "Apply Now" call-to-action button */
 a.btn {
   display: inline-block;

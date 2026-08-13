@@ -38,9 +38,10 @@ Geostatistics and geospatial modelling with the INLA approach.
 
 ## Facilitators
 
-This edition was led by Dr Susan Rumisha, Dr Punam Amratia, Dr Amina
-Msengwa, and Dr Ousmane Diao. See the
-[Team](../facilitators/index.qmd) page for full profiles.
+This edition was led by Dr Susan Rumisha, Dr Punam Amratia, and Dr
+Amina Msengwa (now Statistician General, National Bureau of
+Statistics, Tanzania). See the [Team](../facilitators/index.qmd) page
+for full profiles.
 
 See the full list of invited speakers and helpers on the
 [Team page](../facilitators/index.qmd) →
