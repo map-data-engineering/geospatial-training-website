@@ -29,6 +29,26 @@ website:
         text: Publications
       - href: gallery/index.qmd
         text: Gallery
+  page-footer: |
+    ::: {.site-footer}
+    ::: {.footer-brand}
+    ![MAP](assets/map-logo.png){.footer-logo}
+
+    ANALYTICS FOR A MALARIA-FREE WORLD
+    :::
+
+    ::: {.footer-social}
+    <!-- TODO: replace href="#" with real profile URLs -->
+    <a href="#" class="footer-social-link" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter-x" aria-hidden="true"></i></a>
+    <a href="#" class="footer-social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+    <a href="#" class="footer-social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+    <a href="#" class="footer-social-link" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="bi bi-youtube" aria-hidden="true"></i></a>
+    :::
+
+    ::: {.footer-links}
+    [Contact Us](#) · [malariaatlas.org](https://malariaatlas.org){target="_blank" rel="noopener noreferrer"}
+    :::
+    :::
 
 format:
   html:

@@ -16,16 +16,6 @@ The workshop is run annually, bringing together leading researchers and
 practitioners from across the region.
 :::
 
-::: {.partner-strip}
-In Partnership With
-
-![MAP](assets/partners/MAP.png)
-![IHI](assets/partners/IHI.png)
-![UDSM](assets/partners/UDSM.png)
-![NBS](assets/partners/NBS.png)
-![KIDS](assets/partners/KIDS.jpg)
-:::
-
 ::: {.stats-band}
 ::: {.stat}
 **3**
@@ -54,22 +44,19 @@ Countries Represented
 
 ## Real Geospatial Impact
 
-::: {.split-section}
-::: {.split-text}
+::: {.impact-section}
+::: {.impact-map}
+![Modelled malaria risk estimates across Africa, produced using the
+geostatistical methods taught in the programme.](assets/images/africa-model-map.png)
+:::
+
+::: {.impact-text}
 Every cohort works with real malaria and public health data, using the same
 Bayesian geostatistical methods taught in the programme to produce modelled
 risk surfaces like the one shown here — moving from raw spatial data to
 maps that inform decisions.
 
 [Learn more about the Programme →](programme/index.qmd)
-:::
-
-::: {.split-image}
-![Modelled malaria risk estimates across Africa, produced using the
-geostatistical methods taught in the programme.](assets/images/africa-model-map.png)
-
-![A further modelled risk estimate output from the programme's
-geostatistical methods.](assets/images/estimate1.png)
 :::
 :::
 
@@ -108,3 +95,13 @@ Review the eligibility criteria and application details on the Call for
 Applications page.
 
 [Apply Now →](https://spaat-onboardnig-portal-frontend.vercel.app/){.btn target="_blank" rel="noopener noreferrer"}
+
+::: {.partner-strip}
+In Partnership With
+
+![MAP](assets/partners/MAP.png)
+![IHI](assets/partners/IHI.png)
+![UDSM](assets/partners/UDSM.png)
+![NBS](assets/partners/NBS.png)
+![KIDS](assets/partners/KIDS.jpg)
+:::
