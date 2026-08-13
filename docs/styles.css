@@ -1,35 +1,28 @@
 /* Supplemental site styles — brand colors are defined in _brand.yml */
 
 .navbar-logo {
-  max-height: 44px;
+  max-height: 56px;
 }
 
-/* Hide the default site-title text next to the logo */
+/* Solid dark navbar with light nav text; gold marks hover/active state */
+.navbar {
+  background-color: #383838 !important;
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  color: #ecbc40;
+}
+
+/* Hide the default site-title text next to the logo (the logo image
+   already includes the "Malaria Atlas Project" wordmark) */
 .navbar-brand:not(.navbar-brand-logo) {
   display: none;
-}
-
-/* Small caption below the logo, matched to its width (not the full navbar).
-   218px = the logo's rendered width at max-height:44px, given the source
-   image's actual 1051x212px aspect ratio (44 * 1051/212 ≈ 218px). */
-.navbar-brand-logo {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 218px;
-}
-
-.navbar-brand-logo::after {
-  content: "Malaria Atlas Project";
-  display: block;
-  width: 100%;
-  font-size: 0.8rem;
-  font-weight: 400;
-  color: #9d9c97;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-top: 0.15rem;
 }
 
 /* Pull nav links in close after the logo/tagline instead of the far edge.
@@ -81,6 +74,7 @@ h2 {
   font-size: 1.1rem;
   line-height: 1.6;
   margin: 0 0 0.75rem;
+  color: #9d9c97;
 }
 
 .hero p:last-child {
@@ -89,6 +83,98 @@ h2 {
 
 .hero a {
   color: #ecbc40;
+}
+
+/* Partner logo strip */
+.partner-strip {
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+.partner-strip > p:first-child {
+  font-size: 0.8rem;
+  color: #9d9c97;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.partner-strip img {
+  height: 40px;
+  width: auto;
+  max-width: 100%;
+  margin: 0 1.25rem;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  vertical-align: middle;
+}
+
+/* Stats band */
+.stats-band {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  text-align: center;
+  margin: 0 0 2.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid #9d9c97;
+  border-bottom: 1px solid #9d9c97;
+}
+
+.stat {
+  border-top: 3px solid #ecbc40;
+  padding-top: 0.75rem;
+}
+
+.stat p:first-child {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #383838;
+  margin: 0;
+}
+
+.stat p:last-child {
+  font-size: 0.85rem;
+  color: #9d9c97;
+  margin: 0.25rem 0 0;
+}
+
+/* Split section: programme summary + map image */
+.split-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 0 0 2rem;
+}
+
+.split-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #9d9c97;
+}
+
+.split-image .quarto-figure {
+  margin-bottom: 1.25rem;
+}
+
+.split-image .quarto-figure:last-child {
+  margin-bottom: 0;
+}
+
+.split-image figcaption {
+  font-size: 0.8rem;
+  color: #9d9c97;
+  margin-top: 0.4rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .split-section {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Interior-page intro (light variant of .hero) */

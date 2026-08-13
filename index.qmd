@@ -16,6 +16,63 @@ The workshop is run annually, bringing together leading researchers and
 practitioners from across the region.
 :::
 
+::: {.partner-strip}
+In Partnership With
+
+![MAP](assets/partners/MAP.png)
+![IHI](assets/partners/IHI.png)
+![UDSM](assets/partners/UDSM.png)
+![NBS](assets/partners/NBS.png)
+![KIDS](assets/partners/KIDS.jpg)
+:::
+
+::: {.stats-band}
+::: {.stat}
+**3**
+
+Cohorts Delivered
+:::
+
+::: {.stat}
+**400+**
+
+Applicants to Date
+:::
+
+::: {.stat}
+**~30**
+
+Selected per Cohort (avg)
+:::
+
+::: {.stat}
+**7+**
+
+Countries Represented
+:::
+:::
+
+## Real Geospatial Impact
+
+::: {.split-section}
+::: {.split-text}
+Every cohort works with real malaria and public health data, using the same
+Bayesian geostatistical methods taught in the programme to produce modelled
+risk surfaces like the one shown here — moving from raw spatial data to
+maps that inform decisions.
+
+[Learn more about the Programme →](programme/index.qmd)
+:::
+
+::: {.split-image}
+![Modelled malaria risk estimates across Africa, produced using the
+geostatistical methods taught in the programme.](assets/images/africa-model-map.png)
+
+![A further modelled risk estimate output from the programme's
+geostatistical methods.](assets/images/estimate1.png)
+:::
+:::
+
 ## Explore
 
 ::: {.card-grid}
