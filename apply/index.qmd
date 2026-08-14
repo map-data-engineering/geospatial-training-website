@@ -29,6 +29,6 @@ criteria and practical notes below before applying.
 Review the details above, then submit your application through the
 portal.
 
-[Apply Now →](https://tinyurl.com/geospatial-apply){.btn target="_blank" rel="noopener noreferrer"}
+[Apply Now →](https://geomap-onboardnig-portal-frontend.vercel.app/index.html){.btn target="_blank" rel="noopener noreferrer"}
 
 See also: [FAQs](faq.qmd)
