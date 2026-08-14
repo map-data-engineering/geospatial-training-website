@@ -1,4 +1,4 @@
-﻿/* Supplemental site styles â€” brand colors are defined in _brand.yml */
+﻿/* Supplemental site styles — brand colors are defined in _brand.yml */
 
 .navbar-logo {
   max-height: 56px;
@@ -37,7 +37,7 @@
 /* Pull nav links in close after the logo/tagline instead of the far edge.
    Bootstrap's .navbar > .container-fluid uses justify-content:space-between
    by default, which spreads brand/search/nav apart regardless of their own
-   margins â€” override it explicitly and pin each item's order so nav links
+   margins — override it explicitly and pin each item's order so nav links
    sit right after the brand block, with empty space collecting before the
    search icon instead. */
 @media (min-width: 992px) {
@@ -173,6 +173,42 @@ h2::after {
   font-size: 0.85rem;
   color: #9d9c97;
   margin: 0.25rem 0 0;
+}
+
+/* Why MAP: solid gold block, distinct from the dark .hero and the
+   white/bordered .impact-section — dark-on-gold has strong contrast
+   (~6:1), the opposite pairing of gold-on-white used elsewhere. */
+.who-section {
+  background-color: #ecbc40;
+  color: #383838;
+  border-radius: 6px;
+  padding: 2rem 2.25rem;
+  margin: 0 0 2.5rem;
+}
+
+.who-badge {
+  display: inline-block;
+  background-color: #383838;
+  color: #ecbc40;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
+.who-section p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0 0 0.75rem;
+  max-width: 760px;
+}
+
+.who-section p:last-child {
+  margin-bottom: 0;
+  font-weight: 600;
 }
 
 /* Real Geospatial Impact: full-width map, centered text below */
@@ -327,7 +363,7 @@ a.btn:hover {
 }
 
 /* Quarto wraps page-footer content in .nav-footer (white bg, padding,
-   3-zone flex layout) â€” override to a plain full-width block so
+   3-zone flex layout) — override to a plain full-width block so
    .site-footer's dark band renders edge-to-edge, matching the navbar */
 .nav-footer {
   display: block;
@@ -368,7 +404,7 @@ a.btn:hover {
   font-weight: 600;
   letter-spacing: 0.08em;
   /* brand gold; if this reads too close to yellow, the deeper alternative
-     is #b6943e â€” a 70/30 blend of brand gold (#ecbc40) and brand dark
+     is #b6943e — a 70/30 blend of brand gold (#ecbc40) and brand dark
      (#383838), still derived only from _brand.yml colors */
   color: #ecbc40;
   margin: 0 0 1.5rem;

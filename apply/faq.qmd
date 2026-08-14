@@ -2,4 +2,41 @@
 title: "FAQs"
 ---
 
-[Frequently asked questions — draft pending.]
+**Is the training conducted online?**
+
+No, this is an in-person training.
+
+**Is there a cost to attend?**
+
+No, the training is completely free. Food and drinks are provided;
+participants are responsible for their own travel and accommodation.
+
+**What level of R knowledge is required?**
+
+Basic experience with R is required — this is not a beginner
+programming course. Applicants should also have an understanding of
+statistical inference and introductory knowledge of Bayesian
+statistical methods.
+
+**Is a certificate provided?**
+
+Yes, a certificate of completion is awarded to all participants.
+
+**What software will I need?**
+
+R, version 4.0 or above.
+
+**How competitive is selection?**
+
+Highly competitive — around 30 participants are selected per cohort
+from 400+ applicants.
+
+**Where is the training held?**
+
+Location varies by year — see the current year's Edition page for
+exact venue and dates.
+
+**Can I apply again if I wasn't selected?**
+
+Yes — if you're not selected in one cycle, you're welcome to apply
+again in a future cycle.

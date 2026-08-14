@@ -57,9 +57,10 @@ Institute.
 
 ### 2026
 
-- Janine Illian — Invited Speaker, Spatial & Spatio-temporal
-  Modelling with INLAbru
-- Tim Lucas — Invited Speaker, Spatial Disaggregation
+- Janine Illian — Invited Speaker, "The Data Behind the Decisions:
+  National Statistical Offices as Partners in Public Health"
+  (presented with NBS)
+- Tim Lucas — Invited Speaker, "Spatial Disaggregation in R"
 
 ### 2025
 

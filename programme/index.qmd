@@ -19,9 +19,10 @@ with an emphasis on skills that continue to develop after the course.
 
 ## Who Should Apply
 
-This course is designed for statisticians and public health
-professionals who want to build their geospatial analysis and
-modelling skills. Candidates should have:
+This course is designed for statisticians, public health
+professionals, National Malaria Control Programme (NMCP) staff, and
+government researchers who want to build their geospatial analysis
+and modelling skills. Candidates should have:
 
 - Basic experience with R
 - An understanding of statistical inference
@@ -85,7 +86,7 @@ own travel and accommodation costs.
 ## What You'll Learn
 
 Participants learn Bayesian geostatistical modelling approaches — such
-as INLA and INLAbru — applied to real malaria and public health data.
+as INLA and INLAbru — applied to malaria and real-world data.
 The exact tools and special topics (e.g. spatial disaggregation) vary
 by cohort; see this year's [Edition page](../editions/index.qmd) for
 the current curriculum.

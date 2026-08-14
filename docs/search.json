@@ -14,18 +14,25 @@
     "text": "The Geospatial Modelling Workshop is an intensive training programme for statisticians and public health professionals looking to build their skills in geospatial analysis and modelling. Drawing on real-life examples from malaria research, the programme guides participants from foundational spatial data concepts through to Bayesian geostatistical modelling — equipping them with skills they can continue to build on long after the training ends.\nThe workshop is run annually, bringing together leading researchers and practitioners from across the region."
   },
   {
+    "objectID": "index.html#why-map",
+    "href": "index.html#why-map",
+    "title": "GEOSPATIAL MODELLING FOR PUBLIC HEALTH APPLICATIONS",
+    "section": "Why MAP",
+    "text": "Why MAP\n\n\nWHO Collaborating Centre in Geospatial Disease Modelling\n\nMAP is a designated World Health Organization Collaborating Centre in Geospatial Disease Modelling. Through this partnership, we provide modelling and analysis directly to the WHO Global Malaria Programme and, via WHO, to individual countries — with our estimates cited in the WHO World Malaria Report (2024, 2025) and the Global Burden of Disease study, which MAP has contributed to since 2016 in partnership with IHME.\nThis training programme is taught by the same scientists producing that work — you’ll learn the methods MAP uses to inform global and national malaria policy."
+  },
+  {
     "objectID": "index.html#from-data-to-decisions",
     "href": "index.html#from-data-to-decisions",
     "title": "GEOSPATIAL MODELLING FOR PUBLIC HEALTH APPLICATIONS",
     "section": "From Data to Decisions",
-    "text": "From Data to Decisions\n\n\n\n\n\nModelled malaria risk estimates across Africa, produced using the geostatistical methods taught in the programme.\n\n\n\n\nEvery cohort works with real malaria and public health data, using the same Bayesian geostatistical methods taught in the programme to produce modelled risk surfaces like the one shown here — moving from raw spatial data to maps that inform decisions.\nLearn more about the Programme →"
+    "text": "From Data to Decisions\n\n\n\n\n\nModelled malaria risk estimates across Africa, produced using the geostatistical methods taught in the programme.\n\n\n\n\nEvery cohort works with malaria and real-world data, using the same Bayesian geostatistical methods taught in the programme to produce modelled risk surfaces like the one shown here — moving from raw spatial data to maps that inform decisions.\nLearn more about the Programme →"
   },
   {
     "objectID": "index.html#what-youll-gain",
     "href": "index.html#what-youll-gain",
     "title": "GEOSPATIAL MODELLING FOR PUBLIC HEALTH APPLICATIONS",
     "section": "What You’ll Gain",
-    "text": "What You’ll Gain\n\n\n\nExpert-Led Training\nHands-on training in advanced statistical models, taught by leading experts in geospatial modelling and public health.\n\n\n\nModern Methods\nLearn current geospatial modelling methods — including Bayesian geostatistical approaches (e.g. INLA, INLAbru) — from practitioners actively using them in real malaria and public health research.\n\n\n\nReal-World Data\nWork with real spatial and public health datasets, moving from raw data to models that inform decisions.\n\n\n\nRegional Network\nJoin a growing regional network of geospatial modellers across Sub-Saharan Africa.\n\n\n\nCertification\nCertificate of completion awarded to all participants.\n\n\n\nCareer Impact\nAlumni have gone on to apply these methods in their own research, publishing manuscripts and papers building on skills learned in the programme."
+    "text": "What You’ll Gain\n\n\n\nExpert-Led Training\nHands-on training in advanced statistical models, taught by leading experts in geospatial modelling and public health.\n\n\n\nModern Methods\nLearn current geospatial modelling methods — including Bayesian geostatistical approaches (e.g. INLA, INLAbru) — from practitioners actively using them in real malaria and public health research.\n\n\n\nReal-World Data\nWork with the same spatial and real-world datasets MAP uses to produce WHO’s global malaria estimates — moving from raw data to models that inform decisions.\n\n\n\nRegional Network\nJoin a growing regional network of geospatial modellers across Sub-Saharan Africa.\n\n\n\nCertification\nCertificate of completion awarded to all participants.\n\n\n\nCareer Impact\nAlumni have gone on to apply these methods in their own research, publishing manuscripts and papers building on skills learned in the programme."
   },
   {
     "objectID": "index.html#ready-to-apply",
@@ -81,14 +88,14 @@
     "href": "editions/2026.html#course-topic-seminars",
     "title": "2026 Edition",
     "section": "Course Topic & Seminars",
-    "text": "Course Topic & Seminars\n\nCourse topic: Spatial and spatio-temporal modelling with INLAbru\nSpecial seminar 1: Spatial disaggregation\nSpecial seminar 2: To be confirmed\n\nSee the full list of invited speakers and helpers on the Team page →"
+    "text": "Course Topic & Seminars\n\nCourse topic: Spatial and spatio-temporal modelling with INLAbru\nSpecial seminar 1: “The Data Behind the Decisions: National Statistical Offices as Partners in Public Health” — Janine Illian (presented with NBS)\nSpecial seminar 2: “Spatial Disaggregation in R” — Tim Lucas\n\nSee the full list of invited speakers and helpers on the Team page →"
   },
   {
     "objectID": "editions/2026.html#supported-by",
     "href": "editions/2026.html#supported-by",
     "title": "2026 Edition",
     "section": "Supported By",
-    "text": "Supported By\nThis edition is supported by the Malaria Atlas Project, Ifakara Health Institute, and Tanzania’s National Bureau of Statistics (NBS)."
+    "text": "Supported By\nThis edition is supported by Ifakara Health Institute, The Kids Research Institute Australia, University of Glasgow, and the National Bureau of Statistics Tanzania."
   },
   {
     "objectID": "editions/2026.html#registration",
@@ -137,7 +144,7 @@
     "href": "apply/faq.html",
     "title": "FAQs",
     "section": "",
-    "text": "[Frequently asked questions — draft pending.]"
+    "text": "Is the training conducted online?\nNo, this is an in-person training.\nIs there a cost to attend?\nNo, the training is completely free. Food and drinks are provided; participants are responsible for their own travel and accommodation.\nWhat level of R knowledge is required?\nBasic experience with R is required — this is not a beginner programming course. Applicants should also have an understanding of statistical inference and introductory knowledge of Bayesian statistical methods.\nIs a certificate provided?\nYes, a certificate of completion is awarded to all participants.\nWhat software will I need?\nR, version 4.0 or above.\nHow competitive is selection?\nHighly competitive — around 30 participants are selected per cohort from 400+ applicants.\nWhere is the training held?\nLocation varies by year — see the current year’s Edition page for exact venue and dates.\nCan I apply again if I wasn’t selected?\nYes — if you’re not selected in one cycle, you’re welcome to apply again in a future cycle."
   },
   {
     "objectID": "alumni/index.html",
@@ -172,7 +179,7 @@
     "href": "apply/index.html#practical-notes",
     "title": "Call for Applications",
     "section": "Practical Notes",
-    "text": "Practical Notes\n\nParticipants are responsible for their own travel and logistics costs. Sponsorship, food, and drinks are not provided.\nLimited spaces are available, and selection is competitive."
+    "text": "Practical Notes\n\nFood and drinks are provided. Participants are responsible for their own travel and accommodation costs.\nLimited spaces are available, and selection is competitive."
   },
   {
     "objectID": "apply/index.html#ready-to-apply",
@@ -263,7 +270,7 @@
     "href": "facilitators/index.html#invited-speakers-helpers",
     "title": "Team",
     "section": "Invited Speakers & Helpers",
-    "text": "Invited Speakers & Helpers\n\n2026\n\nJanine Illian — Invited Speaker, Spatial & Spatio-temporal Modelling with INLAbru\nTim Lucas — Invited Speaker, Spatial Disaggregation\n\n\n\n2025\n\nProf. Nick Golding — Invited Speaker, Special Lecture: Understanding Generalized Linear Models\nDr. Aron Wiggins — Helper, University of Dar es Salaam\nMr. Bwire Wilson — Helper, University of Dar es Salaam\n\n\n\n2024\n\nDr. Aron Wiggins — Helper, University of Dar es Salaam\nMr. Bwire Wilson — Helper, University of Dar es Salaam"
+    "text": "Invited Speakers & Helpers\n\n2026\n\nJanine Illian — Invited Speaker, “The Data Behind the Decisions: National Statistical Offices as Partners in Public Health” (presented with NBS)\nTim Lucas — Invited Speaker, “Spatial Disaggregation in R”\n\n\n\n2025\n\nProf. Nick Golding — Invited Speaker, Special Lecture: Understanding Generalized Linear Models\nDr. Aron Wiggins — Helper, University of Dar es Salaam\nMr. Bwire Wilson — Helper, University of Dar es Salaam\n\n\n\n2024\n\nDr. Aron Wiggins — Helper, University of Dar es Salaam\nMr. Bwire Wilson — Helper, University of Dar es Salaam"
   },
   {
     "objectID": "facilitators/punam-amratia.html",
@@ -298,7 +305,7 @@
     "href": "programme/index.html#who-should-apply",
     "title": "Programme Overview",
     "section": "Who Should Apply",
-    "text": "Who Should Apply\nThis course is designed for statisticians and public health professionals who want to build their geospatial analysis and modelling skills. Candidates should have:\n\nBasic experience with R\nAn understanding of statistical inference\nIntroductory knowledge of Bayesian statistical methods"
+    "text": "Who Should Apply\nThis course is designed for statisticians, public health professionals, National Malaria Control Programme (NMCP) staff, and government researchers who want to build their geospatial analysis and modelling skills. Candidates should have:\n\nBasic experience with R\nAn understanding of statistical inference\nIntroductory knowledge of Bayesian statistical methods"
   },
   {
     "objectID": "programme/index.html#format",
@@ -312,7 +319,7 @@
     "href": "programme/index.html#what-youll-learn",
     "title": "Programme Overview",
     "section": "What You’ll Learn",
-    "text": "What You’ll Learn\nParticipants learn Bayesian geostatistical modelling approaches — such as INLA and INLAbru — applied to real malaria and public health data. The exact tools and special topics (e.g. spatial disaggregation) vary by cohort; see this year’s Edition page for the current curriculum.\nLecture topics include:\n\nIntroduction to Geostatistics\nSpatial Data in R\nAreal Data and Models\nGeostatistical Models in INLA\nBasics of Point Process Models"
+    "text": "What You’ll Learn\nParticipants learn Bayesian geostatistical modelling approaches — such as INLA and INLAbru — applied to malaria and real-world data. The exact tools and special topics (e.g. spatial disaggregation) vary by cohort; see this year’s Edition page for the current curriculum.\nLecture topics include:\n\nIntroduction to Geostatistics\nSpatial Data in R\nAreal Data and Models\nGeostatistical Models in INLA\nBasics of Point Process Models"
   },
   {
     "objectID": "programme/index.html#next-steps",

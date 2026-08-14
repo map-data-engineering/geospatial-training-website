@@ -42,6 +42,26 @@ Countries Represented
 :::
 :::
 
+## Why MAP
+
+::: {.who-section}
+::: {.who-badge}
+WHO Collaborating Centre in Geospatial Disease Modelling
+:::
+
+MAP is a designated World Health Organization Collaborating Centre in
+Geospatial Disease Modelling. Through this partnership, we provide
+modelling and analysis directly to the WHO Global Malaria Programme
+and, via WHO, to individual countries — with our estimates cited in
+the WHO World Malaria Report and the Global Burden of
+Disease study, which MAP has contributed to since 2016 in partnership
+with IHME.
+
+This training programme is taught by the same scientists producing
+that work — you'll learn the methods MAP uses to inform global and
+national malaria policy.
+:::
+
 ## From Data to Decisions
 
 ::: {.impact-section}
@@ -51,7 +71,7 @@ geostatistical methods taught in the programme.](assets/images/africa-model-map.
 :::
 
 ::: {.impact-text}
-Every cohort works with real malaria and public health data, using the same
+Every cohort works with malaria and real-world data, using the same
 Bayesian geostatistical methods taught in the programme to produce modelled
 risk surfaces like the one shown here — moving from raw spatial data to
 maps that inform decisions.
@@ -87,8 +107,9 @@ actively using them in real malaria and public health research.
 
 **Real-World Data**
 
-Work with real spatial and public health datasets, moving from raw
-data to models that inform decisions.
+Work with the same spatial and real-world datasets MAP uses to
+produce WHO's global malaria estimates — moving from raw data to
+models that inform decisions.
 :::
 
 ::: {.card}
@@ -124,7 +145,7 @@ programme.
 Review the eligibility criteria and application details on the Call for
 Applications page.
 
-[Apply Now →](https://spaat-onboardnig-portal-frontend.vercel.app/){.btn target="_blank" rel="noopener noreferrer"}
+[Apply Now →](https://tinyurl.com/geospatial-apply){.btn target="_blank" rel="noopener noreferrer"}
 
 ::: {.partner-strip}
 In Partnership With
@@ -132,5 +153,5 @@ In Partnership With
 ![KIDS](assets/partners/KIDS.jpg)
 ![IHI](assets/partners/IHI.png)
 ![NBS](assets/partners/NBS.png)
-![UDSM](assets/partners/UDSM.png)
+![University of Glasgow](assets/partners/glasgow.jpeg)
 :::

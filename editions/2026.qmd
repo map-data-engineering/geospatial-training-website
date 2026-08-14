@@ -1,5 +1,6 @@
 ---
 title: "2026 Edition"
+subtitle: "September to Remember Series"
 ---
 
 ## Overview
@@ -42,16 +43,19 @@ Takwimu House, Dodoma, Tanzania.
 ## Course Topic & Seminars
 
 - **Course topic:** Spatial and spatio-temporal modelling with INLAbru
-- **Special seminar 1:** Spatial disaggregation
-- **Special seminar 2:** To be confirmed
+- **Special seminar 1:** "The Data Behind the Decisions: National
+  Statistical Offices as Partners in Public Health" — Janine Illian
+  (presented with NBS)
+- **Special seminar 2:** "Spatial Disaggregation in R" — Tim Lucas
 
 See the full list of invited speakers and helpers on the
 [Team page](../facilitators/index.qmd) →
 
 ## Supported By
 
-This edition is supported by the Malaria Atlas Project, Ifakara Health
-Institute, and Tanzania's National Bureau of Statistics (NBS).
+This edition is supported by Ifakara Health Institute, The Kids
+Research Institute Australia, University of Glasgow, and the National
+Bureau of Statistics Tanzania.
 
 ## Registration
 

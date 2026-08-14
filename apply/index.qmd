@@ -20,8 +20,8 @@ criteria and practical notes below before applying.
 
 ## Practical Notes
 
-- Participants are responsible for their own travel and logistics
-  costs. Sponsorship, food, and drinks are not provided.
+- Food and drinks are provided. Participants are responsible for
+  their own travel and accommodation costs.
 - Limited spaces are available, and selection is competitive.
 
 ## Ready to Apply?
@@ -29,6 +29,6 @@ criteria and practical notes below before applying.
 Review the details above, then submit your application through the
 portal.
 
-[Apply Now →](https://spaat-onboardnig-portal-frontend.vercel.app/){.btn target="_blank" rel="noopener noreferrer"}
+[Apply Now →](https://tinyurl.com/geospatial-apply){.btn target="_blank" rel="noopener noreferrer"}
 
 See also: [FAQs](faq.qmd)
