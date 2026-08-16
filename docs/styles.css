@@ -75,30 +75,42 @@ h2::after {
   border-radius: 3px;
 }
 
-/* -------------------------------------------------------------- Navbar */
-.navbar-logo {
-  max-height: 56px;
+/* -------------------------------------------------------------- Content width
+   Kill Quarto's narrow-document feel — widen the article column so the
+   site reads as a landing page. */
+main.content,
+#quarto-document-content {
+  max-width: 1180px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 2rem 1.5rem 4rem !important;
 }
 
-/* Small white chip behind the navbar logo so it reads against the dark bar */
+/* -------------------------------------------------------------- Navbar */
+.navbar-logo {
+  max-height: 52px;
+}
+
+/* Bar is white now — no chip backdrop needed for the logo */
 .navbar-brand-logo {
-  background-color: #ffffff;
-  border-radius: 8px;
-  padding: 0.3rem 0.6rem;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0.2rem 0;
   display: inline-flex;
   align-items: center;
 }
 
-/* Dark gradient navbar; gold marks hover/active state */
+/* White navbar; dark text with brand-gold hover/active */
 .navbar {
-  background: linear-gradient(135deg, var(--dark) 0%, var(--dark-2) 100%) !important;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
-  padding-top: .7rem;
-  padding-bottom: .7rem;
+  background: #ffffff !important;
+  border-bottom: 1px solid var(--border-soft);
+  box-shadow: 0 1px 12px rgba(56, 56, 56, 0.05);
+  padding-top: .65rem;
+  padding-bottom: .65rem;
 }
 
 .navbar .nav-link {
-  color: #ffffff !important;
+  color: var(--dark) !important;
   font-weight: 500;
   letter-spacing: 0.01em;
   transition: color 0.15s ease;
@@ -107,7 +119,17 @@ h2::after {
 .navbar .nav-link:hover,
 .navbar .nav-link:focus,
 .navbar .nav-link.active {
-  color: var(--brand) !important;
+  color: var(--brand-dark) !important;
+}
+
+/* Search icon on white bar */
+.navbar #quarto-search .aa-DetachedSearchButton,
+.navbar .aa-DetachedSearchButton-placeholder,
+.navbar #quarto-search .aa-DetachedSearchButtonIcon {
+  color: var(--dark) !important;
+}
+.navbar-toggler-icon {
+  filter: invert(0.25);
 }
 
 /* Hide the default site-title text next to the logo — the logo already
@@ -356,49 +378,51 @@ h2::after {
 /* -------------------------------------------------------------- Cards */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.25rem;
-  margin: 1.25rem 0 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 3rem;
 }
 
 .card {
   background: var(--card-bg);
-  border: 0 !important;
-  border-radius: var(--radius-lg) !important;
-  padding: 1.75rem 1.5rem;
-  box-shadow: var(--shadow-card);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid var(--border-soft) !important;
+  border-radius: var(--radius) !important;
+  padding: 1.4rem 1.3rem;
+  box-shadow: 0 2px 8px rgba(56, 56, 56, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-lift);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card);
+  border-color: var(--brand);
 }
 
-/* Feature icon tile — brand-tinted background with gold icon */
+/* Feature icon — compact tinted tile with gold glyph */
 .card-icon {
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
-  width: 56px;
-  height: 56px;
-  border-radius: 14px;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
   background: var(--brand-tint);
   color: var(--brand);
-  font-size: 1.5rem !important;
-  margin-bottom: 1rem !important;
+  font-size: 1.25rem !important;
+  margin-bottom: 0.75rem !important;
 }
 
 .card p {
-  margin: 0.5rem 0 0;
+  margin: 0.35rem 0 0;
   color: var(--body);
-  line-height: 1.6;
+  line-height: 1.55;
+  font-size: 0.95rem;
 }
 
 .card strong {
   color: var(--dark);
   font-weight: 600;
-  font-size: 1.05rem;
+  font-size: 1rem;
 }
 
 .card a {
