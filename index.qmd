@@ -152,7 +152,10 @@ programme.
 Review the eligibility criteria and application details on the Call for
 Applications page.
 
-[Apply Now →](https://geomap-onboardnig-portal-frontend.vercel.app/index.html){.btn target="_blank" rel="noopener noreferrer"}
+Applications are submitted on the **GeoMAP Onboarding Portal** — our
+dedicated application platform.
+
+[Apply on the GeoMAP Onboarding Portal →](https://geomap-onboardnig-portal-frontend.vercel.app/index.html){.btn target="_blank" rel="noopener noreferrer"}
 
 ::: {.partner-strip}
 In Partnership With

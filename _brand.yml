@@ -3,8 +3,8 @@ meta:
 
 color:
   palette:
-    dark: "#383838"
-    gold: "#ecbc40"
+    dark: "#2e2822"
+    gold: "#cfa54a"
     gray: "#9d9c97"
   foreground: dark
   background: "#ffffff"

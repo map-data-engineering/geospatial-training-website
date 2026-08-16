@@ -1,73 +1,147 @@
-﻿/* Supplemental site styles — brand colors are defined in _brand.yml */
+/* =========================================================================
+   Geospatial Modelling Workshop — site styles
+   Adopts the aesthetic of the GeoMAP Onboarding Portal:
+   Poppins typography, warm gold #cfa54a primary, soft shadows,
+   borderless cards with icon tiles, pill CTAs.
+   ========================================================================= */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  /* Palette — warm gold on dark neutral */
+  --brand:            #cfa54a;
+  --brand-dark:       #b48a2e;
+  --brand-tint:       #faf3e0;
+  --dark:             #2e2822;
+  --dark-2:           #3d3427;
+  --body:             #383838;
+  --muted:            #9d9c97;
+  --page-bg:          #ffffff;
+  --card-bg:          #ffffff;
+  --border-soft:      #eae7df;
+
+  /* Shadows */
+  --shadow-card:      0 8px 30px rgba(56, 56, 56, 0.08);
+  --shadow-input:     0 3px 20px rgba(56, 56, 56, 0.08);
+  --shadow-btn:       0 6px 20px rgba(207, 165, 74, 0.35);
+  --shadow-btn-hover: 0 10px 25px rgba(207, 165, 74, 0.45);
+  --shadow-lift:      0 20px 45px rgba(56, 56, 56, 0.12);
+
+  /* Radii */
+  --radius:           12px;
+  --radius-lg:        18px;
+  --radius-pill:      200px;
+}
+
+/* -------------------------------------------------------------- Base */
+body {
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-weight: 400;
+  color: var(--body);
+  background: var(--page-bg);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", system-ui, sans-serif;
+  color: var(--dark);
+}
+
+h1.title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--dark);
+  margin-bottom: 1.5rem;
+  font-size: clamp(1.75rem, 2vw + 1rem, 2.5rem);
+}
+
+/* Section headings with a signature gold underline */
+h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+  color: var(--dark);
+  font-size: clamp(1.4rem, 1.5vw + 1rem, 1.85rem);
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 52px;
+  height: 3px;
+  margin-top: 0.55rem;
+  background: linear-gradient(90deg, var(--brand), var(--brand-dark));
+  border-radius: 3px;
+}
+
+/* -------------------------------------------------------------- Content width
+   Kill Quarto's narrow-document feel — widen the article column so the
+   site reads as a landing page. */
+main.content,
+#quarto-document-content {
+  max-width: 1180px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 2rem 1.5rem 4rem !important;
+}
+
+/* -------------------------------------------------------------- Navbar */
 .navbar-logo {
-  max-height: 56px;
+  max-height: 52px;
 }
 
-/* Full-height white panel behind the navbar logo, spanning the entire
-   height of the navbar edge-to-edge on the left (no rounded corners, no
-   top/bottom gap) — the dark navbar background continues immediately to
-   the right, matching the layout on malariaatlas.org's own site.
-   Bootstrap's .navbar carries its own 0.5rem top/bottom padding
-   (--bs-navbar-padding-y) outside the flex content box, so a stretched
-   child never reaches the navbar's real edges until that's zeroed too.
-   Quarto separately puts padding-left:1em directly on the <nav> element
-   itself (#quarto-header>nav) via an ID selector, which outranks any
-   class-based override here regardless of source order — has to be
-   matched with an equally-specific selector to actually remove it. */
-#quarto-header > nav.navbar {
-  padding-left: 0 !important;
-}
-
-.navbar-container.container-fluid {
-  padding-left: 0;
-}
-
-.navbar-brand-container.mx-auto {
-  align-self: stretch;
-  margin-left: 0 !important;
-  padding: 0 !important;
-}
-
+/* Bar is white now — no chip backdrop needed for the logo */
 .navbar-brand-logo {
-  background-color: #ffffff;
-  border-radius: 0 !important;
-  padding: 0 1.5rem;
-  margin: 0;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0.2rem 0;
   display: inline-flex;
   align-items: center;
   align-self: stretch;
 }
 
-/* Solid dark navbar with light nav text; gold marks hover/active state */
+/* White navbar; dark text with brand-gold hover/active */
 .navbar {
-  background-color: #383838 !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+  background: #ffffff !important;
+  border-bottom: 1px solid var(--border-soft);
+  box-shadow: 0 1px 12px rgba(56, 56, 56, 0.05);
+  padding-top: .65rem;
+  padding-bottom: .65rem;
 }
 
 .navbar .nav-link {
-  color: #ffffff;
+  color: var(--dark) !important;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: color 0.15s ease;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus,
 .navbar .nav-link.active {
-  color: #ecbc40;
+  color: var(--brand-dark) !important;
 }
 
-/* Hide the default site-title text next to the logo (the logo image
-   already includes the "Malaria Atlas Project" wordmark) */
+/* Search icon on white bar */
+.navbar #quarto-search .aa-DetachedSearchButton,
+.navbar .aa-DetachedSearchButton-placeholder,
+.navbar #quarto-search .aa-DetachedSearchButtonIcon {
+  color: var(--dark) !important;
+}
+.navbar-toggler-icon {
+  filter: invert(0.25);
+}
+
+/* Hide the default site-title text next to the logo — the logo already
+   includes the "Malaria Atlas Project" wordmark */
 .navbar-brand:not(.navbar-brand-logo) {
   display: none;
 }
 
-/* Pull nav links in close after the logo/tagline instead of the far edge.
-   Bootstrap's .navbar > .container-fluid uses justify-content:space-between
-   by default, which spreads brand/search/nav apart regardless of their own
-   margins — override it explicitly and pin each item's order so nav links
-   sit right after the brand block, with empty space collecting before the
-   search icon instead. */
+/* Pull nav links in close after the logo/tagline. Bootstrap's default
+   space-between spreads brand/nav/search apart — override so nav links
+   sit right after the brand and free space collects before the search. */
 @media (min-width: 992px) {
   .navbar-container {
     justify-content: flex-start !important;
@@ -91,206 +165,542 @@
   }
 }
 
-/* Tighter vertical rhythm between sections; brand-colored headers/subheaders
-   (theme: cosmo doesn't pick up _brand.yml automatically, so set explicitly) */
-h1.title {
-  color: #383838;
-}
+/* =========================================================================
+   LANDING PAGE — GeoMAP onboarding portal aesthetic applied to the
+   original class hooks (.hero, .stats-band, .who-section, .card-grid,
+   .card, .card-icon, .btn, .partner-strip).
 
-h2 {
-  margin-top: 1.75rem;
-  margin-bottom: 0.75rem;
-  color: #383838;
-}
+   Content is untouched — this is styling only. Scoped via :has(.hero)
+   so content pages (Programme, Editions, Team, Apply) keep the
+   1180px article column and their own card look.
+   ========================================================================= */
 
-h2::after {
+/* Make ALL pages full-bleed. Quarto default constrains content two ways:
+   (a) #quarto-content.quarto-container has max-width ~1200px, and
+   (b) .page-columns is a CSS grid with sidebar columns keeping main
+       in a middle column. Collapse both to simple block flow so
+       main.content spans the viewport on every page. Inner max-widths
+       on section content still keep text at a readable measure. */
+#quarto-content,
+.quarto-container,
+.page-columns,
+.page-layout-article {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  display: block !important;
+  grid-template-columns: none !important;
+  gap: 0 !important;
+}
+main.content {
+  grid-column: 1 / -1 !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+body { overflow-x: hidden; }
+
+/* -------------------------------------------------------------- Content pages
+   (Programme, Editions, Team, Apply) — full-bleed section bands with
+   inner max-width for readability. Excluded from the :has(.hero)
+   landing rules that follow.
+   ========================================================================= */
+
+/* Title block on content pages — becomes a top-band header */
+main.content:not(:has(.hero)) #title-block-header {
+  background: linear-gradient(180deg, var(--brand-tint) 0%, #ffffff 100%);
+  padding: 3rem 1.5rem 2.25rem;
+  margin: 0 !important;
+  text-align: center;
+}
+main.content:not(:has(.hero)) #title-block-header .quarto-title-meta { display: none; }
+main.content:not(:has(.hero)) h1.title {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: clamp(1.75rem, 3vw + 1rem, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--dark);
+}
+main.content:not(:has(.hero)) h1.title::after {
   content: "";
   display: block;
-  width: 48px;
+  width: 52px;
   height: 3px;
-  margin-top: 0.4rem;
-  background-color: #ecbc40;
+  margin: 0.6rem auto 0;
+  background: linear-gradient(90deg, var(--brand), var(--brand-dark));
+  border-radius: 3px;
 }
 
-/* Hero section (homepage intro) */
-.hero {
-  background-color: #383838;
-  color: #ffffff;
-  padding: 2.5rem 2rem;
-  border-radius: 6px;
-  border-bottom: 4px solid #ecbc40;
-  margin: 0.5rem 0 2rem;
+/* Each ## on content pages becomes its own full-bleed band with an
+   inner 1200px column so text and card grids stay comfortable. */
+main.content:not(:has(.hero)) > section.level2 {
+  padding: 3.5rem 1.5rem;
+  background: #ffffff;
+  margin: 0 !important;
+}
+main.content:not(:has(.hero)) > section.level2:nth-of-type(even) {
+  background: #faf7ef;
+}
+main.content:not(:has(.hero)) > section.level2 > * {
+  max-width: 1200px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+main.content:not(:has(.hero)) > section.level2 > h2 {
+  margin: 0 auto 1.25rem;
+  max-width: 1200px;
+  color: var(--dark);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+main.content:not(:has(.hero)) > section.level2 > h2 .anchorjs-link {
+  display: none !important;
 }
 
-.hero p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin: 0 0 0.75rem;
-  color: #9d9c97;
+/* Content page paragraphs / lists — centered readable measure */
+main.content:not(:has(.hero)) > section.level2 > p,
+main.content:not(:has(.hero)) > section.level2 > ul,
+main.content:not(:has(.hero)) > section.level2 > ol {
+  max-width: 820px;
 }
 
-.hero p:last-child {
-  margin-bottom: 0;
+/* Anything OUTSIDE a section.level2 on a content page (like the intro
+   before the first ##) — center at readable width */
+main.content:not(:has(.hero)) > .intro,
+main.content:not(:has(.hero)) > p,
+main.content:not(:has(.hero)) > ul,
+main.content:not(:has(.hero)) > ol {
+  max-width: 820px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+main.content:not(:has(.hero)) > .intro {
+  margin: 2.5rem auto !important;
 }
 
-.hero a {
-  color: #ecbc40;
+/* Card grid inside content-page sections — full width of section, centered */
+main.content:not(:has(.hero)) .card-grid {
+  max-width: 1200px !important;
+  margin: 1rem auto 0 !important;
 }
 
-/* Partner logo strip */
-.partner-strip {
+/* Title block above the hero — visually the top of the hero band */
+main.content:has(.hero) #title-block-header {
+  background:
+    radial-gradient(1200px 400px at 50% -100px, rgba(207, 165, 74, 0.20), transparent 60%),
+    linear-gradient(180deg, var(--brand-tint) 0%, #ffffff 100%);
+  padding: 4.5rem 1.5rem 0.75rem;
   text-align: center;
-  margin: 0 0 2rem;
+  margin: 0 !important;
+}
+main.content:has(.hero) #title-block-header .quarto-title-meta { display: none; }
+
+main.content:has(.hero) h1.title {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: clamp(2rem, 3.2vw + 1rem, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--dark);
+  text-wrap: balance;
+}
+main.content:has(.hero) h1.title::after { display: none !important; }
+
+/* -------------------------------------------------------------- Hero band
+   The .hero content block continues the light gradient from the title. */
+main.content:has(.hero) .hero {
+  background: linear-gradient(180deg, transparent 0%, #ffffff 100%);
+  padding: 1rem 1.5rem 4.5rem;
+  margin: 0 !important;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  color: var(--body);
+  text-align: center;
+  overflow: visible;
+  position: static;
+  min-height: 0;
+  display: block;
+  align-items: initial;
+}
+main.content:has(.hero) .hero::before,
+main.content:has(.hero) .hero::after { display: none; }
+main.content:has(.hero) .hero > * {
+  position: static;
+  max-width: none;
+}
+main.content:has(.hero) .hero p {
+  max-width: 720px;
+  margin: 0 auto 1rem;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--body);
+  opacity: 0.88;
+}
+main.content:has(.hero) .hero p:last-child { margin-bottom: 0; }
+
+/* -------------------------------------------------------------- Stats band */
+main.content:has(.hero) .stats-band {
+  background: #faf7ef;
+  padding: 3rem 1.5rem;
+  border-top: 1px solid var(--border-soft);
+  border-bottom: 1px solid var(--border-soft);
+  margin: 0 !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  max-width: none;
 }
 
-.partner-strip > p:first-child {
+main.content:has(.hero) .stats-band .stat {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  text-align: center;
+  transition: none;
+}
+main.content:has(.hero) .stats-band .stat:hover {
+  transform: none;
+  box-shadow: none;
+}
+main.content:has(.hero) .stats-band .stat p {
+  margin: 0;
+}
+main.content:has(.hero) .stats-band .stat p:first-child {
+  font-size: clamp(2.25rem, 3vw + 1rem, 2.75rem);
+  font-weight: 700;
+  color: var(--brand-dark);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+main.content:has(.hero) .stats-band .stat p:first-child strong {
+  color: var(--brand-dark);
+  font-weight: 700;
+}
+main.content:has(.hero) .stats-band .stat p:last-child {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 0.5rem 0 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* -------------------------------------------------------------- Level-2 sections
+   Each ## heading on the landing gets its own full-bleed band. */
+main.content:has(.hero) section.level2 {
+  background: #ffffff;
+  padding: 4.5rem 1.5rem;
+  margin: 0 !important;
+  max-width: none;
+}
+main.content:has(.hero) section.level2:nth-of-type(even) {
+  background: #faf7ef;
+}
+main.content:has(.hero) section.level2 > * {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main.content:has(.hero) section.level2 > h2 {
+  text-align: center;
+  font-size: clamp(1.6rem, 2vw + 1rem, 2.15rem);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin: 0 auto 2.5rem;
+  max-width: 800px;
+  color: var(--dark);
+}
+main.content:has(.hero) section.level2 > h2::after {
+  content: "";
+  display: block;
+  width: 52px;
+  height: 3px;
+  margin: 0.6rem auto 0;
+  background: linear-gradient(90deg, var(--brand), var(--brand-dark));
+  border-radius: 3px;
+}
+/* Hide Quarto's anchor icon on landing headings */
+main.content:has(.hero) section.level2 > h2 .anchorjs-link {
+  display: none !important;
+}
+
+/* -------------------------------------------------------------- Why MAP — dark callout */
+main.content:has(.hero) .who-section {
+  background: linear-gradient(135deg, var(--dark) 0%, var(--dark-2) 100%);
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: 2.75rem 2.5rem;
+  margin: 0 auto !important;
+  max-width: 960px;
+  box-shadow: var(--shadow-card);
+  position: relative;
+  overflow: hidden;
+}
+main.content:has(.hero) .who-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(207, 165, 74, 0.20) 0, transparent 45%),
+    radial-gradient(circle at 85% 75%, rgba(207, 165, 74, 0.12) 0, transparent 45%);
+  pointer-events: none;
+}
+main.content:has(.hero) .who-section > * {
+  position: relative;
+  z-index: 1;
+}
+main.content:has(.hero) .who-badge {
+  display: inline-block;
+  background: var(--brand);
+  color: var(--dark);
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-pill);
+  margin: 0 0 1.5rem;
+}
+main.content:has(.hero) .who-badge p {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0;
+  color: var(--dark);
+}
+main.content:has(.hero) .who-section p {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  margin: 0 0 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 780px;
+}
+main.content:has(.hero) .who-section p:last-child {
+  margin-bottom: 0;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* -------------------------------------------------------------- From Data to Decisions */
+main.content:has(.hero) .impact-section {
+  max-width: 1000px;
+  margin: 0 auto !important;
+}
+main.content:has(.hero) .impact-map .quarto-figure {
+  margin: 0;
+  text-align: center;
+}
+main.content:has(.hero) .impact-map figure {
+  margin: 0;
+}
+main.content:has(.hero) .impact-map img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  background: #ffffff;
+  margin: 0 auto;
+}
+main.content:has(.hero) .impact-map figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 1rem;
+  font-style: italic;
+}
+main.content:has(.hero) .impact-text {
+  max-width: 720px;
+  margin: 2rem auto 0 !important;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--body);
+}
+main.content:has(.hero) .impact-text p {
+  margin: 0 auto 1rem;
+}
+main.content:has(.hero) .impact-text a {
+  color: var(--brand-dark);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--brand);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* -------------------------------------------------------------- What You'll Gain
+   Cards in the .card-grid.gain-grid — portal's feature-card look. */
+main.content:has(.hero) .card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto !important;
+  padding: 0;
+}
+main.content:has(.hero) .card-grid > .card {
+  background: #ffffff !important;
+  border: 1px solid var(--border-soft) !important;
+  border-radius: var(--radius-lg) !important;
+  padding: 2rem !important;
+  box-shadow: var(--shadow-card) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease !important;
+  text-align: left;
+}
+main.content:has(.hero) .card-grid > .card:hover {
+  transform: translateY(-4px);
+  border-color: var(--brand) !important;
+  box-shadow: 0 20px 45px rgba(56, 56, 56, 0.10) !important;
+}
+/* Quarto wraps each element in <p>; the first one contains just the icon */
+main.content:has(.hero) .card-grid > .card > p {
+  margin: 0 0 0.5rem;
+  color: var(--body);
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+main.content:has(.hero) .card-grid > .card > p:first-child {
+  margin: 0 0 1rem;
+}
+main.content:has(.hero) .card-grid > .card > p:nth-child(2) {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+main.content:has(.hero) .card-grid > .card strong {
+  color: var(--dark);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+main.content:has(.hero) .card-icon {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 56px !important;
+  height: 56px !important;
+  border-radius: 14px !important;
+  background: var(--brand-tint) !important;
+  color: var(--brand) !important;
+  font-size: 24px !important;
+  margin: 0 !important;
+  vertical-align: middle;
+}
+
+/* -------------------------------------------------------------- Ready to Apply */
+main.content:has(.hero) #ready-to-apply {
+  text-align: center;
+  background: #ffffff !important;
+}
+main.content:has(.hero) #ready-to-apply > p {
+  max-width: 640px;
+  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+  color: var(--body);
+  opacity: 0.85;
+}
+
+/* Apply Now button — portal-style gold-gradient pill */
+main.content:has(.hero) .btn {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%) !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 0.9rem 2rem !important;
+  border-radius: var(--radius-pill) !important;
+  text-decoration: none !important;
+  box-shadow: var(--shadow-btn);
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+  border: 0;
+  font-size: 1rem;
+  margin: 0;
+}
+main.content:has(.hero) .btn:hover {
+  background: linear-gradient(135deg, var(--brand-dark) 0%, var(--brand) 100%) !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-btn-hover);
+}
+
+/* -------------------------------------------------------------- Partner strip
+   Lives inside #ready-to-apply — separated by a hairline. */
+main.content:has(.hero) .partner-strip {
+  margin: 4rem auto 0 !important;
+  padding: 3rem 0 0 !important;
+  border-top: 1px solid var(--border-soft);
+  text-align: center;
+  max-width: 1000px;
+}
+main.content:has(.hero) .partner-strip > p:first-child {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
   font-size: 0.8rem;
   font-weight: 600;
-  color: #ecbc40;
+  color: var(--brand-dark);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 1.5rem;
+  letter-spacing: 0.1em;
+  margin: 0 0 1.75rem !important;
 }
-
-.partner-strip > p:first-child::before,
-.partner-strip > p:first-child::after {
+main.content:has(.hero) .partner-strip > p:first-child::before,
+main.content:has(.hero) .partner-strip > p:first-child::after {
   content: "";
   flex: 1 1 auto;
-  max-width: 120px;
+  max-width: 140px;
   height: 1px;
-  background-color: #9d9c97;
+  background: var(--border-soft);
 }
-
-.partner-strip img {
-  height: 56px;
-  width: auto;
+main.content:has(.hero) .partner-strip img {
+  height: 52px !important;
+  width: auto !important;
   max-width: 100%;
-  margin: 0 1.25rem;
+  margin: 0 1.25rem !important;
   vertical-align: middle;
+  filter: grayscale(40%);
+  opacity: 0.8;
+  transition: filter 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+main.content:has(.hero) .partner-strip img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
 }
 
-/* Stats band */
-.stats-band {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1.5rem;
-  text-align: center;
-  margin: 0 0 2.5rem;
-  padding: 1.5rem 0;
-  border-top: 1px solid #9d9c97;
-  border-bottom: 1px solid #9d9c97;
-}
-
-.stat {
-  border-top: 3px solid #ecbc40;
-  padding-top: 0.75rem;
-}
-
-.stat p:first-child {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #383838;
-  margin: 0;
-}
-
-.stat p:last-child {
-  font-size: 0.85rem;
-  color: #9d9c97;
-  margin: 0.25rem 0 0;
-}
-
-/* Why MAP: solid gold block, distinct from the dark .hero and the
-   white/bordered .impact-section — dark-on-gold has strong contrast
-   (~6:1), the opposite pairing of gold-on-white used elsewhere. */
-.who-section {
-  background-color: #ecbc40;
-  color: #383838;
-  border-radius: 6px;
-  padding: 2rem 2.25rem;
-  margin: 0 0 2.5rem;
-}
-
-.who-badge {
-  display: inline-block;
-  background-color: #383838;
-  color: #ecbc40;
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 0.35rem 0.9rem;
-  border-radius: 999px;
-  margin-bottom: 1rem;
-}
-
-.who-section p {
-  font-size: 1.05rem;
-  line-height: 1.6;
-  margin: 0 0 0.75rem;
-  max-width: 760px;
-}
-
-.who-section p:last-child {
-  margin-bottom: 0;
-  font-weight: 600;
-}
-
-/* Real Geospatial Impact: full-width map, centered text below */
-.impact-section {
-  margin: 0 0 2.5rem;
-}
-
-.impact-map img {
-  display: block;
-  width: 100%;
-  max-height: 420px;
-  object-fit: contain;
-  margin: 0 auto;
-  border-radius: 6px;
-  border: 1px solid #9d9c97;
-  background-color: #ffffff;
-}
-
-.impact-map figcaption {
-  font-size: 0.8rem;
-  color: #9d9c97;
-  margin-top: 0.5rem;
-  text-align: center;
-}
-
-.impact-text {
-  max-width: 700px;
-  margin: 1.5rem auto 0;
-  text-align: center;
-}
-
+/* -------------------------------------------------------------- Interior intro */
 .map-source {
   font-size: 0.8rem;
-  color: #9d9c97;
+  color: var(--muted);
   margin: 0.5rem 0 0;
   text-align: center;
 }
 
 .map-source a {
-  color: #383838;
+  color: var(--brand-dark);
 }
 
-/* Interior-page intro (light variant of .hero) */
 .intro {
-  background-color: #ffffff;
-  color: #383838;
-  border-left: 4px solid #ecbc40;
-  padding: 1.25rem 1.75rem;
-  margin: 0.5rem 0 2rem;
+  background: var(--card-bg);
+  color: var(--body);
+  border-left: 4px solid var(--brand);
+  padding: 1.5rem 1.75rem;
+  margin: 0.5rem 0 2.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-input);
 }
 
 .intro p {
-  font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 1.05rem;
+  line-height: 1.65;
   margin: 0 0 0.75rem;
 }
 
@@ -299,114 +709,186 @@ h2::after {
 }
 
 .intro a {
-  color: #383838;
+  color: var(--brand-dark);
   text-decoration: underline;
-  text-decoration-color: #ecbc40;
+  text-decoration-color: var(--brand);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
 }
 
-/* Shared card style (Programme's Format cards, homepage's "What You'll Gain") */
+/* -------------------------------------------------------------- Cards */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
-  margin: 1rem 0 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 3rem;
 }
 
 .card {
-  border: 1px solid #9d9c97;
-  border-top: 3px solid #ecbc40;
-  border-radius: 6px;
-  padding: 1rem 1.25rem;
-  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+  background: var(--card-bg);
+  border: 1px solid var(--border-soft) !important;
+  border-radius: var(--radius) !important;
+  padding: 1.4rem 1.3rem;
+  box-shadow: 0 2px 8px rgba(56, 56, 56, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 14px rgba(56, 56, 56, 0.18);
+  box-shadow: var(--shadow-card);
+  border-color: var(--brand);
 }
 
+/* Feature icon — compact tinted tile with gold glyph */
 .card-icon {
-  display: block;
-  font-size: 1.4rem;
-  color: #ecbc40;
-  margin-bottom: 0.4rem;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: var(--brand-tint);
+  color: var(--brand);
+  font-size: 1.25rem !important;
+  margin-bottom: 0.75rem !important;
 }
 
 .card p {
   margin: 0.35rem 0 0;
-  color: #383838;
+  color: var(--body);
+  line-height: 1.55;
+  font-size: 0.95rem;
 }
 
-/* "What You'll Gain" cards: pale tint at rest, deepens on hover */
-.gain-grid .card {
-  background-color: rgba(236, 188, 64, 0.08);
+.card strong {
+  color: var(--dark);
+  font-weight: 600;
+  font-size: 1rem;
 }
 
-.gain-grid .card:hover {
-  background-color: rgba(236, 188, 64, 0.18);
+.card a {
+  color: var(--brand-dark);
+  font-weight: 500;
+  text-decoration: none;
 }
 
-/* Team page cards: centered content, circular photo placeholder */
+.card a:hover {
+  color: var(--brand);
+  text-decoration: underline;
+  text-decoration-color: var(--brand);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* "What You'll Gain" — icon tile carries the color, so no need for a
+   pale tint on the whole card anymore. Keep hook for future variants. */
+.gain-grid .card { }
+
+/* Team page: centered content, circular photo */
 .team-grid .card {
   text-align: center;
 }
 
 .avatar-placeholder {
-  width: 96px;
-  height: 96px;
+  width: 104px;
+  height: 104px;
   border-radius: 50%;
-  background-color: rgba(157, 156, 151, 0.25);
-  border: 2px solid #ecbc40;
+  background: var(--brand-tint);
+  border: 3px solid var(--brand);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 0.75rem;
-  color: #9d9c97;
-  font-size: 2.5rem;
+  margin: 0 auto 1rem;
+  color: var(--brand);
+  font-size: 2.75rem;
+  box-shadow: var(--shadow-input);
 }
 
 .avatar-photo {
   display: block;
-  width: 96px;
-  height: 96px;
+  width: 104px;
+  height: 104px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #ecbc40;
-  margin: 0 auto 0.75rem;
+  border: 3px solid var(--brand);
+  margin: 0 auto 1rem;
+  box-shadow: var(--shadow-input);
 }
 
-/* Quarto/pandoc auto-wraps a solo-paragraph image with alt text in a
-   <figure><figcaption>, showing the alt text visibly beneath it. That's
-   wanted for the impact-map images but not for Team page avatars, where
-   alt text should stay accessible-only. Scoped to .team-grid so the
-   impact section's captions are untouched. */
+/* Quarto wraps solo-paragraph images with alt text in <figure><figcaption>,
+   showing the alt text below the image. Wanted for impact-map figures, not
+   for Team page avatars where alt text is accessible-only. */
 .team-grid figcaption {
   display: none;
 }
 
-/* "Apply Now" call-to-action button */
-a.btn {
-  display: inline-block;
-  background-color: #ecbc40;
-  color: #383838 !important;
+/* -------------------------------------------------------------- Buttons (portal-style pills) */
+.btn {
+  border-radius: var(--radius-pill) !important;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding: 0.65rem 1.5rem;
+  transition: transform 0.15s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+  border: 0;
+  text-decoration: none !important;
+}
+.btn-lg { padding: 0.85rem 1.75rem; font-size: 1rem; }
+
+.btn-primary {
+  background: var(--brand) !important;
+  border-color: var(--brand) !important;
+  color: #fff !important;
+  box-shadow: var(--shadow-btn);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background: var(--brand-dark) !important;
+  border-color: var(--brand-dark) !important;
+  color: #fff !important;
+  box-shadow: var(--shadow-btn-hover);
+  transform: translateY(-1px);
+}
+
+.btn-outline-secondary {
+  border: 1px solid var(--border-soft) !important;
+  background: #fff !important;
+  color: var(--body) !important;
+}
+.btn-outline-secondary:hover {
+  background: var(--brand-tint) !important;
+  border-color: var(--brand) !important;
+  color: var(--brand-dark) !important;
+}
+
+/* -------------------------------------------------------------- Partner strip */
+.partner-strip { text-align: center; }
+.partner-strip > p:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  padding: 0.6rem 1.5rem;
-  border-radius: 4px;
-  text-decoration: none;
-  margin-top: 0.5rem;
+  color: var(--brand-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 1.5rem;
+}
+.partner-strip > p:first-child::before,
+.partner-strip > p:first-child::after {
+  content: "";
+  flex: 1 1 auto;
+  max-width: 140px;
+  height: 1px;
+  background: var(--border-soft);
 }
 
-a.btn:hover {
-  background-color: #383838;
-  color: #ecbc40 !important;
-}
-
-/* Quarto wraps page-footer content in .nav-footer (white bg, padding,
-   3-zone flex layout) — override to a plain full-width block so
-   .site-footer's dark band renders edge-to-edge, matching the navbar */
+/* -------------------------------------------------------------- Footer */
+/* Quarto wraps page-footer content in .nav-footer (white bg, padding).
+   Override to a plain block so .site-footer's dark band renders edge-to-edge. */
 .nav-footer {
   display: block;
-  background-color: #383838;
+  background: linear-gradient(135deg, var(--dark) 0%, var(--dark-2) 100%);
   padding: 0;
   min-height: 0;
 }
@@ -423,61 +905,50 @@ a.btn:hover {
   font-size: 1rem;
 }
 
-/* Sitewide footer */
 .site-footer {
-  background-color: #383838;
+  background: transparent;
   color: #ffffff;
-  padding: 2.5rem 1.5rem;
+  padding: 3rem 1.5rem;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .footer-logo {
-  height: 48px;
+  height: 52px;
   width: auto;
-  margin: 0 auto 0.75rem;
+  margin: 0 auto 1rem;
+  filter: brightness(1.05);
 }
 
 .footer-brand p {
   font-size: 0.85rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
-  /* brand gold; if this reads too close to yellow, the deeper alternative
-     is #b6943e — a 70/30 blend of brand gold (#ecbc40) and brand dark
-     (#383838), still derived only from _brand.yml colors */
-  color: #ecbc40;
-  margin: 0 0 1.5rem;
-}
-
-.footer-social {
-  margin-bottom: 1.5rem;
-}
-
-.footer-social-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-  margin: 0 0.4rem;
-  color: #ffffff;
-  font-size: 1.3rem;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-  transition: color 0.15s ease, border-color 0.15s ease;
-}
-
-.footer-social-link:hover {
-  color: #ecbc40;
-  border-color: #ecbc40;
+  letter-spacing: 0.1em;
+  color: var(--brand);
+  margin: 0 0 1.75rem;
 }
 
 .footer-links a {
-  color: #9d9c97;
-  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.9rem;
   text-decoration: none;
+  transition: color 0.15s ease;
 }
 
 .footer-links a:hover {
-  color: #ecbc40;
+  color: var(--brand);
 }
+
+/* -------------------------------------------------------------- Callouts (Quarto default) */
+.callout {
+  border-radius: var(--radius) !important;
+  border: 0 !important;
+  box-shadow: var(--shadow-input);
+}
+
+/* -------------------------------------------------------------- Responsive */
+@media (max-width: 767.98px) {
+  .hero { padding: 3.5rem 1rem 3rem; }
+  .card { padding: 1.5rem 1.25rem; }
+}
+
