@@ -165,253 +165,400 @@ main.content,
 }
 
 /* =========================================================================
-   LANDING PAGE — same visual system as the GeoMAP onboarding portal
-   (light hero, feature cards with icon tiles, split "About" with topic
-   grid, gold-gradient CTA strip).
+   LANDING PAGE — GeoMAP onboarding portal aesthetic applied to the
+   original class hooks (.hero, .stats-band, .who-section, .card-grid,
+   .card, .card-icon, .btn, .partner-strip).
 
-   Scoped to pages that wrap content in .lp — content pages (Programme,
-   Editions, Team, Apply) still use the .card / .intro block styling
-   below without interference.
+   Content is untouched — this is styling only. Scoped via :has(.hero)
+   so content pages (Programme, Editions, Team, Apply) keep the
+   1180px article column and their own card look.
    ========================================================================= */
 
 /* Kill main.content's article-column padding on the landing so sections
-   run edge-to-edge, and hide Quarto's empty title block. */
-main.content:has(.lp) {
+   run edge-to-edge. */
+main.content:has(.hero) {
   max-width: 100% !important;
   padding: 0 !important;
   margin: 0 !important;
 }
-main.content:has(.lp) #title-block-header,
-main.content:has(.lp) .quarto-title-block {
-  display: none !important;
-}
-body:has(.lp) { overflow-x: hidden; }
+body:has(.hero) { overflow-x: hidden; }
 
-/* -------------------------------------------------------------- Hero */
-.hero {
-  position: relative;
-  overflow: hidden;
-  padding: 5rem 0 4.5rem;
+/* Title block above the hero — visually the top of the hero band */
+main.content:has(.hero) #title-block-header {
   background:
     radial-gradient(1200px 400px at 50% -100px, rgba(207, 165, 74, 0.20), transparent 60%),
     linear-gradient(180deg, var(--brand-tint) 0%, #ffffff 100%);
+  padding: 4.5rem 1.5rem 0.75rem;
+  text-align: center;
+  margin: 0 !important;
 }
-.hero-inner {
-  max-width: 780px;
+main.content:has(.hero) #title-block-header .quarto-title-meta { display: none; }
+
+main.content:has(.hero) h1.title {
+  max-width: 900px;
   margin: 0 auto;
-  position: relative;
-  z-index: 1;
-}
-.hero-title {
-  font-size: clamp(2.25rem, 4vw + 1rem, 3.5rem);
+  font-size: clamp(2rem, 3.2vw + 1rem, 3rem);
   font-weight: 700;
-  letter-spacing: -0.025em;
-  line-height: 1.12;
-  margin: 0.75rem 0 1.25rem;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
   color: var(--dark);
   text-wrap: balance;
 }
-.hero-title::after { display: none !important; }
-.hero-tagline {
-  font-size: 1.15rem;
+main.content:has(.hero) h1.title::after { display: none !important; }
+
+/* -------------------------------------------------------------- Hero band
+   The .hero content block continues the light gradient from the title. */
+main.content:has(.hero) .hero {
+  background: linear-gradient(180deg, transparent 0%, #ffffff 100%);
+  padding: 1rem 1.5rem 4.5rem;
+  margin: 0 !important;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
   color: var(--body);
-  margin-bottom: 2rem;
-  line-height: 1.6;
-  opacity: 0.85;
+  text-align: center;
+  overflow: visible;
+  position: static;
+  min-height: 0;
+  display: block;
+  align-items: initial;
 }
-.hero-tagline strong { color: var(--brand-dark); font-weight: 600; }
-.hero-cta .btn { border-radius: var(--radius-pill); }
-
-/* -------------------------------------------------------------- Sections */
-.section-white,
-.section-tint {
-  padding: 4.5rem 0;
+main.content:has(.hero) .hero::before,
+main.content:has(.hero) .hero::after { display: none; }
+main.content:has(.hero) .hero > * {
+  position: static;
+  max-width: none;
 }
-.section-tint { background: #faf7ef; }
+main.content:has(.hero) .hero p {
+  max-width: 720px;
+  margin: 0 auto 1rem;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--body);
+  opacity: 0.88;
+}
+main.content:has(.hero) .hero p:last-child { margin-bottom: 0; }
 
-.section-header h2 {
+/* -------------------------------------------------------------- Stats band */
+main.content:has(.hero) .stats-band {
+  background: #faf7ef;
+  padding: 3rem 1.5rem;
+  border-top: 1px solid var(--border-soft);
+  border-bottom: 1px solid var(--border-soft);
+  margin: 0 !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  max-width: none;
+}
+
+main.content:has(.hero) .stats-band .stat {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  text-align: center;
+  transition: none;
+}
+main.content:has(.hero) .stats-band .stat:hover {
+  transform: none;
+  box-shadow: none;
+}
+main.content:has(.hero) .stats-band .stat p {
+  margin: 0;
+}
+main.content:has(.hero) .stats-band .stat p:first-child {
+  font-size: clamp(2.25rem, 3vw + 1rem, 2.75rem);
+  font-weight: 700;
+  color: var(--brand-dark);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+main.content:has(.hero) .stats-band .stat p:first-child strong {
+  color: var(--brand-dark);
+  font-weight: 700;
+}
+main.content:has(.hero) .stats-band .stat p:last-child {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 0.5rem 0 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* -------------------------------------------------------------- Level-2 sections
+   Each ## heading on the landing gets its own full-bleed band. */
+main.content:has(.hero) section.level2 {
+  background: #ffffff;
+  padding: 4.5rem 1.5rem;
+  margin: 0 !important;
+  max-width: none;
+}
+main.content:has(.hero) section.level2:nth-of-type(even) {
+  background: #faf7ef;
+}
+main.content:has(.hero) section.level2 > * {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main.content:has(.hero) section.level2 > h2 {
+  text-align: center;
   font-size: clamp(1.6rem, 2vw + 1rem, 2.15rem);
   font-weight: 700;
   letter-spacing: -0.015em;
-  margin: 0.5rem 0 0.75rem;
+  margin: 0 auto 2.5rem;
+  max-width: 800px;
   color: var(--dark);
 }
-.section-header h2::after { display: none !important; }
-.section-header p {
-  color: var(--muted);
-  max-width: 600px;
-  margin: 0 auto;
+main.content:has(.hero) section.level2 > h2::after {
+  content: "";
+  display: block;
+  width: 52px;
+  height: 3px;
+  margin: 0.6rem auto 0;
+  background: linear-gradient(90deg, var(--brand), var(--brand-dark));
+  border-radius: 3px;
+}
+/* Hide Quarto's anchor icon on landing headings */
+main.content:has(.hero) section.level2 > h2 .anchorjs-link {
+  display: none !important;
 }
 
-/* Badge pill above section headings */
-.badge-pill-brand {
-  display: inline-block;
-  padding: 0.45rem 1rem;
-  background: var(--brand-tint);
-  color: var(--brand-dark);
-  border-radius: var(--radius-pill);
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
-/* -------------------------------------------------------------- Feature cards */
-.feature-card {
-  background: #fff;
-  border: 1px solid var(--border-soft);
+/* -------------------------------------------------------------- Why MAP — gold callout */
+main.content:has(.hero) .who-section {
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
+  color: var(--dark);
   border-radius: var(--radius-lg);
-  padding: 2rem;
-  height: 100%;
+  padding: 2.75rem 2.5rem;
+  margin: 0 auto !important;
+  max-width: 960px;
   box-shadow: var(--shadow-card);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: hidden;
 }
-.feature-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 45px rgba(56, 56, 56, 0.10);
+main.content:has(.hero) .who-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(255,255,255,0.15) 0, transparent 40%),
+    radial-gradient(circle at 85% 70%, rgba(255,255,255,0.10) 0, transparent 40%);
+  pointer-events: none;
 }
-.feature-icon {
-  width: 56px;
-  height: 56px;
-  border-radius: 14px;
-  background: var(--brand-tint);
+main.content:has(.hero) .who-section > * {
+  position: relative;
+  z-index: 1;
+}
+main.content:has(.hero) .who-badge {
+  display: inline-block;
+  background: var(--dark);
   color: var(--brand);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 26px;
-  margin-bottom: 1.25rem;
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-pill);
+  margin: 0 0 1.5rem;
 }
-.feature-card h5 {
+main.content:has(.hero) .who-badge p {
+  font-size: 0.75rem;
   font-weight: 600;
-  margin-bottom: 0.6rem;
-  color: var(--dark);
-}
-.feature-card h5::after { display: none !important; }
-
-/* -------------------------------------------------------------- Topic grid (About) */
-.topic-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
-@media (min-width: 576px) {
-  .topic-grid { grid-template-columns: 1fr 1fr; }
-}
-.topic-item {
-  display: flex;
-  gap: 1rem;
-  padding: 1.25rem;
-  background: #fff;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-input);
-  transition: transform 0.15s ease;
-}
-.topic-item:hover { transform: translateY(-2px); }
-.topic-item > i {
-  font-size: 1.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0;
   color: var(--brand);
-  flex: 0 0 auto;
-  margin-top: 2px;
 }
-.topic-item strong {
-  display: block;
+main.content:has(.hero) .who-section p {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  margin: 0 0 0.85rem;
   color: var(--dark);
-  font-weight: 600;
-  margin-bottom: 0.25rem;
+  max-width: 780px;
 }
-.topic-item span {
-  display: block;
-  font-size: 0.85rem;
-  color: var(--muted);
-  line-height: 1.5;
-}
-.topic-item code {
-  background: var(--brand-tint);
-  color: var(--brand-dark);
-  padding: 1px 6px;
-  border-radius: 4px;
-  font-size: 0.8rem;
-}
+main.content:has(.hero) .who-section p:last-child { margin-bottom: 0; }
 
-/* -------------------------------------------------------------- Impact figure (Africa map) */
-.impact-figure {
+/* -------------------------------------------------------------- From Data to Decisions */
+main.content:has(.hero) .impact-section {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
-.impact-figure img {
+main.content:has(.hero) .impact-map .quarto-figure {
+  margin: 0;
+  text-align: center;
+}
+main.content:has(.hero) .impact-map figure {
+  margin: 0;
+}
+main.content:has(.hero) .impact-map img {
   display: block;
   width: 100%;
   height: auto;
+  max-height: 500px;
+  object-fit: contain;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-card);
   background: #ffffff;
+  margin: 0 auto;
 }
-.impact-figure figcaption {
+main.content:has(.hero) .impact-map figcaption {
   text-align: center;
   font-size: 0.9rem;
   color: var(--muted);
   margin-top: 1rem;
   font-style: italic;
 }
+main.content:has(.hero) .impact-text {
+  max-width: 720px;
+  margin: 2rem auto 0 !important;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--body);
+}
+main.content:has(.hero) .impact-text p {
+  margin: 0 auto 1rem;
+}
+main.content:has(.hero) .impact-text a {
+  color: var(--brand-dark);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--brand);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
 
-/* -------------------------------------------------------------- CTA strip */
-.cta-strip {
-  padding: 4rem 0;
-  color: #fff;
-  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
-  position: relative;
-  overflow: hidden;
+/* -------------------------------------------------------------- What You'll Gain
+   Cards in the .card-grid.gain-grid — portal's feature-card look. */
+main.content:has(.hero) .card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto !important;
+  padding: 0;
 }
-.cta-strip::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    radial-gradient(circle at 15% 30%, rgba(255,255,255,0.10) 0, transparent 40%),
-    radial-gradient(circle at 85% 70%, rgba(255,255,255,0.08) 0, transparent 40%);
-  pointer-events: none;
+main.content:has(.hero) .card-grid > .card {
+  background: #ffffff !important;
+  border: 1px solid var(--border-soft) !important;
+  border-radius: var(--radius-lg) !important;
+  padding: 2rem !important;
+  box-shadow: var(--shadow-card) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease !important;
+  text-align: left;
 }
-.cta-strip > .container { position: relative; z-index: 1; }
-.cta-strip h3 {
-  color: #fff;
+main.content:has(.hero) .card-grid > .card:hover {
+  transform: translateY(-4px);
+  border-color: var(--brand) !important;
+  box-shadow: 0 20px 45px rgba(56, 56, 56, 0.10) !important;
+}
+/* Quarto wraps each element in <p>; the first one contains just the icon */
+main.content:has(.hero) .card-grid > .card > p {
+  margin: 0 0 0.5rem;
+  color: var(--body);
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+main.content:has(.hero) .card-grid > .card > p:first-child {
+  margin: 0 0 1rem;
+}
+main.content:has(.hero) .card-grid > .card > p:nth-child(2) {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+main.content:has(.hero) .card-grid > .card strong {
+  color: var(--dark);
   font-weight: 600;
-  font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+  font-size: 1.05rem;
 }
-.cta-strip h3::after { display: none !important; }
-.cta-strip .btn-light {
-  color: var(--brand-dark) !important;
-  background: #fff !important;
-  border: 0;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
-  font-weight: 600;
-}
-.cta-strip .btn-light:hover {
-  color: var(--brand-dark) !important;
+main.content:has(.hero) .card-icon {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 56px !important;
+  height: 56px !important;
+  border-radius: 14px !important;
   background: var(--brand-tint) !important;
-  transform: translateY(-1px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.22);
+  color: var(--brand) !important;
+  font-size: 24px !important;
+  margin: 0 !important;
+  vertical-align: middle;
 }
-.opacity-90 { opacity: 0.9; }
 
-/* -------------------------------------------------------------- Partners */
-.partners-section { padding: 3.5rem 0 4.5rem !important; }
-.partner-logos {
+/* -------------------------------------------------------------- Ready to Apply */
+main.content:has(.hero) #ready-to-apply {
+  text-align: center;
+  background: #ffffff !important;
+}
+main.content:has(.hero) #ready-to-apply > p {
+  max-width: 640px;
+  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+  color: var(--body);
+  opacity: 0.85;
+}
+
+/* Apply Now button — portal-style gold-gradient pill */
+main.content:has(.hero) .btn {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%) !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 0.9rem 2rem !important;
+  border-radius: var(--radius-pill) !important;
+  text-decoration: none !important;
+  box-shadow: var(--shadow-btn);
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+  border: 0;
+  font-size: 1rem;
+  margin: 0;
+}
+main.content:has(.hero) .btn:hover {
+  background: linear-gradient(135deg, var(--brand-dark) 0%, var(--brand) 100%) !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-btn-hover);
+}
+
+/* -------------------------------------------------------------- Partner strip
+   Lives inside #ready-to-apply — separated by a hairline. */
+main.content:has(.hero) .partner-strip {
+  margin: 4rem auto 0 !important;
+  padding: 3rem 0 0 !important;
+  border-top: 1px solid var(--border-soft);
+  text-align: center;
+  max-width: 1000px;
+}
+main.content:has(.hero) .partner-strip > p:first-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
-  flex-wrap: wrap;
-  margin-top: 1rem;
+  gap: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--brand-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 1.75rem !important;
 }
-.partner-logos img {
-  height: 56px;
-  width: auto;
+main.content:has(.hero) .partner-strip > p:first-child::before,
+main.content:has(.hero) .partner-strip > p:first-child::after {
+  content: "";
+  flex: 1 1 auto;
+  max-width: 140px;
+  height: 1px;
+  background: var(--border-soft);
+}
+main.content:has(.hero) .partner-strip img {
+  height: 52px !important;
+  width: auto !important;
   max-width: 100%;
+  margin: 0 1.25rem !important;
+  vertical-align: middle;
   filter: grayscale(40%);
-  opacity: 0.78;
+  opacity: 0.8;
   transition: filter 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
 }
-.partner-logos img:hover {
+main.content:has(.hero) .partner-strip img:hover {
   filter: grayscale(0%);
   opacity: 1;
   transform: scale(1.05);
