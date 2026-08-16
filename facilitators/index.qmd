@@ -6,20 +6,22 @@ title: "Team"
 
 ::: {.card-grid .team-grid}
 ::: {.card}
-![Photo of Dr. Susan Rumisha](../assets/people/susan.jpg){.avatar-photo}
+![Photo of Prof. Janine Illian](../assets/people/Janine.png){.avatar-photo}
 
-**[Dr. Susan Rumisha](https://www.thekids.org.au/contact-us/our-people/r/susan-rumisha/){target="_blank" rel="noopener noreferrer"}**
+**[Prof. Janine Illian](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/janineillian/){target="_blank" rel="noopener noreferrer"}**
 
-Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.
+Chair in Statistical Sciences at the University of Glasgow, and author
+of the leading textbook on spatial point process modelling.
 :::
 
 ::: {.card}
-![Photo of Dr. Punam Amratia](../assets/people/punam.jpg){.avatar-photo}
+![Photo of Dr. Tim Lucas](../assets/people/Tim.png){.avatar-photo}
 
-**[Dr. Punam Amratia](https://www.thekids.org.au/contact-us/our-people/a/punam-amratia/){target="_blank" rel="noopener noreferrer"}**
+**[Dr. Tim Lucas](https://le.ac.uk/people/tim-lucas){target="_blank" rel="noopener noreferrer"}**
 
-Technical Lead of the MAP Dar es Salaam Node, Ifakara Health
-Institute.
+Lecturer in biostatistics specializing in geospatial models, machine
+learning, and disaggregation regression to predict disease patterns
+from observational data.
 :::
 
 ::: {.card}
@@ -29,17 +31,27 @@ Institute.
 
 Statistician General, National Bureau of Statistics, Tanzania.
 :::
+
+::: {.card}
+![Photo of Dr. Susan Rumisha](../assets/people/susan.jpg){.avatar-photo}
+
+**[Dr. Susan Rumisha](https://www.thekids.org.au/contact-us/our-people/r/susan-rumisha/){target="_blank" rel="noopener noreferrer"}**
+
+Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.
+:::
 :::
 
 ## Coordinators
 
+### 2026
+
 ::: {.card-grid .team-grid}
 ::: {.card}
-![Photo of Christine Myalla](../assets/people/christina.jpg){.avatar-photo}
+![Photo of Dr. Punam Amratia](../assets/people/punam.jpg){.avatar-photo}
 
-**[Christine Myalla](https://www.linkedin.com/in/christinamyalla/){target="_blank" rel="noopener noreferrer"}**
+**[Dr. Punam Amratia](https://www.thekids.org.au/contact-us/our-people/a/punam-amratia/){target="_blank" rel="noopener noreferrer"}**
 
-Data Engineer Lead of the MAP Dar es Salaam Node, Ifakara Health
+Technical Lead of the MAP Dar es Salaam Node, Ifakara Health
 Institute.
 :::
 
@@ -51,21 +63,40 @@ Institute.
 Program Manager of the MAP Dar es Salaam Node, Ifakara Health
 Institute.
 :::
+
+::: {.card}
+![Photo of Christine Myalla](../assets/people/christina.jpg){.avatar-photo}
+
+**[Christine Myalla](https://www.linkedin.com/in/christinamyalla/){target="_blank" rel="noopener noreferrer"}**
+
+Data Engineer Lead of the MAP Dar es Salaam Node, Ifakara Health
+Institute.
+:::
 :::
 
 ## Invited Speakers & Helpers
 
-### 2026
-
-- Janine Illian — Invited Speaker, "The Data Behind the Decisions:
-  National Statistical Offices as Partners in Public Health"
-  (presented with NBS)
-- Tim Lucas — Invited Speaker, "Spatial Disaggregation in R"
-
 ### 2025
 
-- Prof. Nick Golding — Invited Speaker, Special Lecture: Understanding
-  Generalized Linear Models
+::: {.card-grid .team-grid}
+::: {.card}
+![Photo of Prof. Nick Golding](../assets/people/nick.jpeg){.avatar-photo}
+
+**[Prof. Nick Golding](https://www.thekids.org.au/contact-us/our-people/g/nick-golding/){target="_blank" rel="noopener noreferrer"}**
+
+Invited Speaker, Special Lecture: Understanding Generalized Linear
+Models
+:::
+
+::: {.card}
+![Photo of Dr. Punam Amratia](../assets/people/punam.jpg){.avatar-photo}
+
+**[Dr. Punam Amratia](https://www.thekids.org.au/contact-us/our-people/a/punam-amratia/){target="_blank" rel="noopener noreferrer"}**
+
+Invited Speaker
+:::
+:::
+
 - Dr. Aron Wiggins — Helper, University of Dar es Salaam
 - Mr. Bwire Wilson — Helper, University of Dar es Salaam
 

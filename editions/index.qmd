@@ -6,13 +6,15 @@ Browse past and upcoming cohorts of the Geospatial Modelling Workshop
 below — each edition builds on the same core geostatistical
 curriculum, with topics and special seminars that vary by year.
 
+[View materials from previous workshops →](https://sites.google.com/ihi.or.tz/map-training/resources?authuser=2){target="_blank" rel="noopener noreferrer"}
+
 ::: {.card-grid}
 ::: {.card}
 <i class="bi bi-calendar-event card-icon" aria-hidden="true"></i>
 
 **[2024 Edition](2024.qmd)**
 
-September 2024 · Location to be confirmed
+September 2024 · University of Dar es Salaam, Tanzania
 
 Geostatistics and geospatial modelling with the INLA approach.
 :::

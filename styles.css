@@ -4,18 +4,46 @@
   max-height: 56px;
 }
 
-/* Small white chip behind the navbar logo so it reads against the dark bar */
+/* Full-height white panel behind the navbar logo, spanning the entire
+   height of the navbar edge-to-edge on the left (no rounded corners, no
+   top/bottom gap) — the dark navbar background continues immediately to
+   the right, matching the layout on malariaatlas.org's own site.
+   Bootstrap's .navbar carries its own 0.5rem top/bottom padding
+   (--bs-navbar-padding-y) outside the flex content box, so a stretched
+   child never reaches the navbar's real edges until that's zeroed too.
+   Quarto separately puts padding-left:1em directly on the <nav> element
+   itself (#quarto-header>nav) via an ID selector, which outranks any
+   class-based override here regardless of source order — has to be
+   matched with an equally-specific selector to actually remove it. */
+#quarto-header > nav.navbar {
+  padding-left: 0 !important;
+}
+
+.navbar-container.container-fluid {
+  padding-left: 0;
+}
+
+.navbar-brand-container.mx-auto {
+  align-self: stretch;
+  margin-left: 0 !important;
+  padding: 0 !important;
+}
+
 .navbar-brand-logo {
   background-color: #ffffff;
-  border-radius: 6px;
-  padding: 0.3rem 0.6rem;
+  border-radius: 0 !important;
+  padding: 0 1.5rem;
+  margin: 0;
   display: inline-flex;
   align-items: center;
+  align-self: stretch;
 }
 
 /* Solid dark navbar with light nav text; gold marks hover/active state */
 .navbar {
   background-color: #383838 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .navbar .nav-link {
@@ -238,6 +266,17 @@ h2::after {
   max-width: 700px;
   margin: 1.5rem auto 0;
   text-align: center;
+}
+
+.map-source {
+  font-size: 0.8rem;
+  color: #9d9c97;
+  margin: 0.5rem 0 0;
+  text-align: center;
+}
+
+.map-source a {
+  color: #383838;
 }
 
 /* Interior-page intro (light variant of .hero) */

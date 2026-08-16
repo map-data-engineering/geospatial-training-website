@@ -6,9 +6,21 @@ title: "2024 Edition"
 
 ::: {.intro}
 The 2024 edition of the Geospatial Modelling Workshop — the
-programme's first cohort — ran in September 2024, covering
-geostatistics and geospatial modelling with the INLA approach, the
-same core curriculum as the 2025 edition.
+programme's first cohort — ran in September 2024 at the University of
+Dar es Salaam, covering geostatistics and geospatial modelling with
+the INLA approach, the same core curriculum as the 2025 edition.
+:::
+
+## Format
+
+::: {.card-grid}
+::: {.card}
+<i class="bi bi-geo-alt card-icon" aria-hidden="true"></i>
+
+**Location**
+
+University of Dar es Salaam, Tanzania.
+:::
 :::
 
 ## Course Topic

@@ -42,7 +42,7 @@ Countries Represented
 :::
 :::
 
-## Why MAP
+## Who is MAP?
 
 ::: {.who-section}
 ::: {.who-badge}
@@ -51,14 +51,13 @@ WHO Collaborating Centre in Geospatial Disease Modelling
 
 MAP is a designated World Health Organization Collaborating Centre in
 Geospatial Disease Modelling. Through this partnership, we provide
-modelling and analysis directly to the WHO Global Malaria Programme
-and, via WHO, to individual countries — with our estimates cited in
-the WHO World Malaria Report and the Global Burden of
-Disease study, which MAP has contributed to since 2016 in partnership
-with IHME.
+modelling and analysis directly to the WHO Global Malaria Programme,
+and via WHO, to individual countries. Our estimates are cited in the
+WHO World Malaria Report and the Global Burden of Disease study,
+which MAP has contributed to since 2016 in partnership with IHME.
 
 This training programme is taught by the same scientists producing
-that work — you'll learn the methods MAP uses to inform global and
+that work. You'll learn the methods MAP uses to inform global and
 national malaria policy.
 :::
 
@@ -68,6 +67,14 @@ national malaria policy.
 ::: {.impact-map}
 ![Modelled malaria risk estimates across Africa, produced using the
 geostatistical methods taught in the programme.](assets/images/africa-model-map.png)
+
+::: {.map-source}
+Source: Weiss et al. (2025). [Mapping the global prevalence,
+incidence, and mortality of Plasmodium falciparum and Plasmodium
+vivax malaria, 2000-22: a spatial and temporal modelling
+study](https://doi.org/10.1016/S0140-6736(25)00038-8). *The Lancet*.
+Estimates form part of the Global Burden of Disease (GBD) 2025 study.
+:::
 :::
 
 ::: {.impact-text}

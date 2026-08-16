@@ -17,17 +17,6 @@ The focus is on spatial patterns of malaria and other health outcomes,
 with an emphasis on skills that continue to develop after the course.
 :::
 
-## Who Should Apply
-
-This course is designed for statisticians, public health
-professionals, National Malaria Control Programme (NMCP) staff, and
-government researchers who want to build their geospatial analysis
-and modelling skills. Candidates should have:
-
-- Basic experience with R
-- An understanding of statistical inference
-- Introductory knowledge of Bayesian statistical methods
-
 ## Format
 
 ::: {.card-grid}
@@ -98,6 +87,17 @@ Lecture topics include:
 - Areal Data and Models
 - Geostatistical Models in INLA
 - Basics of Point Process Models
+
+## Who Should Apply
+
+This course is designed for statisticians, public health
+professionals, National Malaria Control Programme (NMCP) staff, and
+government researchers who want to build their geospatial analysis
+and modelling skills. Candidates should have:
+
+- Basic experience with R
+- An understanding of statistical inference
+- Introductory knowledge of Bayesian statistical methods
 
 ## Next Steps
 

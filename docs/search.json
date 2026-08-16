@@ -14,18 +14,18 @@
     "text": "The Geospatial Modelling Workshop is an intensive training programme for statisticians and public health professionals looking to build their skills in geospatial analysis and modelling. Drawing on real-life examples from malaria research, the programme guides participants from foundational spatial data concepts through to Bayesian geostatistical modelling — equipping them with skills they can continue to build on long after the training ends.\nThe workshop is run annually, bringing together leading researchers and practitioners from across the region."
   },
   {
-    "objectID": "index.html#why-map",
-    "href": "index.html#why-map",
+    "objectID": "index.html#who-is-map",
+    "href": "index.html#who-is-map",
     "title": "GEOSPATIAL MODELLING FOR PUBLIC HEALTH APPLICATIONS",
-    "section": "Why MAP",
-    "text": "Why MAP\n\n\nWHO Collaborating Centre in Geospatial Disease Modelling\n\nMAP is a designated World Health Organization Collaborating Centre in Geospatial Disease Modelling. Through this partnership, we provide modelling and analysis directly to the WHO Global Malaria Programme and, via WHO, to individual countries — with our estimates cited in the WHO World Malaria Report and the Global Burden of Disease study, which MAP has contributed to since 2016 in partnership with IHME.\nThis training programme is taught by the same scientists producing that work — you’ll learn the methods MAP uses to inform global and national malaria policy."
+    "section": "Who is MAP?",
+    "text": "Who is MAP?\n\n\nWHO Collaborating Centre in Geospatial Disease Modelling\n\nMAP is a designated World Health Organization Collaborating Centre in Geospatial Disease Modelling. Through this partnership, we provide modelling and analysis directly to the WHO Global Malaria Programme, and via WHO, to individual countries. Our estimates are cited in the WHO World Malaria Report and the Global Burden of Disease study, which MAP has contributed to since 2016 in partnership with IHME.\nThis training programme is taught by the same scientists producing that work. You’ll learn the methods MAP uses to inform global and national malaria policy."
   },
   {
     "objectID": "index.html#from-data-to-decisions",
     "href": "index.html#from-data-to-decisions",
     "title": "GEOSPATIAL MODELLING FOR PUBLIC HEALTH APPLICATIONS",
     "section": "From Data to Decisions",
-    "text": "From Data to Decisions\n\n\n\n\n\nModelled malaria risk estimates across Africa, produced using the geostatistical methods taught in the programme.\n\n\n\n\nEvery cohort works with malaria and real-world data, using the same Bayesian geostatistical methods taught in the programme to produce modelled risk surfaces like the one shown here — moving from raw spatial data to maps that inform decisions.\nLearn more about the Programme →"
+    "text": "From Data to Decisions\n\n\n\n\n\nModelled malaria risk estimates across Africa, produced using the geostatistical methods taught in the programme.\n\n\n\nSource: Weiss et al. (2025). Mapping the global prevalence, incidence, and mortality of Plasmodium falciparum and Plasmodium vivax malaria, 2000-22: a spatial and temporal modelling study. The Lancet. Estimates form part of the Global Burden of Disease (GBD) 2025 study.\n\n\n\nEvery cohort works with malaria and real-world data, using the same Bayesian geostatistical methods taught in the programme to produce modelled risk surfaces like the one shown here — moving from raw spatial data to maps that inform decisions.\nLearn more about the Programme →"
   },
   {
     "objectID": "index.html#what-youll-gain",
@@ -109,14 +109,21 @@
     "href": "editions/2024.html",
     "title": "2024 Edition",
     "section": "",
-    "text": "The 2024 edition of the Geospatial Modelling Workshop — the programme’s first cohort — ran in September 2024, covering geostatistics and geospatial modelling with the INLA approach, the same core curriculum as the 2025 edition."
+    "text": "The 2024 edition of the Geospatial Modelling Workshop — the programme’s first cohort — ran in September 2024 at the University of Dar es Salaam, covering geostatistics and geospatial modelling with the INLA approach, the same core curriculum as the 2025 edition."
   },
   {
     "objectID": "editions/2024.html#overview",
     "href": "editions/2024.html#overview",
     "title": "2024 Edition",
     "section": "",
-    "text": "The 2024 edition of the Geospatial Modelling Workshop — the programme’s first cohort — ran in September 2024, covering geostatistics and geospatial modelling with the INLA approach, the same core curriculum as the 2025 edition."
+    "text": "The 2024 edition of the Geospatial Modelling Workshop — the programme’s first cohort — ran in September 2024 at the University of Dar es Salaam, covering geostatistics and geospatial modelling with the INLA approach, the same core curriculum as the 2025 edition."
+  },
+  {
+    "objectID": "editions/2024.html#format",
+    "href": "editions/2024.html#format",
+    "title": "2024 Edition",
+    "section": "Format",
+    "text": "Format\n\n\n\nLocation\nUniversity of Dar es Salaam, Tanzania."
   },
   {
     "objectID": "editions/2024.html#course-topic",
@@ -242,35 +249,35 @@
     "href": "editions/index.html",
     "title": "Previous Workshop Editions",
     "section": "",
-    "text": "Browse past and upcoming cohorts of the Geospatial Modelling Workshop below — each edition builds on the same core geostatistical curriculum, with topics and special seminars that vary by year.\n\n\n\n2024 Edition\nSeptember 2024 · Location to be confirmed\nGeostatistics and geospatial modelling with the INLA approach.\n\n\n\n2025 Edition\n16–18 September 2025 · University of Dar es Salaam, Tanzania\nGeostatistics and geospatial modelling with the INLA approach.\n\n\n\n2026 Edition\n15–18 September 2026 · Takwimu House, Dodoma, Tanzania\nSpatial and spatio-temporal modelling with INLAbru."
+    "text": "Browse past and upcoming cohorts of the Geospatial Modelling Workshop below — each edition builds on the same core geostatistical curriculum, with topics and special seminars that vary by year.\nView materials from previous workshops →\n\n\n\n2024 Edition\nSeptember 2024 · University of Dar es Salaam, Tanzania\nGeostatistics and geospatial modelling with the INLA approach.\n\n\n\n2025 Edition\n16–18 September 2025 · University of Dar es Salaam, Tanzania\nGeostatistics and geospatial modelling with the INLA approach.\n\n\n\n2026 Edition\n15–18 September 2026 · Takwimu House, Dodoma, Tanzania\nSpatial and spatio-temporal modelling with INLAbru."
   },
   {
     "objectID": "facilitators/index.html",
     "href": "facilitators/index.html",
     "title": "Team",
     "section": "",
-    "text": "Photo of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nLead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nTechnical Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nStatistician General, National Bureau of Statistics, Tanzania."
+    "text": "Photo of Prof. Janine Illian\n\n\nProf. Janine Illian\nChair in Statistical Sciences at the University of Glasgow, and author of the leading textbook on spatial point process modelling.\n\n\n\n\n\nPhoto of Dr. Tim Lucas\n\n\nDr. Tim Lucas\nLecturer in biostatistics specializing in geospatial models, machine learning, and disaggregation regression to predict disease patterns from observational data.\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nStatistician General, National Bureau of Statistics, Tanzania.\n\n\n\n\n\nPhoto of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nLead of the MAP Dar es Salaam Node, Ifakara Health Institute."
   },
   {
     "objectID": "facilitators/index.html#key-facilitators",
     "href": "facilitators/index.html#key-facilitators",
     "title": "Team",
     "section": "",
-    "text": "Photo of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nLead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nTechnical Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nStatistician General, National Bureau of Statistics, Tanzania."
+    "text": "Photo of Prof. Janine Illian\n\n\nProf. Janine Illian\nChair in Statistical Sciences at the University of Glasgow, and author of the leading textbook on spatial point process modelling.\n\n\n\n\n\nPhoto of Dr. Tim Lucas\n\n\nDr. Tim Lucas\nLecturer in biostatistics specializing in geospatial models, machine learning, and disaggregation regression to predict disease patterns from observational data.\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nStatistician General, National Bureau of Statistics, Tanzania.\n\n\n\n\n\nPhoto of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nLead of the MAP Dar es Salaam Node, Ifakara Health Institute."
   },
   {
     "objectID": "facilitators/index.html#coordinators",
     "href": "facilitators/index.html#coordinators",
     "title": "Team",
     "section": "Coordinators",
-    "text": "Coordinators\n\n\n\n\n\nPhoto of Christine Myalla\n\n\nChristine Myalla\nData Engineer Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Sosthenes Ketende\n\n\nSosthenes Ketende\nProgram Manager of the MAP Dar es Salaam Node, Ifakara Health Institute."
+    "text": "Coordinators\n\n2026\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nTechnical Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Sosthenes Ketende\n\n\nSosthenes Ketende\nProgram Manager of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Christine Myalla\n\n\nChristine Myalla\nData Engineer Lead of the MAP Dar es Salaam Node, Ifakara Health Institute."
   },
   {
     "objectID": "facilitators/index.html#invited-speakers-helpers",
     "href": "facilitators/index.html#invited-speakers-helpers",
     "title": "Team",
     "section": "Invited Speakers & Helpers",
-    "text": "Invited Speakers & Helpers\n\n2026\n\nJanine Illian — Invited Speaker, “The Data Behind the Decisions: National Statistical Offices as Partners in Public Health” (presented with NBS)\nTim Lucas — Invited Speaker, “Spatial Disaggregation in R”\n\n\n\n2025\n\nProf. Nick Golding — Invited Speaker, Special Lecture: Understanding Generalized Linear Models\nDr. Aron Wiggins — Helper, University of Dar es Salaam\nMr. Bwire Wilson — Helper, University of Dar es Salaam\n\n\n\n2024\n\nDr. Aron Wiggins — Helper, University of Dar es Salaam\nMr. Bwire Wilson — Helper, University of Dar es Salaam"
+    "text": "Invited Speakers & Helpers\n\n2025\n\n\n\n\n\nPhoto of Prof. Nick Golding\n\n\nProf. Nick Golding\nInvited Speaker, Special Lecture: Understanding Generalized Linear Models\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nInvited Speaker\n\n\n\nDr. Aron Wiggins — Helper, University of Dar es Salaam\nMr. Bwire Wilson — Helper, University of Dar es Salaam\n\n\n\n2024\n\nDr. Aron Wiggins — Helper, University of Dar es Salaam\nMr. Bwire Wilson — Helper, University of Dar es Salaam"
   },
   {
     "objectID": "facilitators/punam-amratia.html",
@@ -301,13 +308,6 @@
     "text": "Geostatistical models are increasingly important in public health research due to the rise in spatial health data. This intensive course suits statisticians and public health professionals wanting to enhance their skills in geospatial analysis and modelling. Participants learn about spatial data structures and geostatistics through real-life examples, progressing from basic to complex models using Bayesian inference with the INLA approach.\nThe focus is on spatial patterns of malaria and other health outcomes, with an emphasis on skills that continue to develop after the course."
   },
   {
-    "objectID": "programme/index.html#who-should-apply",
-    "href": "programme/index.html#who-should-apply",
-    "title": "Programme Overview",
-    "section": "Who Should Apply",
-    "text": "Who Should Apply\nThis course is designed for statisticians, public health professionals, National Malaria Control Programme (NMCP) staff, and government researchers who want to build their geospatial analysis and modelling skills. Candidates should have:\n\nBasic experience with R\nAn understanding of statistical inference\nIntroductory knowledge of Bayesian statistical methods"
-  },
-  {
     "objectID": "programme/index.html#format",
     "href": "programme/index.html#format",
     "title": "Programme Overview",
@@ -320,6 +320,13 @@
     "title": "Programme Overview",
     "section": "What You’ll Learn",
     "text": "What You’ll Learn\nParticipants learn Bayesian geostatistical modelling approaches — such as INLA and INLAbru — applied to malaria and real-world data. The exact tools and special topics (e.g. spatial disaggregation) vary by cohort; see this year’s Edition page for the current curriculum.\nLecture topics include:\n\nIntroduction to Geostatistics\nSpatial Data in R\nAreal Data and Models\nGeostatistical Models in INLA\nBasics of Point Process Models"
+  },
+  {
+    "objectID": "programme/index.html#who-should-apply",
+    "href": "programme/index.html#who-should-apply",
+    "title": "Programme Overview",
+    "section": "Who Should Apply",
+    "text": "Who Should Apply\nThis course is designed for statisticians, public health professionals, National Malaria Control Programme (NMCP) staff, and government researchers who want to build their geospatial analysis and modelling skills. Candidates should have:\n\nBasic experience with R\nAn understanding of statistical inference\nIntroductory knowledge of Bayesian statistical methods"
   },
   {
     "objectID": "programme/index.html#next-steps",
