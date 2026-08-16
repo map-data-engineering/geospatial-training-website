@@ -1,5 +1,81 @@
-﻿/* Supplemental site styles — brand colors are defined in _brand.yml */
+/* =========================================================================
+   Geospatial Modelling Workshop — site styles
+   Adopts the aesthetic of the GeoMAP Onboarding Portal:
+   Poppins typography, warm gold #cfa54a primary, soft shadows,
+   borderless cards with icon tiles, pill CTAs.
+   ========================================================================= */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  /* Palette — warm gold on dark neutral */
+  --brand:            #cfa54a;
+  --brand-dark:       #b48a2e;
+  --brand-tint:       #faf3e0;
+  --dark:             #2e2822;
+  --dark-2:           #3d3427;
+  --body:             #383838;
+  --muted:            #9d9c97;
+  --page-bg:          #ffffff;
+  --card-bg:          #ffffff;
+  --border-soft:      #eae7df;
+
+  /* Shadows */
+  --shadow-card:      0 8px 30px rgba(56, 56, 56, 0.08);
+  --shadow-input:     0 3px 20px rgba(56, 56, 56, 0.08);
+  --shadow-btn:       0 6px 20px rgba(207, 165, 74, 0.35);
+  --shadow-btn-hover: 0 10px 25px rgba(207, 165, 74, 0.45);
+  --shadow-lift:      0 20px 45px rgba(56, 56, 56, 0.12);
+
+  /* Radii */
+  --radius:           12px;
+  --radius-lg:        18px;
+  --radius-pill:      200px;
+}
+
+/* -------------------------------------------------------------- Base */
+body {
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-weight: 400;
+  color: var(--body);
+  background: var(--page-bg);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", system-ui, sans-serif;
+  color: var(--dark);
+}
+
+h1.title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--dark);
+  margin-bottom: 1.5rem;
+  font-size: clamp(1.75rem, 2vw + 1rem, 2.5rem);
+}
+
+/* Section headings with a signature gold underline */
+h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+  color: var(--dark);
+  font-size: clamp(1.4rem, 1.5vw + 1rem, 1.85rem);
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 52px;
+  height: 3px;
+  margin-top: 0.55rem;
+  background: linear-gradient(90deg, var(--brand), var(--brand-dark));
+  border-radius: 3px;
+}
+
+/* -------------------------------------------------------------- Navbar */
 .navbar-logo {
   max-height: 56px;
 }
@@ -7,39 +83,42 @@
 /* Small white chip behind the navbar logo so it reads against the dark bar */
 .navbar-brand-logo {
   background-color: #ffffff;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 0.3rem 0.6rem;
   display: inline-flex;
   align-items: center;
 }
 
-/* Solid dark navbar with light nav text; gold marks hover/active state */
+/* Dark gradient navbar; gold marks hover/active state */
 .navbar {
-  background-color: #383838 !important;
+  background: linear-gradient(135deg, var(--dark) 0%, var(--dark-2) 100%) !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  padding-top: .7rem;
+  padding-bottom: .7rem;
 }
 
 .navbar .nav-link {
-  color: #ffffff;
+  color: #ffffff !important;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: color 0.15s ease;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus,
 .navbar .nav-link.active {
-  color: #ecbc40;
+  color: var(--brand) !important;
 }
 
-/* Hide the default site-title text next to the logo (the logo image
-   already includes the "Malaria Atlas Project" wordmark) */
+/* Hide the default site-title text next to the logo — the logo already
+   includes the "Malaria Atlas Project" wordmark */
 .navbar-brand:not(.navbar-brand-logo) {
   display: none;
 }
 
-/* Pull nav links in close after the logo/tagline instead of the far edge.
-   Bootstrap's .navbar > .container-fluid uses justify-content:space-between
-   by default, which spreads brand/search/nav apart regardless of their own
-   margins — override it explicitly and pin each item's order so nav links
-   sit right after the brand block, with empty space collecting before the
-   search icon instead. */
+/* Pull nav links in close after the logo/tagline. Bootstrap's default
+   space-between spreads brand/nav/search apart — override so nav links
+   sit right after the brand and free space collects before the search. */
 @media (min-width: 992px) {
   .navbar-container {
     justify-content: flex-start !important;
@@ -63,42 +142,39 @@
   }
 }
 
-/* Tighter vertical rhythm between sections; brand-colored headers/subheaders
-   (theme: cosmo doesn't pick up _brand.yml automatically, so set explicitly) */
-h1.title {
-  color: #383838;
-}
-
-h2 {
-  margin-top: 1.75rem;
-  margin-bottom: 0.75rem;
-  color: #383838;
-}
-
-h2::after {
-  content: "";
-  display: block;
-  width: 48px;
-  height: 3px;
-  margin-top: 0.4rem;
-  background-color: #ecbc40;
-}
-
-/* Hero section (homepage intro) */
+/* -------------------------------------------------------------- Hero (homepage) */
 .hero {
-  background-color: #383838;
+  position: relative;
+  background: linear-gradient(135deg, var(--dark) 0%, var(--dark-2) 100%);
   color: #ffffff;
-  padding: 2.5rem 2rem;
-  border-radius: 6px;
-  border-bottom: 4px solid #ecbc40;
-  margin: 0.5rem 0 2rem;
+  padding: 3rem 2.5rem;
+  border-radius: var(--radius-lg);
+  border-bottom: 4px solid var(--brand);
+  margin: 0.5rem 0 2.75rem;
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 15% 30%, rgba(207,165,74,0.15) 0, transparent 45%),
+    radial-gradient(circle at 85% 70%, rgba(207,165,74,0.08) 0, transparent 45%);
+  pointer-events: none;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
 }
 
 .hero p {
   font-size: 1.1rem;
-  line-height: 1.6;
-  margin: 0 0 0.75rem;
-  color: #9d9c97;
+  line-height: 1.7;
+  margin: 0 0 0.85rem;
+  color: rgba(255, 255, 255, 0.88);
 }
 
 .hero p:last-child {
@@ -106,13 +182,308 @@ h2::after {
 }
 
 .hero a {
-  color: #ecbc40;
+  color: var(--brand);
+  font-weight: 500;
 }
 
-/* Partner logo strip */
+.hero a:hover {
+  color: #ffffff;
+}
+
+/* -------------------------------------------------------------- Interior intro */
+.intro {
+  background: var(--card-bg);
+  color: var(--body);
+  border-left: 4px solid var(--brand);
+  padding: 1.5rem 1.75rem;
+  margin: 0.5rem 0 2.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-input);
+}
+
+.intro p {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  margin: 0 0 0.75rem;
+}
+
+.intro p:last-child {
+  margin-bottom: 0;
+}
+
+.intro a {
+  color: var(--brand-dark);
+  text-decoration: underline;
+  text-decoration-color: var(--brand);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* -------------------------------------------------------------- Stats band */
+.stats-band {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 0 0 3rem;
+}
+
+.stat {
+  background: var(--card-bg);
+  padding: 1.5rem 1rem;
+  border-radius: var(--radius);
+  text-align: center;
+  box-shadow: var(--shadow-input);
+  border-top: 3px solid var(--brand);
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.stat:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lift);
+}
+
+.stat p:first-child {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--brand);
+  margin: 0;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.stat p:last-child {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0.5rem 0 0;
+  font-weight: 500;
+}
+
+/* -------------------------------------------------------------- Why MAP (gold block) */
+.who-section {
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
+  color: var(--dark);
+  border-radius: var(--radius-lg);
+  padding: 2.25rem 2.5rem;
+  margin: 0 0 3rem;
+  box-shadow: var(--shadow-card);
+  position: relative;
+  overflow: hidden;
+}
+
+.who-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(255,255,255,0.12) 0, transparent 40%),
+    radial-gradient(circle at 85% 70%, rgba(255,255,255,0.08) 0, transparent 40%);
+  pointer-events: none;
+}
+
+.who-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+.who-badge {
+  display: inline-block;
+  background: var(--dark);
+  color: var(--brand);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-pill);
+  margin-bottom: 1.25rem;
+}
+
+.who-section p {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  margin: 0 0 0.85rem;
+  max-width: 760px;
+  color: rgba(46, 40, 34, 0.9);
+}
+
+.who-section p:last-child {
+  margin-bottom: 0;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+/* -------------------------------------------------------------- Impact section */
+.impact-section {
+  margin: 0 0 3rem;
+}
+
+.impact-map img {
+  display: block;
+  width: 100%;
+  max-height: 460px;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: var(--radius);
+  background: var(--card-bg);
+  box-shadow: var(--shadow-card);
+}
+
+.impact-map figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.75rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.impact-text {
+  max-width: 720px;
+  margin: 1.75rem auto 0;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.impact-text a {
+  color: var(--brand-dark);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--brand);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* -------------------------------------------------------------- Cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin: 1.25rem 0 3rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 0 !important;
+  border-radius: var(--radius-lg) !important;
+  padding: 1.75rem 1.5rem;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lift);
+}
+
+/* Feature icon tile — brand-tinted background with gold icon */
+.card-icon {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: var(--brand-tint);
+  color: var(--brand);
+  font-size: 1.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.card p {
+  margin: 0.5rem 0 0;
+  color: var(--body);
+  line-height: 1.6;
+}
+
+.card strong {
+  color: var(--dark);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.card a {
+  color: var(--brand-dark);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: var(--brand);
+  text-decoration: underline;
+  text-decoration-color: var(--brand);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* "What You'll Gain" — icon tile carries the color, so no need for a
+   pale tint on the whole card anymore. Keep hook for future variants. */
+.gain-grid .card { }
+
+/* Team page: centered content, circular photo */
+.team-grid .card {
+  text-align: center;
+}
+
+.avatar-placeholder {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  background: var(--brand-tint);
+  border: 3px solid var(--brand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  color: var(--brand);
+  font-size: 2.75rem;
+  box-shadow: var(--shadow-input);
+}
+
+.avatar-photo {
+  display: block;
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--brand);
+  margin: 0 auto 1rem;
+  box-shadow: var(--shadow-input);
+}
+
+/* Quarto wraps solo-paragraph images with alt text in <figure><figcaption>,
+   showing the alt text below the image. Wanted for impact-map figures, not
+   for Team page avatars where alt text is accessible-only. */
+.team-grid figcaption {
+  display: none;
+}
+
+/* -------------------------------------------------------------- Apply Now button */
+a.btn {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
+  color: var(--dark) !important;
+  font-weight: 600;
+  padding: 0.8rem 1.9rem;
+  border-radius: var(--radius-pill);
+  text-decoration: none;
+  margin-top: 0.75rem;
+  box-shadow: var(--shadow-btn);
+  transition: transform 0.15s ease, box-shadow 0.2s ease, background 0.2s ease;
+  border: 0;
+}
+
+a.btn:hover {
+  background: linear-gradient(135deg, var(--brand-dark) 0%, var(--brand) 100%);
+  color: var(--dark) !important;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-btn-hover);
+}
+
+/* -------------------------------------------------------------- Partner strip */
 .partner-strip {
   text-align: center;
-  margin: 0 0 2rem;
+  margin: 0 0 3rem;
+  padding: 1.5rem 0;
 }
 
 .partner-strip > p:first-child {
@@ -122,252 +493,44 @@ h2::after {
   gap: 1rem;
   font-size: 0.8rem;
   font-weight: 600;
-  color: #ecbc40;
+  color: var(--brand-dark);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 1.5rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 2rem;
 }
 
 .partner-strip > p:first-child::before,
 .partner-strip > p:first-child::after {
   content: "";
   flex: 1 1 auto;
-  max-width: 120px;
+  max-width: 140px;
   height: 1px;
-  background-color: #9d9c97;
+  background: var(--border-soft);
 }
 
 .partner-strip img {
   height: 56px;
   width: auto;
   max-width: 100%;
-  margin: 0 1.25rem;
+  margin: 0 1.5rem;
   vertical-align: middle;
+  transition: transform 0.2s ease, filter 0.2s ease, opacity 0.2s ease;
+  filter: grayscale(30%);
+  opacity: 0.85;
 }
 
-/* Stats band */
-.stats-band {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1.5rem;
-  text-align: center;
-  margin: 0 0 2.5rem;
-  padding: 1.5rem 0;
-  border-top: 1px solid #9d9c97;
-  border-bottom: 1px solid #9d9c97;
+.partner-strip img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
 }
 
-.stat {
-  border-top: 3px solid #ecbc40;
-  padding-top: 0.75rem;
-}
-
-.stat p:first-child {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #383838;
-  margin: 0;
-}
-
-.stat p:last-child {
-  font-size: 0.85rem;
-  color: #9d9c97;
-  margin: 0.25rem 0 0;
-}
-
-/* Why MAP: solid gold block, distinct from the dark .hero and the
-   white/bordered .impact-section — dark-on-gold has strong contrast
-   (~6:1), the opposite pairing of gold-on-white used elsewhere. */
-.who-section {
-  background-color: #ecbc40;
-  color: #383838;
-  border-radius: 6px;
-  padding: 2rem 2.25rem;
-  margin: 0 0 2.5rem;
-}
-
-.who-badge {
-  display: inline-block;
-  background-color: #383838;
-  color: #ecbc40;
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 0.35rem 0.9rem;
-  border-radius: 999px;
-  margin-bottom: 1rem;
-}
-
-.who-section p {
-  font-size: 1.05rem;
-  line-height: 1.6;
-  margin: 0 0 0.75rem;
-  max-width: 760px;
-}
-
-.who-section p:last-child {
-  margin-bottom: 0;
-  font-weight: 600;
-}
-
-/* Real Geospatial Impact: full-width map, centered text below */
-.impact-section {
-  margin: 0 0 2.5rem;
-}
-
-.impact-map img {
-  display: block;
-  width: 100%;
-  max-height: 420px;
-  object-fit: contain;
-  margin: 0 auto;
-  border-radius: 6px;
-  border: 1px solid #9d9c97;
-  background-color: #ffffff;
-}
-
-.impact-map figcaption {
-  font-size: 0.8rem;
-  color: #9d9c97;
-  margin-top: 0.5rem;
-  text-align: center;
-}
-
-.impact-text {
-  max-width: 700px;
-  margin: 1.5rem auto 0;
-  text-align: center;
-}
-
-/* Interior-page intro (light variant of .hero) */
-.intro {
-  background-color: #ffffff;
-  color: #383838;
-  border-left: 4px solid #ecbc40;
-  padding: 1.25rem 1.75rem;
-  margin: 0.5rem 0 2rem;
-}
-
-.intro p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin: 0 0 0.75rem;
-}
-
-.intro p:last-child {
-  margin-bottom: 0;
-}
-
-.intro a {
-  color: #383838;
-  text-decoration: underline;
-  text-decoration-color: #ecbc40;
-}
-
-/* Shared card style (Programme's Format cards, homepage's "What You'll Gain") */
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
-  margin: 1rem 0 2rem;
-}
-
-.card {
-  border: 1px solid #9d9c97;
-  border-top: 3px solid #ecbc40;
-  border-radius: 6px;
-  padding: 1rem 1.25rem;
-  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
-}
-
-.card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 14px rgba(56, 56, 56, 0.18);
-}
-
-.card-icon {
-  display: block;
-  font-size: 1.4rem;
-  color: #ecbc40;
-  margin-bottom: 0.4rem;
-}
-
-.card p {
-  margin: 0.35rem 0 0;
-  color: #383838;
-}
-
-/* "What You'll Gain" cards: pale tint at rest, deepens on hover */
-.gain-grid .card {
-  background-color: rgba(236, 188, 64, 0.08);
-}
-
-.gain-grid .card:hover {
-  background-color: rgba(236, 188, 64, 0.18);
-}
-
-/* Team page cards: centered content, circular photo placeholder */
-.team-grid .card {
-  text-align: center;
-}
-
-.avatar-placeholder {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  background-color: rgba(157, 156, 151, 0.25);
-  border: 2px solid #ecbc40;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 0.75rem;
-  color: #9d9c97;
-  font-size: 2.5rem;
-}
-
-.avatar-photo {
-  display: block;
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #ecbc40;
-  margin: 0 auto 0.75rem;
-}
-
-/* Quarto/pandoc auto-wraps a solo-paragraph image with alt text in a
-   <figure><figcaption>, showing the alt text visibly beneath it. That's
-   wanted for the impact-map images but not for Team page avatars, where
-   alt text should stay accessible-only. Scoped to .team-grid so the
-   impact section's captions are untouched. */
-.team-grid figcaption {
-  display: none;
-}
-
-/* "Apply Now" call-to-action button */
-a.btn {
-  display: inline-block;
-  background-color: #ecbc40;
-  color: #383838 !important;
-  font-weight: 600;
-  padding: 0.6rem 1.5rem;
-  border-radius: 4px;
-  text-decoration: none;
-  margin-top: 0.5rem;
-}
-
-a.btn:hover {
-  background-color: #383838;
-  color: #ecbc40 !important;
-}
-
-/* Quarto wraps page-footer content in .nav-footer (white bg, padding,
-   3-zone flex layout) — override to a plain full-width block so
-   .site-footer's dark band renders edge-to-edge, matching the navbar */
+/* -------------------------------------------------------------- Footer */
+/* Quarto wraps page-footer content in .nav-footer (white bg, padding).
+   Override to a plain block so .site-footer's dark band renders edge-to-edge. */
 .nav-footer {
   display: block;
-  background-color: #383838;
+  background: linear-gradient(135deg, var(--dark) 0%, var(--dark-2) 100%);
   padding: 0;
   min-height: 0;
 }
@@ -384,61 +547,89 @@ a.btn:hover {
   font-size: 1rem;
 }
 
-/* Sitewide footer */
 .site-footer {
-  background-color: #383838;
+  background: transparent;
   color: #ffffff;
-  padding: 2.5rem 1.5rem;
+  padding: 3rem 1.5rem;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .footer-logo {
-  height: 48px;
+  height: 52px;
   width: auto;
-  margin: 0 auto 0.75rem;
+  margin: 0 auto 1rem;
+  filter: brightness(1.05);
 }
 
 .footer-brand p {
   font-size: 0.85rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
-  /* brand gold; if this reads too close to yellow, the deeper alternative
-     is #b6943e — a 70/30 blend of brand gold (#ecbc40) and brand dark
-     (#383838), still derived only from _brand.yml colors */
-  color: #ecbc40;
-  margin: 0 0 1.5rem;
+  letter-spacing: 0.1em;
+  color: var(--brand);
+  margin: 0 0 1.75rem;
 }
 
 .footer-social {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
 }
 
 .footer-social-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   margin: 0 0.4rem;
-  color: #ffffff;
-  font-size: 1.3rem;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 50%;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
 }
 
 .footer-social-link:hover {
-  color: #ecbc40;
-  border-color: #ecbc40;
+  color: var(--brand);
+  border-color: var(--brand);
+  background: rgba(207, 165, 74, 0.12);
+  transform: translateY(-2px);
 }
 
 .footer-links a {
-  color: #9d9c97;
-  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.9rem;
   text-decoration: none;
+  transition: color 0.15s ease;
 }
 
 .footer-links a:hover {
-  color: #ecbc40;
+  color: var(--brand);
+}
+
+/* -------------------------------------------------------------- Callouts (Quarto default) */
+.callout {
+  border-radius: var(--radius) !important;
+  border: 0 !important;
+  box-shadow: var(--shadow-input);
+}
+
+/* -------------------------------------------------------------- Responsive */
+@media (max-width: 767.98px) {
+  .hero {
+    padding: 2rem 1.5rem;
+  }
+  .who-section {
+    padding: 1.75rem 1.5rem;
+  }
+  .stat p:first-child {
+    font-size: 2rem;
+  }
+  .card {
+    padding: 1.5rem 1.25rem;
+  }
+  .partner-strip img {
+    height: 44px;
+    margin: 0 0.75rem;
+  }
 }
