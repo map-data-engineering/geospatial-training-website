@@ -2,8 +2,9 @@
 title: "Team"
 ---
 
-## Key Facilitators
+## Instructors
 
+### 2026
 ::: {.card-grid .team-grid}
 ::: {.card}
 ![Photo of Prof. Janine Illian](../assets/people/Janine.png){.avatar-photo}
@@ -43,7 +44,6 @@ Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.
 
 ## Coordinators
 
-### 2026
 
 ::: {.card-grid .team-grid}
 ::: {.card}
@@ -74,7 +74,7 @@ Institute.
 :::
 :::
 
-## Invited Speakers & Helpers
+## Invited Speakers & Facilitators
 
 ### 2025
 
@@ -97,10 +97,10 @@ Invited Speaker
 :::
 :::
 
-- Dr. Aron Wiggins — Helper, University of Dar es Salaam
-- Mr. Bwire Wilson — Helper, University of Dar es Salaam
+- Dr. Aron Wiggins — Facilitator, University of Dar es Salaam
+- Mr. Bwire Wilson — Facilitator, University of Dar es Salaam
 
 ### 2024
 
-- Dr. Aron Wiggins — Helper, University of Dar es Salaam
-- Mr. Bwire Wilson — Helper, University of Dar es Salaam
+- Dr. Aron Wiggins — Facilitator, University of Dar es Salaam
+- Mr. Bwire Wilson — Facilitator, University of Dar es Salaam

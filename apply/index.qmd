@@ -27,8 +27,8 @@ criteria and practical notes below before applying.
 ## Ready to Apply?
 
 Review the details above, then submit your application on the
-**GeoMAP Onboarding Portal** — our dedicated application platform.
+our dedicated application platform.
 
-[Apply on the GeoMAP Onboarding Portal →](https://geomap-onboardnig-portal-frontend.vercel.app/index.html){.btn target="_blank" rel="noopener noreferrer"}
+[Apply  →](https://geomap-onboardnig-portal-frontend.vercel.app/index.html){.btn target="_blank" rel="noopener noreferrer"}
 
 See also: [FAQs](faq.qmd)

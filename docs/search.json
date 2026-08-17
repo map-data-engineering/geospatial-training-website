@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "GEOSPATIAL MODELLING FOR PUBLIC HEALTH APPLICATIONS",
     "section": "",
-    "text": "The Geospatial Modelling Workshop is an intensive training programme for statisticians and public health professionals looking to build their skills in geospatial analysis and modelling. Drawing on real-life examples from malaria research, the programme guides participants from foundational spatial data concepts through to Bayesian geostatistical modelling — equipping them with skills they can continue to build on long after the training ends.\nThe workshop is run annually, bringing together leading researchers and practitioners from across the region."
+    "text": "The Geospatial Modelling Workshop is an intensive training programme for statisticians and public health professionals looking to build their skills in geospatial analysis and modelling. Drawing on real-life examples from malaria research, the programme guides participants from foundational spatial data concepts through to Bayesian geostatistical modelling equipping them with skills they can continue to build on long after the training ends.\nThe workshop is run annually, bringing together leading researchers and practitioners from across the region."
   },
   {
     "objectID": "index.html#who-is-map",
@@ -39,7 +39,7 @@
     "href": "index.html#ready-to-apply",
     "title": "GEOSPATIAL MODELLING FOR PUBLIC HEALTH APPLICATIONS",
     "section": "Ready to Apply?",
-    "text": "Ready to Apply?\nReview the eligibility criteria and application details on the Call for Applications page.\nApplications are submitted on the GeoMAP Onboarding Portal — our dedicated application platform.\nApply on the GeoMAP Onboarding Portal →\n\nIn Partnership With"
+    "text": "Ready to Apply?\nReview the eligibility criteria and application details on the Call for Applications page.\nApply →\n\nIn Partnership With"
   },
   {
     "objectID": "facilitators/susan-rumisha.html",
@@ -193,7 +193,7 @@
     "href": "apply/index.html#ready-to-apply",
     "title": "Call for Applications",
     "section": "Ready to Apply?",
-    "text": "Ready to Apply?\nReview the details above, then submit your application on the GeoMAP Onboarding Portal — our dedicated application platform.\nApply on the GeoMAP Onboarding Portal →\nSee also: FAQs"
+    "text": "Ready to Apply?\nReview the details above, then submit your application on the our dedicated application platform.\nApply →\nSee also: FAQs"
   },
   {
     "objectID": "editions/2025.html",
@@ -259,8 +259,8 @@
     "text": "Photo of Prof. Janine Illian\n\n\nProf. Janine Illian\nChair in Statistical Sciences at the University of Glasgow, and author of the leading textbook on spatial point process modelling.\n\n\n\n\n\nPhoto of Dr. Tim Lucas\n\n\nDr. Tim Lucas\nLecturer in biostatistics specializing in geospatial models, machine learning, and disaggregation regression to predict disease patterns from observational data.\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nStatistician General, National Bureau of Statistics, Tanzania.\n\n\n\n\n\nPhoto of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nLead of the MAP Dar es Salaam Node, Ifakara Health Institute."
   },
   {
-    "objectID": "facilitators/index.html#key-facilitators",
-    "href": "facilitators/index.html#key-facilitators",
+    "objectID": "facilitators/index.html#instructors",
+    "href": "facilitators/index.html#instructors",
     "title": "Team",
     "section": "",
     "text": "Photo of Prof. Janine Illian\n\n\nProf. Janine Illian\nChair in Statistical Sciences at the University of Glasgow, and author of the leading textbook on spatial point process modelling.\n\n\n\n\n\nPhoto of Dr. Tim Lucas\n\n\nDr. Tim Lucas\nLecturer in biostatistics specializing in geospatial models, machine learning, and disaggregation regression to predict disease patterns from observational data.\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nStatistician General, National Bureau of Statistics, Tanzania.\n\n\n\n\n\nPhoto of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nLead of the MAP Dar es Salaam Node, Ifakara Health Institute."
@@ -270,14 +270,14 @@
     "href": "facilitators/index.html#coordinators",
     "title": "Team",
     "section": "Coordinators",
-    "text": "Coordinators\n\n2026\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nTechnical Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Sosthenes Ketende\n\n\nSosthenes Ketende\nProgram Manager of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Christine Myalla\n\n\nChristine Myalla\nData Engineer Lead of the MAP Dar es Salaam Node, Ifakara Health Institute."
+    "text": "Coordinators\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nTechnical Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Sosthenes Ketende\n\n\nSosthenes Ketende\nProgram Manager of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Christine Myalla\n\n\nChristine Myalla\nData Engineer Lead of the MAP Dar es Salaam Node, Ifakara Health Institute."
   },
   {
-    "objectID": "facilitators/index.html#invited-speakers-helpers",
-    "href": "facilitators/index.html#invited-speakers-helpers",
+    "objectID": "facilitators/index.html#invited-speakers-facilitators",
+    "href": "facilitators/index.html#invited-speakers-facilitators",
     "title": "Team",
-    "section": "Invited Speakers & Helpers",
-    "text": "Invited Speakers & Helpers\n\n2025\n\n\n\n\n\nPhoto of Prof. Nick Golding\n\n\nProf. Nick Golding\nInvited Speaker, Special Lecture: Understanding Generalized Linear Models\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nInvited Speaker\n\n\n\nDr. Aron Wiggins — Helper, University of Dar es Salaam\nMr. Bwire Wilson — Helper, University of Dar es Salaam\n\n\n\n2024\n\nDr. Aron Wiggins — Helper, University of Dar es Salaam\nMr. Bwire Wilson — Helper, University of Dar es Salaam"
+    "section": "Invited Speakers & Facilitators",
+    "text": "Invited Speakers & Facilitators\n\n2025\n\n\n\n\n\nPhoto of Prof. Nick Golding\n\n\nProf. Nick Golding\nInvited Speaker, Special Lecture: Understanding Generalized Linear Models\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nInvited Speaker\n\n\n\nDr. Aron Wiggins — Facilitator, University of Dar es Salaam\nMr. Bwire Wilson — Facilitator, University of Dar es Salaam\n\n\n\n2024\n\nDr. Aron Wiggins — Facilitator, University of Dar es Salaam\nMr. Bwire Wilson — Facilitator, University of Dar es Salaam"
   },
   {
     "objectID": "facilitators/punam-amratia.html",

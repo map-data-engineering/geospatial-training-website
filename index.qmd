@@ -9,7 +9,7 @@ statisticians and public health professionals looking to build their
 skills in geospatial analysis and modelling. Drawing on real-life
 examples from malaria research, the programme guides participants from
 foundational spatial data concepts through to Bayesian geostatistical
-modelling — equipping them with skills they can continue to build on
+modelling equipping them with skills they can continue to build on
 long after the training ends.
 
 The workshop is run annually, bringing together leading researchers and
@@ -152,10 +152,8 @@ programme.
 Review the eligibility criteria and application details on the Call for
 Applications page.
 
-Applications are submitted on the **GeoMAP Onboarding Portal** — our
-dedicated application platform.
 
-[Apply on the GeoMAP Onboarding Portal →](https://geomap-onboardnig-portal-frontend.vercel.app/index.html){.btn target="_blank" rel="noopener noreferrer"}
+[Apply →](https://geomap-onboardnig-portal-frontend.vercel.app/index.html){.btn target="_blank" rel="noopener noreferrer"}
 
 ::: {.partner-strip}
 In Partnership With
