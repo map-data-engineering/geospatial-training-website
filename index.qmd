@@ -152,6 +152,7 @@ programme.
 Review the eligibility criteria and application details on the Call for
 Applications page.
 
+Applications close 30 August 2026 — apply now.
 
 [Apply →](https://geomap-onboardnig-portal-frontend.vercel.app/index.html){.btn target="_blank" rel="noopener noreferrer"}
 

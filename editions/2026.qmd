@@ -38,6 +38,14 @@ All day, 9am–4pm.
 
 Takwimu House, Dodoma, Tanzania.
 :::
+
+::: {.card}
+<i class="bi bi-hourglass-split card-icon" aria-hidden="true"></i>
+
+**Application Deadline**
+
+Applications close 30 August 2026.
+:::
 :::
 
 ## Course Topic & Seminars

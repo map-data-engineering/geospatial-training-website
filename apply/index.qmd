@@ -2,6 +2,8 @@
 title: "Call for Applications"
 ---
 
+**Applications close 30 August 2026.**
+
 ## Overview
 
 ::: {.intro}
@@ -26,9 +28,9 @@ criteria and practical notes below before applying.
 
 ## Ready to Apply?
 
-Review the details above, then submit your application on the
-our dedicated application platform.
+Review the details above, then submit your application on our
+dedicated application platform.
 
-[Apply  →](https://geomap-onboardnig-portal-frontend.vercel.app/index.html){.btn target="_blank" rel="noopener noreferrer"}
+[Apply →](https://geomap-onboardnig-portal-frontend.vercel.app/index.html){.btn target="_blank" rel="noopener noreferrer"}
 
 See also: [FAQs](faq.qmd)
