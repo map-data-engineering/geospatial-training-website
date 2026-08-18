@@ -1,5 +1,5 @@
 ---
-title: "Previous Workshop Editions"
+title: "Workshop Editions"
 ---
 
 Browse past and upcoming cohorts of the Geospatial Modelling Workshop
