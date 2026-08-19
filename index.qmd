@@ -18,7 +18,7 @@ practitioners from across the region.
 
 ::: {.stats-band}
 ::: {.stat}
-**3**
+**2**
 
 Cohorts Delivered
 :::

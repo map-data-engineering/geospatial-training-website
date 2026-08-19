@@ -52,8 +52,7 @@ Applications close 30 August 2026.
 
 - **Course topic:** Spatial and spatio-temporal modelling with INLAbru
 - **Special seminar 1:** "The Data Behind the Decisions: National
-  Statistical Offices as Partners in Public Health" — Janine Illian
-  (presented with NBS)
+  Statistical Offices as Partners in Public Health" — Dr. Amina Msengwa
 - **Special seminar 2:** "Spatial Disaggregation in R" — Tim Lucas
 
 See the full list of invited speakers and helpers on the
