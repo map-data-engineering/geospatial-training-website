@@ -34,4 +34,5 @@ a new tab — you'll need a free GitHub account to post.
 
 If your question is likely to be useful to more than one person, post
 it in the discussion. If it is strictly personal (a change of email,
-a specific document), reach out on the [Contact](#) page instead.
+a specific document), reach out on the [Contact](../contact/index.qmd)
+page instead.

@@ -175,20 +175,6 @@
     "text": "Not sure whether to post?\nIf your question is likely to be useful to more than one person, post it in the discussion. If it is strictly personal (a change of email, a specific document), reach out on the Contact page instead."
   },
   {
-    "objectID": "apply/faq.html",
-    "href": "apply/faq.html",
-    "title": "FAQs",
-    "section": "",
-    "text": "Is the training conducted online?\nNo, this is an in-person training.\nIs there a cost to attend?\nNo, the training is completely free. Food and drinks are provided; participants are responsible for their own travel and accommodation.\nWhat level of R knowledge is required?\nBasic experience with R is required — this is not a beginner programming course. Applicants should also have an understanding of statistical inference and introductory knowledge of Bayesian statistical methods.\nIs a certificate provided?\nYes, a certificate of completion is awarded to all participants.\nWhat software will I need?\nR, version 4.0 or above.\nHow competitive is selection?\nHighly competitive — around 30 participants are selected per cohort from 400+ applicants.\nWhere is the training held?\nLocation varies by year — see the current year’s Edition page for exact venue and dates.\nCan I apply again if I wasn’t selected?\nYes — if you’re not selected in one cycle, you’re welcome to apply again in a future cycle."
-  },
-  {
-    "objectID": "alumni/index.html",
-    "href": "alumni/index.html",
-    "title": "Alumni",
-    "section": "",
-    "text": "Coming soon.\nThis section is on hold pending participant consent for names, photos, institutions, and links. No content will be published here until consent is recorded."
-  },
-  {
     "objectID": "apply/index.html",
     "href": "apply/index.html",
     "title": "Call for Applications",
@@ -222,6 +208,27 @@
     "title": "Call for Applications",
     "section": "Ready to Apply?",
     "text": "Ready to Apply?\nReview the details above, then submit your application on our dedicated application platform.\nApply →\nSee also: FAQs"
+  },
+  {
+    "objectID": "alumni/index.html",
+    "href": "alumni/index.html",
+    "title": "Alumni",
+    "section": "",
+    "text": "Coming soon.\nThis section is on hold pending participant consent for names, photos, institutions, and links. No content will be published here until consent is recorded."
+  },
+  {
+    "objectID": "apply/faq.html",
+    "href": "apply/faq.html",
+    "title": "FAQs",
+    "section": "",
+    "text": "Is the training conducted online?\nNo, this is an in-person training.\nIs there a cost to attend?\nNo, the training is completely free. Food and drinks are provided; participants are responsible for their own travel and accommodation.\nWhat level of R knowledge is required?\nBasic experience with R is required — this is not a beginner programming course. Applicants should also have an understanding of statistical inference and introductory knowledge of Bayesian statistical methods.\nIs a certificate provided?\nYes, a certificate of completion is awarded to all participants.\nWhat software will I need?\nR, version 4.0 or above.\nHow competitive is selection?\nHighly competitive — around 30 participants are selected per cohort from 400+ applicants.\nWhere is the training held?\nLocation varies by year — see the current year’s Edition page for exact venue and dates.\nCan I apply again if I wasn’t selected?\nYes — if you’re not selected in one cycle, you’re welcome to apply again in a future cycle."
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "Contact",
+    "section": "",
+    "text": "For anything specific to your application or the workshop that is not suited to the public Discussion board, get in touch with us directly.\n\n\n\nMAP DET\ncmyalla@ihi.or.tz\n\n\nPlease include your full name and, if you have already started an application, the email address you used, so we can find your record."
   },
   {
     "objectID": "editions/2024.html",
