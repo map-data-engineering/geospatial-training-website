@@ -23,8 +23,8 @@ website:
         text: Team
       - href: apply/index.qmd
         text: Apply
-      - text: Discussion
-        href: https://github.com/map-data-engineering/geospatial-training-website/discussions/1
+      - href: discussion/index.qmd
+        text: Discussion
       # Hidden from nav for launch — pages/folders kept as-is, easy to
       # re-enable by uncommenting these entries.
       # - href: alumni/index.qmd
