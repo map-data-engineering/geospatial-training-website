@@ -10,9 +10,7 @@ in touch with us directly.
 ::: {.card}
 <i class="bi bi-envelope card-icon" aria-hidden="true"></i>
 
-**MAP DET**
-
-[cmyalla@ihi.or.tz](mailto:cmyalla@ihi.or.tz)
+**[MAP DET](mailto:cmyalla@ihi.or.tz)**
 :::
 :::
 
