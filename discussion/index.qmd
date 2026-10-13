@@ -1,0 +1,38 @@
+---
+title: "Discussion"
+---
+
+Questions, feedback and conversations about the Geospatial Modelling
+Workshop happen on our GitHub Discussions board. Applicants, alumni,
+instructors and facilitators all read there — it's the fastest way to
+get an answer that others can benefit from too.
+
+::: {.card-grid}
+::: {.card}
+<i class="bi bi-chat-dots card-icon" aria-hidden="true"></i>
+
+**Join the conversation**
+
+The discussion is hosted on GitHub. Click the link below to open it in
+a new tab — you'll need a free GitHub account to post.
+
+[Open GitHub Discussions →](https://github.com/map-data-engineering/geospatial-training-website/discussions/1){.btn target="_blank" rel="noopener noreferrer"}
+:::
+:::
+
+## What to use it for
+
+- **Programme questions.** Anything about the curriculum, prerequisites,
+  or which edition to apply to.
+- **Application help.** If something in the application portal is
+  unclear, ask before you submit rather than after.
+- **After the workshop.** Alumni share how they are applying the
+  methods in their own work; new applicants read those threads before
+  applying.
+
+## Not sure whether to post?
+
+If your question is likely to be useful to more than one person, post
+it in the discussion. If it is strictly personal (a change of email,
+a specific document), reach out on the [Contact](../contact/index.qmd)
+page instead.

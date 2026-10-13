@@ -2,105 +2,38 @@
 title: "Team"
 ---
 
-## Instructors
+The people behind the Geospatial Modelling Workshop change from year to
+year as new instructors, speakers and facilitators join the programme.
+Pick a cohort below to see who taught and supported it.
 
-### 2026
-::: {.card-grid .team-grid}
+::: {.card-grid}
 ::: {.card}
-![Photo of Prof. Janine Illian](../assets/people/Janine.png){.avatar-photo}
+<i class="bi bi-people card-icon" aria-hidden="true"></i>
 
-**[Prof. Janine Illian](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/janineillian/){target="_blank" rel="noopener noreferrer"}**
+**[2024 Team](2024.qmd)**
 
-Chair in Statistical Sciences at the University of Glasgow, and author
-of the leading textbook on spatial point process modelling.
-:::
+September 2024 · The first cohort.
 
-::: {.card}
-![Photo of Dr. Tim Lucas](../assets/people/Tim.png){.avatar-photo}
-
-**[Dr. Tim Lucas](https://le.ac.uk/people/tim-lucas){target="_blank" rel="noopener noreferrer"}**
-
-Lecturer in biostatistics specializing in geospatial models, machine
-learning, and disaggregation regression to predict disease patterns
-from observational data.
+Instructors, facilitators and coordinators for the inaugural edition.
 :::
 
 ::: {.card}
-![Photo of Dr. Amina Msengwa](../assets/people/amina.jpg){.avatar-photo}
+<i class="bi bi-people card-icon" aria-hidden="true"></i>
 
-**[Dr. Amina Msengwa](https://www.nbs.go.tz/administration/management-team/statistician-general){target="_blank" rel="noopener noreferrer"}**
+**[2025 Team](2025.qmd)**
 
-Statistician General, National Bureau of Statistics, Tanzania.
+16–18 September 2025 · University of Dar es Salaam, Tanzania.
+
+Instructors, invited speaker, facilitators and coordinators.
 :::
 
 ::: {.card}
-![Photo of Dr. Susan Rumisha](../assets/people/susan.jpg){.avatar-photo}
+<i class="bi bi-people card-icon" aria-hidden="true"></i>
 
-**[Dr. Susan Rumisha](https://www.thekids.org.au/contact-us/our-people/r/susan-rumisha/){target="_blank" rel="noopener noreferrer"}**
+**[2026 Team](2026.qmd)**
 
-Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.
+15–18 September 2026 · Takwimu House, Dodoma, Tanzania.
+
+Instructors, invited speakers, facilitators and coordinators.
 :::
 :::
-
-## Coordinators
-
-
-::: {.card-grid .team-grid}
-::: {.card}
-![Photo of Dr. Punam Amratia](../assets/people/punam.jpg){.avatar-photo}
-
-**[Dr. Punam Amratia](https://www.thekids.org.au/contact-us/our-people/a/punam-amratia/){target="_blank" rel="noopener noreferrer"}**
-
-Technical Lead of the MAP Dar es Salaam Node, Ifakara Health
-Institute.
-:::
-
-::: {.card}
-![Photo of Sosthenes Ketende](../assets/people/sosthenes.jpg){.avatar-photo}
-
-**[Sosthenes Ketende](https://www.ihi.or.tz/en/our-staff/239/Sosthenes/Charles%2520Ketende/details/){target="_blank" rel="noopener noreferrer"}**
-
-Program Manager of the MAP Dar es Salaam Node, Ifakara Health
-Institute.
-:::
-
-::: {.card}
-![Photo of Christine Myalla](../assets/people/christina.jpg){.avatar-photo}
-
-**[Christine Myalla](https://www.linkedin.com/in/christinamyalla/){target="_blank" rel="noopener noreferrer"}**
-
-Data Engineer Lead of the MAP Dar es Salaam Node, Ifakara Health
-Institute.
-:::
-:::
-
-## Invited Speakers & Facilitators
-
-### 2025
-
-::: {.card-grid .team-grid}
-::: {.card}
-![Photo of Prof. Nick Golding](../assets/people/nick.jpeg){.avatar-photo}
-
-**[Prof. Nick Golding](https://www.thekids.org.au/contact-us/our-people/g/nick-golding/){target="_blank" rel="noopener noreferrer"}**
-
-Invited Speaker, Special Lecture: Understanding Generalized Linear
-Models
-:::
-
-::: {.card}
-![Photo of Dr. Punam Amratia](../assets/people/punam.jpg){.avatar-photo}
-
-**[Dr. Punam Amratia](https://www.thekids.org.au/contact-us/our-people/a/punam-amratia/){target="_blank" rel="noopener noreferrer"}**
-
-Invited Speaker
-:::
-:::
-
-- Dr. Aron Wiggins — Facilitator, University of Dar es Salaam
-- Mr. Bwire Wilson — Facilitator, University of Dar es Salaam
-
-### 2024
-
-- Dr. Aron Wiggins — Facilitator, University of Dar es Salaam
-- Mr. Bwire Wilson — Facilitator, University of Dar es Salaam

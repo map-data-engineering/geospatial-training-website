@@ -1,0 +1,92 @@
+---
+title: "2025 Team"
+---
+
+The people who taught, presented, facilitated and coordinated the
+2025 edition of the Geospatial Modelling Workshop.
+
+## Instructors
+
+::: {.card-grid .team-grid}
+::: {.card}
+![Photo of Dr. Susan Rumisha](../assets/people/susan.jpg){.avatar-photo}
+
+**[Dr. Susan Rumisha](https://www.thekids.org.au/contact-us/our-people/r/susan-rumisha/){target="_blank" rel="noopener noreferrer"}**
+
+Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.
+:::
+
+::: {.card}
+![Photo of Dr. Punam Amratia](../assets/people/punam.jpg){.avatar-photo}
+
+**[Dr. Punam Amratia](https://www.thekids.org.au/contact-us/our-people/a/punam-amratia/){target="_blank" rel="noopener noreferrer"}**
+
+Technical Lead, MAP Dar es Salaam Node, Ifakara Health Institute.
+:::
+
+::: {.card}
+![Photo of Dr. Amina Msengwa](../assets/people/amina.jpg){.avatar-photo}
+
+**[Dr. Amina Msengwa](https://www.nbs.go.tz/administration/management-team/statistician-general){target="_blank" rel="noopener noreferrer"}**
+
+Statistician General, National Bureau of Statistics, Tanzania.
+:::
+:::
+
+## Invited Speaker
+
+::: {.card-grid .team-grid}
+::: {.card}
+![Photo of Prof. Nick Golding](../assets/people/nick.jpeg){.avatar-photo}
+
+**[Prof. Nick Golding](https://staffportal.curtin.edu.au/staff/profile/view/nick-golding-fea4f81a/){target="_blank" rel="noopener noreferrer"}**
+
+Curtin School of Population Health, Curtin University.
+Special Lecture: Understanding Generalized Linear Models.
+:::
+:::
+
+## Facilitators
+
+::: {.card-grid .team-grid}
+::: {.card}
+![Photo of Dr. Aron Wiggins](../assets/people/wiggins.png){.avatar-photo}
+
+**[Dr. Aron Wiggins](https://tz.linkedin.com/in/wiggins-aaron-a5507491){target="_blank" rel="noopener noreferrer"}**
+
+Lecturer, University of Dar es Salaam.
+:::
+
+::: {.card}
+![Photo of Mr. Bwire Wilson](../assets/people/bwire.png){.avatar-photo}
+
+**[Mr. Bwire Wilson](https://www.linkedin.com/in/bwire-wilson-1789916b/){target="_blank" rel="noopener noreferrer"}**
+
+University of Dar es Salaam.
+:::
+:::
+
+## Coordinators
+
+::: {.card-grid .team-grid}
+::: {.card}
+![Photo of Sosthenes Ketende](../assets/people/sosthenes.jpg){.avatar-photo}
+
+**[Sosthenes Ketende](https://www.ihi.or.tz/en/our-staff/239/Sosthenes/Charles%2520Ketende/details/){target="_blank" rel="noopener noreferrer"}**
+
+Program Manager, MAP Dar es Salaam Node, Ifakara Health Institute.
+:::
+
+::: {.card}
+![Photo of Christine Myalla](../assets/people/christina.jpg){.avatar-photo}
+
+**[Christine Myalla](https://www.linkedin.com/in/christinamyalla/){target="_blank" rel="noopener noreferrer"}**
+
+Data Engineer Lead, MAP Dar es Salaam Node, Ifakara Health Institute.
+:::
+:::
+
+---
+
+See the [2025 Edition](../editions/2025.qmd) page for course details,
+or browse [other cohorts](index.qmd).

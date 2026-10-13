@@ -1,0 +1,18 @@
+---
+title: "Contact"
+---
+
+For anything specific to your application or the workshop that is not
+suited to the public [Discussion](../discussion/index.qmd) board, get
+in touch with us directly.
+
+::: {.card-grid}
+::: {.card}
+<i class="bi bi-envelope card-icon" aria-hidden="true"></i>
+
+**[MAP DET](mailto:cmyalla@ihi.or.tz)**
+:::
+:::
+
+Please include your full name and, if you have already started an
+application, the email address you used, so we can find your record.

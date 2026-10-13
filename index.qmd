@@ -18,7 +18,7 @@ practitioners from across the region.
 
 ::: {.stats-band}
 ::: {.stat}
-**3**
+**2**
 
 Cohorts Delivered
 :::
@@ -162,5 +162,4 @@ In Partnership With
 ![KIDS](assets/partners/KIDS.jpg)
 ![IHI](assets/partners/IHI.png)
 ![NBS](assets/partners/NBS.png)
-
 :::
