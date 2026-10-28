@@ -39,7 +39,7 @@
     "href": "index.html#ready-to-apply",
     "title": "GEOSPATIAL MODELLING FOR PUBLIC HEALTH APPLICATIONS",
     "section": "Ready to Apply?",
-    "text": "Ready to Apply?\nReview the eligibility criteria and application details on the Call for Applications page.\nApplications close 30 August 2026 — apply now.\nApply →\n\nIn Partnership With"
+    "text": "Ready to Apply?\nReview the eligibility criteria and application details on the Call for Applications page.\nApplications close 30 August 2026 — apply now.\nApply →"
   },
   {
     "objectID": "facilitators/susan-rumisha.html",
@@ -56,53 +56,11 @@
     "text": "Senior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute\nDr. Diao’s expertise spans mathematical engineering, geospatial modelling, and malaria epidemiology. He develops and implements spatiotemporal models to estimate malaria, assess transmission profiles, and evaluate intervention strategies. He has contributed to capacity strengthening through teaching and training in geospatial modelling across Africa, including the Malaria Modelling training school (MaMOD) and MAP ECR training programmes.\nHe holds a PhD in Mathematical Engineering from UCLouvain, Belgium, and an MSc in Bioinformatics/Biomathematics from UCAD, Senegal, and has published widely on malaria and infectious disease modelling."
   },
   {
-    "objectID": "facilitators/amina-msengwa.html",
-    "href": "facilitators/amina-msengwa.html",
-    "title": "Dr. Amina Msengwa",
-    "section": "",
-    "text": "Senior Lecturer, Department of Statistics, University of Dar es Salaam\nWith more than two decades of teaching and research experience, Dr. Msengwa’s expertise spans epidemiology, biostatistics, Bayesian statistics, and spatial statistics. She has made significant contributions to understanding and mapping disease burden in Tanzania, and is dedicated to applying statistical models across health and environmental domains."
-  },
-  {
-    "objectID": "facilitators/2025.html",
-    "href": "facilitators/2025.html",
-    "title": "2025 Team",
-    "section": "",
-    "text": "The people who taught, presented, facilitated and coordinated the 2025 edition of the Geospatial Modelling Workshop."
-  },
-  {
-    "objectID": "facilitators/2025.html#instructors",
-    "href": "facilitators/2025.html#instructors",
-    "title": "2025 Team",
-    "section": "Instructors",
-    "text": "Instructors\n\n\n\n\n\nPhoto of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nLead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nTechnical Lead, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nStatistician General, National Bureau of Statistics, Tanzania."
-  },
-  {
-    "objectID": "facilitators/2025.html#invited-speaker",
-    "href": "facilitators/2025.html#invited-speaker",
-    "title": "2025 Team",
-    "section": "Invited Speaker",
-    "text": "Invited Speaker\n\n\n\n\n\nPhoto of Prof. Nick Golding\n\n\nProf. Nick Golding\nCurtin School of Population Health, Curtin University. Special Lecture: Understanding Generalized Linear Models."
-  },
-  {
-    "objectID": "facilitators/2025.html#facilitators",
-    "href": "facilitators/2025.html#facilitators",
-    "title": "2025 Team",
-    "section": "Facilitators",
-    "text": "Facilitators\n\n\n\n\n\nPhoto of Dr. Aron Wiggins\n\n\nDr. Aron Wiggins\nLecturer, University of Dar es Salaam.\n\n\n\n\n\nPhoto of Mr. Bwire Wilson\n\n\nMr. Bwire Wilson\nUniversity of Dar es Salaam."
-  },
-  {
-    "objectID": "facilitators/2025.html#coordinators",
-    "href": "facilitators/2025.html#coordinators",
-    "title": "2025 Team",
-    "section": "Coordinators",
-    "text": "Coordinators\n\n\n\n\n\nPhoto of Sosthenes Ketende\n\n\nSosthenes Ketende\nProgram Manager, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Christine Myalla\n\n\nChristine Myalla\nData Engineer Lead, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\nSee the 2025 Edition page for course details, or browse other cohorts."
-  },
-  {
     "objectID": "editions/index.html",
     "href": "editions/index.html",
     "title": "Workshop Editions",
     "section": "",
-    "text": "Browse past and upcoming cohorts of the Geospatial Modelling Workshop below — each edition builds on the same core geostatistical curriculum, with topics and special seminars that vary by year.\nView materials from previous workshops →\n\n\n\n2024 Edition\nSeptember 2024 · University of Dar es Salaam, Tanzania\nGeostatistics and geospatial modelling with the INLA approach.\n\n\n\n2025 Edition\n16–18 September 2025 · University of Dar es Salaam, Tanzania\nGeostatistics and geospatial modelling with the INLA approach.\n\n\n\n2026 Edition\n15–18 September 2026 · Takwimu House, Dodoma, Tanzania\nSpatial and spatio-temporal modelling with INLAbru."
+    "text": "Browse past and upcoming cohorts of the Geospatial Modelling Workshop below — each edition builds on the same core geostatistical curriculum, with topics and special seminars that vary by year.\nView materials from previous workshops →\n\n\n\n2026 Edition\n15–18 September 2026 · Takwimu House, Dodoma, Tanzania\nSpatial and spatio-temporal modelling with INLAbru.\n\n\n\n2025 Edition\n16–18 September 2025 · University of Dar es Salaam, Tanzania\nGeostatistics and geospatial modelling with the INLA approach.\n\n\n\n2024 Edition\nSeptember 2024 · University of Dar es Salaam, Tanzania\nGeostatistics and geospatial modelling with the INLA approach."
   },
   {
     "objectID": "editions/2025.html",
@@ -133,11 +91,11 @@
     "text": "Course Topic\nGeostatistics and geospatial modelling with the INLA approach."
   },
   {
-    "objectID": "editions/2025.html#facilitators",
-    "href": "editions/2025.html#facilitators",
+    "objectID": "editions/2025.html#team",
+    "href": "editions/2025.html#team",
     "title": "2025 Edition",
-    "section": "Facilitators",
-    "text": "Facilitators\nThis edition was led by Dr Susan Rumisha, Dr Punam Amratia, and Dr Amina Msengwa (now Statistician General, National Bureau of Statistics, Tanzania). See the Team page for full profiles.\nSee the full list of invited speakers and helpers on the Team page →"
+    "section": "Team",
+    "text": "Team\nThe people who taught, presented, facilitated and coordinated the 2025 edition of the Geospatial Modelling Workshop.\n\nInstructors\n\n\n\n\n\nPhoto of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nLead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nTechnical Lead, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nStatistician General, National Bureau of Statistics, Tanzania.\n\n\n\n\nInvited Speaker\n\n\n\n\n\nPhoto of Prof. Nick Golding\n\n\nProf. Nick Golding\nCurtin School of Population Health, Curtin University. Special Lecture: Understanding Generalized Linear Models.\n\n\n\n\nFacilitators\n\n\n\n\n\nPhoto of Dr. Aron Wiggins\n\n\nDr. Aron Wiggins\nLecturer, University of Dar es Salaam.\n\n\n\n\n\nPhoto of Mr. Bwire Wilson\n\n\nMr. Bwire Wilson\nUniversity of Dar es Salaam.\n\n\n\n\nCoordinators\n\n\n\n\n\nPhoto of Sosthenes Ketende\n\n\nSosthenes Ketende\nProgram Manager, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Christine Myalla\n\n\nChristine Myalla\nData Engineer Lead, MAP Dar es Salaam Node, Ifakara Health Institute."
   },
   {
     "objectID": "editions/2025.html#organized-by",
@@ -154,9 +112,9 @@
     "text": "Editions\nSee other editions."
   },
   {
-    "objectID": "editions/index.html",
-    "href": "editions/index.html",
-    "title": "Workshop Editions",
+    "objectID": "discussion/index.html",
+    "href": "discussion/index.html",
+    "title": "Discussion",
     "section": "",
     "text": "Questions, feedback and conversations about the Geospatial Modelling Workshop happen on our GitHub Discussions board. Applicants, alumni, instructors and facilitators all read there — it’s the fastest way to get an answer that others can benefit from too."
   },
@@ -228,7 +186,7 @@
     "href": "contact/index.html",
     "title": "Contact",
     "section": "",
-    "text": "For anything specific to your application or the workshop that is not suited to the public Discussion board, get in touch with us directly.\n\n\n\nMAP DET\ncmyalla@ihi.or.tz\n\n\nPlease include your full name and, if you have already started an application, the email address you used, so we can find your record."
+    "text": "For anything specific to your application or the workshop that is not suited to the public Discussion board, get in touch with us directly.\n\n\n\nMAP DET\n\n\nPlease include your full name and, if you have already started an application, the email address you used, so we can find your record."
   },
   {
     "objectID": "editions/2024.html",
@@ -259,11 +217,11 @@
     "text": "Course Topic\nGeostatistics and geospatial modelling with the INLA approach (same as the 2025 edition)."
   },
   {
-    "objectID": "editions/2024.html#facilitators",
-    "href": "editions/2024.html#facilitators",
+    "objectID": "editions/2024.html#team",
+    "href": "editions/2024.html#team",
     "title": "2024 Edition",
-    "section": "Facilitators",
-    "text": "Facilitators\nThis edition’s facilitators were the same as the 2025 edition. See the Team page for full profiles.\nSee the full list of invited speakers and helpers on the Team page →\nFull details for this first cohort are still being compiled and may be added later."
+    "section": "Team",
+    "text": "Team\nThe people who taught, facilitated and coordinated the 2024 edition — the programme’s first cohort.\nFull details for this first cohort are still being compiled and may be added later.\n\nInstructors\n\n\n\n\n\nPhoto of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nLead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nStatistician General, National Bureau of Statistics, Tanzania.\n\n\n\n\nFacilitators\n\n\n\n\n\nPhoto of Dr. Aron Wiggins\n\n\nDr. Aron Wiggins\nLecturer, University of Dar es Salaam.\n\n\n\n\n\nPhoto of Mr. Bwire Wilson\n\n\nMr. Bwire Wilson\nUniversity of Dar es Salaam.\n\n\n\n\nCoordinator\n\n\n\n\n\nPhoto of Sosthenes Ketende\n\n\nSosthenes Ketende\nProgram Manager, MAP Dar es Salaam Node, Ifakara Health Institute."
   },
   {
     "objectID": "editions/2024.html#editions",
@@ -298,14 +256,21 @@
     "href": "editions/2026.html#course-topic-seminars",
     "title": "2026 Edition",
     "section": "Course Topic & Seminars",
-    "text": "Course Topic & Seminars\n\nCourse topic: Spatial and spatio-temporal modelling with INLAbru\nSpecial seminar 1: “The Data Behind the Decisions: National Statistical Offices as Partners in Public Health” — Dr. Amina Msengwa\nSpecial seminar 2: “Spatial Disaggregation in R” — Tim Lucas\n\nSee the full list of invited speakers and helpers on the Team page →"
+    "text": "Course Topic & Seminars\n\nCourse topic: Spatial and spatio-temporal modelling with INLAbru\nSpecial seminar 1: “The Data Behind the Decisions: National Statistical Offices as Partners in Public Health” — Dr. Amina Msengwa\nSpecial seminar 2: “Spatial Disaggregation in R” — Tim Lucas"
   },
   {
-    "objectID": "editions/2026.html#supported-by",
-    "href": "editions/2026.html#supported-by",
+    "objectID": "editions/2026.html#team",
+    "href": "editions/2026.html#team",
     "title": "2026 Edition",
-    "section": "Supported By",
-    "text": "Supported By\nThis edition is supported by Ifakara Health Institute, The Kids Research Institute Australia, University of Glasgow, and the National Bureau of Statistics Tanzania."
+    "section": "Team",
+    "text": "Team\nThe people teaching, presenting, facilitating and coordinating the 2026 edition of the Geospatial Modelling Workshop.\n\nInstructors\n\n\n\n\n\nPhoto of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nLead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Prof. Janine Illian\n\n\nProf. Janine Illian\nChair in Statistical Sciences, University of Glasgow.\n\n\n\n\nInvited Speakers\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nStatistician General, National Bureau of Statistics, Tanzania. Special seminar 1.\n\n\n\n\n\nPhoto of Dr. Tim Lucas\n\n\nDr. Tim Lucas\nLecturer in Biostatistics, University of Leicester. Special seminar 2: “Spatial Disaggregation in R”.\n\n\n\n\nFacilitators\n\n\n\n\n\nPhoto of Dr. Ousmane Diao\n\n\nDr. Ousmane Diao\nSenior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Lembris Njotto\n\n\nDr. Lembris Njotto\nSenior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Yasin Kokoda\n\n\nYasin Kokoda\nResearch Scientist, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\nCoordinators\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nTechnical Lead, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Sosthenes Ketende\n\n\nSosthenes Ketende\nProgram Manager, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Christine Myalla\n\n\nChristine Myalla\nData Engineer Lead, MAP Dar es Salaam Node, Ifakara Health Institute."
+  },
+  {
+    "objectID": "editions/2026.html#in-partnership-with",
+    "href": "editions/2026.html#in-partnership-with",
+    "title": "2026 Edition",
+    "section": "In Partnership With",
+    "text": "In Partnership With"
   },
   {
     "objectID": "editions/2026.html#registration",
@@ -315,74 +280,11 @@
     "text": "Registration\nReady to apply? Review the eligibility criteria and application details on the Call for Applications page.\nApply Now →\nCurious what other cohorts covered? See past editions."
   },
   {
-    "objectID": "facilitators/2024.html",
-    "href": "facilitators/2024.html",
-    "title": "2024 Team",
+    "objectID": "facilitators/amina-msengwa.html",
+    "href": "facilitators/amina-msengwa.html",
+    "title": "Dr. Amina Msengwa",
     "section": "",
-    "text": "The people who taught, facilitated and coordinated the 2024 edition — the programme’s first cohort."
-  },
-  {
-    "objectID": "facilitators/2024.html#instructors",
-    "href": "facilitators/2024.html#instructors",
-    "title": "2024 Team",
-    "section": "Instructors",
-    "text": "Instructors\n\n\n\n\n\nPhoto of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nLead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nStatistician General, National Bureau of Statistics, Tanzania."
-  },
-  {
-    "objectID": "facilitators/2024.html#facilitators",
-    "href": "facilitators/2024.html#facilitators",
-    "title": "2024 Team",
-    "section": "Facilitators",
-    "text": "Facilitators\n\n\n\n\n\nPhoto of Dr. Aron Wiggins\n\n\nDr. Aron Wiggins\nLecturer, University of Dar es Salaam.\n\n\n\n\n\nPhoto of Mr. Bwire Wilson\n\n\nMr. Bwire Wilson\nUniversity of Dar es Salaam."
-  },
-  {
-    "objectID": "facilitators/2024.html#coordinator",
-    "href": "facilitators/2024.html#coordinator",
-    "title": "2024 Team",
-    "section": "Coordinator",
-    "text": "Coordinator\n\n\n\n\n\nPhoto of Sosthenes Ketende\n\n\nSosthenes Ketende\nProgram Manager, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\nSee the 2024 Edition page for course details, or browse other cohorts."
-  },
-  {
-    "objectID": "facilitators/2026.html",
-    "href": "facilitators/2026.html",
-    "title": "2026 Team",
-    "section": "",
-    "text": "The people teaching, presenting, facilitating and coordinating the 2026 edition of the Geospatial Modelling Workshop."
-  },
-  {
-    "objectID": "facilitators/2026.html#instructors",
-    "href": "facilitators/2026.html#instructors",
-    "title": "2026 Team",
-    "section": "Instructors",
-    "text": "Instructors\n\n\n\n\n\nPhoto of Dr. Susan Rumisha\n\n\nDr. Susan Rumisha\nLead of the MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Prof. Janine Illian\n\n\nProf. Janine Illian\nChair in Statistical Sciences, University of Glasgow."
-  },
-  {
-    "objectID": "facilitators/2026.html#invited-speakers",
-    "href": "facilitators/2026.html#invited-speakers",
-    "title": "2026 Team",
-    "section": "Invited Speakers",
-    "text": "Invited Speakers\n\n\n\n\n\nPhoto of Dr. Amina Msengwa\n\n\nDr. Amina Msengwa\nStatistician General, National Bureau of Statistics, Tanzania. Special seminar 1.\n\n\n\n\n\nPhoto of Dr. Tim Lucas\n\n\nDr. Tim Lucas\nLecturer in Biostatistics, University of Leicester. Special seminar 2: “Spatial Disaggregation in R”."
-  },
-  {
-    "objectID": "facilitators/2026.html#facilitators",
-    "href": "facilitators/2026.html#facilitators",
-    "title": "2026 Team",
-    "section": "Facilitators",
-    "text": "Facilitators\n\n\n\n\n\nPhoto of Dr. Ousmane Diao\n\n\nDr. Ousmane Diao\nSenior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Dr. Lembris Njotto\n\n\nDr. Lembris Njotto\nSenior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Yasin Kokoda\n\n\nYasin Kokoda\nResearch Scientist, MAP Dar es Salaam Node, Ifakara Health Institute."
-  },
-  {
-    "objectID": "facilitators/2026.html#coordinators",
-    "href": "facilitators/2026.html#coordinators",
-    "title": "2026 Team",
-    "section": "Coordinators",
-    "text": "Coordinators\n\n\n\n\n\nPhoto of Dr. Punam Amratia\n\n\nDr. Punam Amratia\nTechnical Lead, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Sosthenes Ketende\n\n\nSosthenes Ketende\nProgram Manager, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\n\n\nPhoto of Christine Myalla\n\n\nChristine Myalla\nData Engineer Lead, MAP Dar es Salaam Node, Ifakara Health Institute.\n\n\n\nSee the 2026 Edition page for course details, or browse other cohorts."
-  },
-  {
-    "objectID": "facilitators/index.html",
-    "href": "facilitators/index.html",
-    "title": "Team",
-    "section": "",
-    "text": "The people behind the Geospatial Modelling Workshop change from year to year as new instructors, speakers and facilitators join the programme. Pick a cohort below to see who taught and supported it.\n\n\n\n2024 Team\nSeptember 2024 · The first cohort.\nInstructors, facilitators and coordinators for the inaugural edition.\n\n\n\n2025 Team\n16–18 September 2025 · University of Dar es Salaam, Tanzania.\nInstructors, invited speaker, facilitators and coordinators.\n\n\n\n2026 Team\n15–18 September 2026 · Takwimu House, Dodoma, Tanzania.\nInstructors, invited speakers, facilitators and coordinators."
+    "text": "Senior Lecturer, Department of Statistics, University of Dar es Salaam\nWith more than two decades of teaching and research experience, Dr. Msengwa’s expertise spans epidemiology, biostatistics, Bayesian statistics, and spatial statistics. She has made significant contributions to understanding and mapping disease burden in Tanzania, and is dedicated to applying statistical models across health and environmental domains."
   },
   {
     "objectID": "facilitators/punam-amratia.html",
@@ -417,7 +319,7 @@
     "href": "programme/index.html#format",
     "title": "Programme Overview",
     "section": "Format",
-    "text": "Format\n\n\n\nDuration\nTypically a three-day intensive training.\n\n\n\nInstructors\nLeading experts in geospatial modelling and public health — see Team →.\n\n\n\nTeaching Method\nA mix of lectures and hands-on practicals, using real-life examples drawn from malaria research.\n\n\n\nSoftware\nR (version 4.0 and above).\n\n\n\nLanguage\nEnglish.\n\n\n\nCost\nTraining is free of charge. Participants are responsible for their own travel and accommodation costs."
+    "text": "Format\n\n\n\nDuration\nTypically a three-day intensive training.\n\n\n\nInstructors\nLeading experts in geospatial modelling and public health — see the team on each edition page →.\n\n\n\nTeaching Method\nA mix of lectures and hands-on practicals, using real-life examples drawn from malaria research.\n\n\n\nSoftware\nR (version 4.0 and above).\n\n\n\nLanguage\nEnglish.\n\n\n\nCost\nTraining is free of charge. Participants are responsible for their own travel and accommodation costs."
   },
   {
     "objectID": "programme/index.html#what-youll-learn",

@@ -25,8 +25,12 @@ edition page, not the title, homepage, or Programme overview.
 
 ## Sections — v1 (build now)
 - Programme overview & objectives
-- Previous workshop editions (2024, 2025, 2026 onwards)
+- Previous workshop editions (2024, 2025, 2026 onwards) — navbar
+  "Editions" dropdown in _quarto.yml, newest first; add each new year
+  at the top of that menu
 - Facilitators (profiles, institutions, research interests, GitHub/LinkedIn)
+  — listed per year in the "Team" section of each editions/YYYY.qmd,
+  not on a separate Team page/tab
 - Current Call for Applications (link to existing application portal) + FAQs
 
 ## Sections — deferred (blocked on participant consent)

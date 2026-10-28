@@ -123,6 +123,22 @@ main.content,
   color: var(--brand-dark) !important;
 }
 
+/* Editions dropdown — brand tint instead of Cosmo's blue */
+.navbar .dropdown-menu {
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+}
+.navbar .dropdown-item {
+  color: var(--dark);
+}
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus,
+.navbar .dropdown-item.active {
+  background: var(--brand-tint);
+  color: var(--brand-dark);
+}
+
 /* Search icon on white bar */
 .navbar #quarto-search .aa-DetachedSearchButton,
 .navbar .aa-DetachedSearchButton-placeholder,
@@ -168,10 +184,10 @@ main.content,
 /* =========================================================================
    LANDING PAGE — GeoMAP onboarding portal aesthetic applied to the
    original class hooks (.hero, .stats-band, .who-section, .card-grid,
-   .card, .card-icon, .btn, .partner-strip).
+   .card, .card-icon, .btn).
 
    Content is untouched — this is styling only. Scoped via :has(.hero)
-   so content pages (Programme, Editions, Team, Apply) keep the
+   so content pages (Programme, Editions, Apply) keep the
    1180px article column and their own card look.
    ========================================================================= */
 
@@ -631,51 +647,6 @@ main.content:has(.hero) .btn:hover {
   box-shadow: var(--shadow-btn-hover);
 }
 
-/* -------------------------------------------------------------- Partner strip
-   Lives inside #ready-to-apply — separated by a hairline. */
-main.content:has(.hero) .partner-strip {
-  margin: 4rem auto 0 !important;
-  padding: 3rem 0 0 !important;
-  border-top: 1px solid var(--border-soft);
-  text-align: center;
-  max-width: 1000px;
-}
-main.content:has(.hero) .partner-strip > p:first-child {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--brand-dark);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin: 0 0 1.75rem !important;
-}
-main.content:has(.hero) .partner-strip > p:first-child::before,
-main.content:has(.hero) .partner-strip > p:first-child::after {
-  content: "";
-  flex: 1 1 auto;
-  max-width: 140px;
-  height: 1px;
-  background: var(--border-soft);
-}
-main.content:has(.hero) .partner-strip img {
-  height: 52px !important;
-  width: auto !important;
-  max-width: 100%;
-  margin: 0 1.25rem !important;
-  vertical-align: middle;
-  filter: grayscale(40%);
-  opacity: 0.8;
-  transition: filter 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
-}
-main.content:has(.hero) .partner-strip img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-  transform: scale(1.05);
-}
-
 /* -------------------------------------------------------------- Interior intro */
 .map-source {
   font-size: 0.8rem;
@@ -784,7 +755,15 @@ main.content:has(.hero) .partner-strip img:hover {
    pale tint on the whole card anymore. Keep hook for future variants. */
 .gain-grid .card { }
 
-/* Team page: centered content, circular photo */
+/* Edition pages, Team section: role sub-headings (### Instructors…).
+   Bootstrap's h3 is nearly the size of our h2 — scale it down. */
+main.content:not(:has(.hero)) section.level3 > h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 2.25rem 0 0.25rem;
+}
+
+/* Edition pages, Team section: centered content, circular photo */
 .team-grid .card {
   text-align: center;
 }
@@ -817,7 +796,7 @@ main.content:has(.hero) .partner-strip img:hover {
 
 /* Quarto wraps solo-paragraph images with alt text in <figure><figcaption>,
    showing the alt text below the image. Wanted for impact-map figures, not
-   for Team page avatars where alt text is accessible-only. */
+   for Team section avatars where alt text is accessible-only. */
 .team-grid figcaption {
   display: none;
 }
@@ -860,27 +839,33 @@ main.content:has(.hero) .partner-strip img:hover {
   color: var(--brand-dark) !important;
 }
 
-/* -------------------------------------------------------------- Partner strip */
-.partner-strip { text-align: center; }
-.partner-strip > p:first-child {
+/* -------------------------------------------------------------- Partner strip
+   Edition pages: "## In Partnership With {.partner-strip}" — the class
+   lands on the section, so the paragraph under the heading is the logo row. */
+.partner-strip > p {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--brand-dark);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin: 0 0 1.5rem;
+  gap: 1.5rem 2.5rem;
 }
-.partner-strip > p:first-child::before,
-.partner-strip > p:first-child::after {
-  content: "";
-  flex: 1 1 auto;
-  max-width: 140px;
-  height: 1px;
-  background: var(--border-soft);
+.partner-strip img {
+  height: 52px;
+  width: auto;
+  max-width: 100%;
+  filter: grayscale(40%);
+  opacity: 0.8;
+  transition: filter 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+.partner-strip img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
+/* Logo files with a wide white margin baked in (e.g. glasgow.jpeg) —
+   taller box so the visible mark matches the others. */
+.partner-strip img.padded-logo {
+  height: 84px;
 }
 
 /* -------------------------------------------------------------- Footer */

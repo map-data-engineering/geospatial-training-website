@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>2026 Edition – Geospatial Modelling Workshop</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -33,19 +39,18 @@ ul.task-list li input[type="checkbox"] {
 <link href="../assets/map-logo.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c60c11e6191c6100ab24eaf687f89f56.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-c60c11e6191c6100ab24eaf687f89f56.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-c60c11e6191c6100ab24eaf687f89f56.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-357d6e8a397dc51780724a9f5283217b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-357d6e8a397dc51780724a9f5283217b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-357d6e8a397dc51780724a9f5283217b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,14 +112,30 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../programme/index.html"> 
 <span class="menu-text">Programme</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../editions/index.html"> 
-<span class="menu-text">Editions</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-editions" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Editions</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-editions">    
+        <li>
+    <a class="dropdown-item" href="../editions/2026.html">
+ <span class="dropdown-text">2026 Edition</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../facilitators/index.html"> 
-<span class="menu-text">Team</span></a>
+        <li>
+    <a class="dropdown-item" href="../editions/2025.html">
+ <span class="dropdown-text">2025 Edition</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../editions/2024.html">
+ <span class="dropdown-text">2024 Edition</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="../editions/index.html">
+ <span class="dropdown-text">All Editions</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../apply/index.html"> 
 <span class="menu-text">Apply</span></a>
@@ -200,11 +221,134 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Special seminar 1:</strong> “The Data Behind the Decisions: National Statistical Offices as Partners in Public Health” — Dr.&nbsp;Amina Msengwa</li>
 <li><strong>Special seminar 2:</strong> “Spatial Disaggregation in R” — Tim Lucas</li>
 </ul>
-<p>See the full list of invited speakers and helpers on the <a href="../facilitators/index.html">Team page</a> →</p>
 </section>
-<section id="supported-by" class="level2">
-<h2 class="anchored" data-anchor-id="supported-by">Supported By</h2>
-<p>This edition is supported by Ifakara Health Institute, The Kids Research Institute Australia, University of Glasgow, and the National Bureau of Statistics Tanzania.</p>
+<section id="team" class="level2">
+<h2 class="anchored" data-anchor-id="team">Team</h2>
+<p>The people teaching, presenting, facilitating and coordinating the 2026 edition of the Geospatial Modelling Workshop.</p>
+<section id="instructors" class="level3">
+<h3 class="anchored" data-anchor-id="instructors">Instructors</h3>
+<div class="card-grid team-grid">
+<div class="card">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/people/susan.jpg" class="avatar-photo img-fluid figure-img"></p>
+<figcaption>Photo of Dr.&nbsp;Susan Rumisha</figcaption>
+</figure>
+</div>
+<p><strong><a href="https://www.thekids.org.au/contact-us/our-people/r/susan-rumisha/" target="_blank" rel="noopener noreferrer">Dr.&nbsp;Susan Rumisha</a></strong></p>
+<p>Lead of the MAP Dar es Salaam Node, Ifakara Health Institute.</p>
+</div>
+<div class="card">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/people/Janine.png" class="avatar-photo img-fluid figure-img"></p>
+<figcaption>Photo of Prof.&nbsp;Janine Illian</figcaption>
+</figure>
+</div>
+<p><strong><a href="https://uk.linkedin.com/in/janineillian" target="_blank" rel="noopener noreferrer">Prof.&nbsp;Janine Illian</a></strong></p>
+<p>Chair in Statistical Sciences, University of Glasgow.</p>
+</div>
+</div>
+</section>
+<section id="invited-speakers" class="level3">
+<h3 class="anchored" data-anchor-id="invited-speakers">Invited Speakers</h3>
+<div class="card-grid team-grid">
+<div class="card">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/people/amina.jpg" class="avatar-photo img-fluid figure-img"></p>
+<figcaption>Photo of Dr.&nbsp;Amina Msengwa</figcaption>
+</figure>
+</div>
+<p><strong><a href="https://www.nbs.go.tz/administration/management-team/statistician-general" target="_blank" rel="noopener noreferrer">Dr.&nbsp;Amina Msengwa</a></strong></p>
+<p>Statistician General, National Bureau of Statistics, Tanzania. Special seminar 1.</p>
+</div>
+<div class="card">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/people/Tim.png" class="avatar-photo img-fluid figure-img"></p>
+<figcaption>Photo of Dr.&nbsp;Tim Lucas</figcaption>
+</figure>
+</div>
+<p><strong><a href="https://le.ac.uk/people/tim-lucas" target="_blank" rel="noopener noreferrer">Dr.&nbsp;Tim Lucas</a></strong></p>
+<p>Lecturer in Biostatistics, University of Leicester. Special seminar 2: “Spatial Disaggregation in R”.</p>
+</div>
+</div>
+</section>
+<section id="facilitators" class="level3">
+<h3 class="anchored" data-anchor-id="facilitators">Facilitators</h3>
+<div class="card-grid team-grid">
+<div class="card">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/people/ousmane-diao.png" class="avatar-photo img-fluid figure-img"></p>
+<figcaption>Photo of Dr.&nbsp;Ousmane Diao</figcaption>
+</figure>
+</div>
+<p><strong><a href="https://sn.linkedin.com/in/ousmane-diao-391b33100" target="_blank" rel="noopener noreferrer">Dr.&nbsp;Ousmane Diao</a></strong></p>
+<p>Senior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute.</p>
+</div>
+<div class="card">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/people/lembris-njotto.jpeg" class="avatar-photo img-fluid figure-img"></p>
+<figcaption>Photo of Dr.&nbsp;Lembris Njotto</figcaption>
+</figure>
+</div>
+<p><strong><a href="https://www.linkedin.com/in/lembris-njotto-6238b482/" target="_blank" rel="noopener noreferrer">Dr.&nbsp;Lembris Njotto</a></strong></p>
+<p>Senior Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute.</p>
+</div>
+<div class="card">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/people/yasin-kokoda.png" class="avatar-photo img-fluid figure-img"></p>
+<figcaption>Photo of Yasin Kokoda</figcaption>
+</figure>
+</div>
+<p><strong><a href="https://www.linkedin.com/in/yasini-muhamedi-kokoda-984bb0247/" target="_blank" rel="noopener noreferrer">Yasin Kokoda</a></strong></p>
+<p>Research Scientist, MAP Dar es Salaam Node, Ifakara Health Institute.</p>
+</div>
+</div>
+</section>
+<section id="coordinators" class="level3">
+<h3 class="anchored" data-anchor-id="coordinators">Coordinators</h3>
+<div class="card-grid team-grid">
+<div class="card">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/people/punam.jpg" class="avatar-photo img-fluid figure-img"></p>
+<figcaption>Photo of Dr.&nbsp;Punam Amratia</figcaption>
+</figure>
+</div>
+<p><strong><a href="https://www.thekids.org.au/contact-us/our-people/a/punam-amratia/" target="_blank" rel="noopener noreferrer">Dr.&nbsp;Punam Amratia</a></strong></p>
+<p>Technical Lead, MAP Dar es Salaam Node, Ifakara Health Institute.</p>
+</div>
+<div class="card">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/people/sosthenes.jpg" class="avatar-photo img-fluid figure-img"></p>
+<figcaption>Photo of Sosthenes Ketende</figcaption>
+</figure>
+</div>
+<p><strong><a href="https://www.ihi.or.tz/en/our-staff/239/Sosthenes/Charles%2520Ketende/details/" target="_blank" rel="noopener noreferrer">Sosthenes Ketende</a></strong></p>
+<p>Program Manager, MAP Dar es Salaam Node, Ifakara Health Institute.</p>
+</div>
+<div class="card">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/people/christina.jpg" class="avatar-photo img-fluid figure-img"></p>
+<figcaption>Photo of Christine Myalla</figcaption>
+</figure>
+</div>
+<p><strong><a href="https://www.linkedin.com/in/christinamyalla/" target="_blank" rel="noopener noreferrer">Christine Myalla</a></strong></p>
+<p>Data Engineer Lead, MAP Dar es Salaam Node, Ifakara Health Institute.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="in-partnership-with" class="level2 partner-strip">
+<h2 class="partner-strip anchored" data-anchor-id="in-partnership-with">In Partnership With</h2>
+<p><img src="../assets/partners/KIDS.jpg" class="img-fluid" alt="The Kids Research Institute Australia"> <img src="../assets/partners/IHI.png" class="img-fluid" alt="Ifakara Health Institute"> <img src="../assets/partners/NBS.png" class="img-fluid" alt="National Bureau of Statistics, Tanzania"> <img src="../assets/partners/glasgow.jpeg" class="padded-logo img-fluid" alt="University of Glasgow"></p>
 </section>
 <section id="registration" class="level2">
 <h2 class="anchored" data-anchor-id="registration">Registration</h2>
@@ -627,14 +771,14 @@ ul.task-list li input[type="checkbox"] {
 <div class="footer-brand">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="..\assets/map-logo-footer.jpg" class="footer-logo img-fluid figure-img"></p>
+<p><img src="../assets/map-logo-footer.jpg" class="footer-logo img-fluid figure-img"></p>
 <figcaption>MAP</figcaption>
 </figure>
 </div>
 <p>ANALYTICS FOR A MALARIA-FREE WORLD</p>
 </div>
 <div class="footer-links">
-<p><a href="..\contact/index.html">Contact Us</a> · <a href="https://malariaatlas.org" target="_blank" rel="noopener noreferrer">malariaatlas.org</a></p>
+<p><a href="../contact/index.html">Contact Us</a> · <a href="https://malariaatlas.org" target="_blank" rel="noopener noreferrer">malariaatlas.org</a></p>
 </div>
 </div>
 </div>

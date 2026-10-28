@@ -12,11 +12,11 @@ curriculum, with topics and special seminars that vary by year.
 ::: {.card}
 <i class="bi bi-calendar-event card-icon" aria-hidden="true"></i>
 
-**[2024 Edition](2024.qmd)**
+**[2026 Edition](2026.qmd)**
 
-September 2024 · University of Dar es Salaam, Tanzania
+15–18 September 2026 · Takwimu House, Dodoma, Tanzania
 
-Geostatistics and geospatial modelling with the INLA approach.
+Spatial and spatio-temporal modelling with INLAbru.
 :::
 
 ::: {.card}
@@ -32,10 +32,10 @@ Geostatistics and geospatial modelling with the INLA approach.
 ::: {.card}
 <i class="bi bi-calendar-event card-icon" aria-hidden="true"></i>
 
-**[2026 Edition](2026.qmd)**
+**[2024 Edition](2024.qmd)**
 
-15–18 September 2026 · Takwimu House, Dodoma, Tanzania
+September 2024 · University of Dar es Salaam, Tanzania
 
-Spatial and spatio-temporal modelling with INLAbru.
+Geostatistics and geospatial modelling with the INLA approach.
 :::
 :::

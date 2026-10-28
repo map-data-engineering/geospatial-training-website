@@ -17,10 +17,19 @@ website:
         text: Home
       - href: programme/index.qmd
         text: Programme
-      - href: editions/index.qmd
-        text: Editions
-      - href: facilitators/index.qmd
-        text: Team
+      # Editions dropdown, newest first. For a new year: add
+      # editions/YYYY.qmd and a line at the TOP of this menu.
+      - text: Editions
+        menu:
+          - href: editions/2026.qmd
+            text: "2026 Edition"
+          - href: editions/2025.qmd
+            text: "2025 Edition"
+          - href: editions/2024.qmd
+            text: "2024 Edition"
+          - text: "---"
+          - href: editions/index.qmd
+            text: All Editions
       - href: apply/index.qmd
         text: Apply
       - href: discussion/index.qmd

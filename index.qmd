@@ -155,11 +155,3 @@ Applications page.
 Applications close 30 August 2026 — apply now.
 
 [Apply →](https://geomap-onboardnig-portal-frontend.vercel.app/index.html){.btn target="_blank" rel="noopener noreferrer"}
-
-::: {.partner-strip}
-In Partnership With
-
-![KIDS](assets/partners/KIDS.jpg)
-![IHI](assets/partners/IHI.png)
-![NBS](assets/partners/NBS.png)
-:::
